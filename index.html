@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joy Travels and Vacations</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    background: #000;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    color: gold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1543248939-4296e1fea89b') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background: gold;
+    padding: 12px 25px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    margin: 10px;
+}
+
+/* CONTACT */
+.contact {
+    background: #111;
+    color: white;
+    padding: 40px;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: green;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>Joy Travels</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Safaris</a></li>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div>
+        <h2>Explore Kenya with Joy</h2>
+        <p>Unforgettable Safaris, Beaches & Adventures</p>
+        <a href="https://wa.me/254703158470" class="btn">Book Now</a>
+    </div>
+</section>
+
+<!-- DESTINATIONS -->
+<section class="section">
+    <h2>Top Destinations</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1508672019048-805c876b67e2">
+            <h3>Maasai Mara</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605531585859-1b53e61b6a45">
+            <h3>Lake Nakuru</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1587502536263-9298c8b9b6d4">
+            <h3>Watamu Beach</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- SAFARIS -->
+<section class="section">
+    <h2>Popular Safaris</h2>
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801">
+            <h3>3 Days Maasai Mara Safari</h3>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+            <h3>5 Days Kenya Explorer</h3>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Director:</strong> Joy Rehema</p>
+    <p><strong>Phone:</strong> 0703158470</p>
+    <p><strong>Email:</strong> joyrehema17@gmail.com</p>
+</section>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/254703158470" class="whatsapp">💬</a>
+
+</body>
+</html>
