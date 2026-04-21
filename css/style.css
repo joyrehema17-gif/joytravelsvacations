@@ -15,6 +15,7 @@ body {
 
 .logo img {
     height: 60px;
+     filter: brightness(1.2);
 }
 
 .nav-links {
