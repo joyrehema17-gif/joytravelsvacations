@@ -13,11 +13,9 @@ nav {
     padding: 15px 40px;
     align-items: center;
 }
-
 nav img {
-    height: 50px;
+    height: 60px;
 }
-
 nav ul {
     display: flex;
     gap: 25px;
