@@ -5,53 +5,83 @@ body {
 }
 
 /* NAVBAR */
-nav {
+.navbar {
     background: #0B3D2E;
-    color: white;
     display: flex;
     justify-content: space-between;
-    padding: 15px 40px;
     align-items: center;
+    padding: 15px 40px;
 }
-nav img {
+
+.logo img {
     height: 60px;
 }
-nav ul {
+
+.nav-links {
     display: flex;
     gap: 25px;
     list-style: none;
 }
 
-nav ul li a {
+.nav-links a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
 
+.book-btn {
+    background: #E67E22;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
 /* HERO */
 .hero {
     height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url('../images/hero.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-content {
     color: white;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
+.hero p {
+    font-size: 1.3em;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: space-around;
+    background: #0B3D2E;
+    color: white;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: 200px;
+    text-align: center;
+}
+
+/* BUTTON */
 .btn {
     background: #D4AF37;
     padding: 12px 25px;
     color: black;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
-    display: inline-block;
 }
 
 /* CARDS */
