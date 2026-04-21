@@ -15,7 +15,9 @@ body {
 
 .logo img {
     height: 60px;
-     filter: brightness(1.2);
+    background: rgba(255,255,255,0.1);
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .nav-links {
