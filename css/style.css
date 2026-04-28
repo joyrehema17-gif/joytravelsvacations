@@ -208,3 +208,24 @@ body {
     padding-top: 15px;
     font-size: 14px;
 }
+.section-divider {
+    text-align: center;
+    margin: 40px 0;
+    position: relative;
+}
+
+.section-divider::before,
+.section-divider::after {
+    content: "";
+    display: inline-block;
+    width: 40%;
+    height: 1px;
+    background: #D4AF37;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.section-divider span {
+    color: #D4AF37;
+    font-size: 18px;
+}
