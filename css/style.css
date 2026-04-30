@@ -253,3 +253,23 @@ body {
     border-radius: 10px;
     font-style: italic;
 }
+.reviews-social-wrapper {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Make both sections equal */
+.reviews-social-wrapper .section {
+    flex: 1;
+    min-width: 320px;
+}
+
+/* Optional styling for cleaner look */
+.reviews, .social {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
