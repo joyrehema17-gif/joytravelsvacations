@@ -229,3 +229,15 @@ body {
     color: #D4AF37;
     font-size: 18px;
 }
+.about-director {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-director img {
+    width: 250px;
+    border-radius: 10px;
+}
