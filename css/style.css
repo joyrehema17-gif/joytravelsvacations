@@ -277,3 +277,38 @@ body {
     display: flex;
     justify-content: center;
 }
+.about-two-column {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.about-left, .about-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Improve spacing */
+.about-left p {
+    line-height: 1.7;
+}
+
+/* Director layout */
+.about-director {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-director img {
+    width: 200px;
+    border-radius: 10px;
+}
+.about-left, .about-right {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
