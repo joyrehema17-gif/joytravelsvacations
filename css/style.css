@@ -312,3 +312,21 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #0B3D2E;
+    color: white;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    margin: 10px;
+}
+
+.stat-box h2 {
+    font-size: 40px;
+    color: #D4AF37;
+}
