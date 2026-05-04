@@ -341,3 +341,34 @@ body {
     opacity: 1;
     transform: none;
 }
+
+/* Contact form*/
+.contact-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    background: #0B3D2E;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.map-box {
+    margin-top: 20px;
+}
