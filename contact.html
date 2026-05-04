@@ -54,18 +54,26 @@
 </div>
 
 <!-- RIGHT SIDE (FORM) -->
-<form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
+<div class="contact-form">
+    <h2>Send Message</h2>
 
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="contact.html?success=true">
+    <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
 
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" required></textarea>
+        <!-- Prevent captcha -->
+        <input type="hidden" name="_captcha" value="false">
 
-    <button type="submit">Send Message</button>
+        <!-- Stay on same page -->
+        <input type="hidden" name="_next" value="contact.html?success=true">
 
-</form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Phone Number">
+
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form> <!-- ✅ THIS WAS MISSING -->
 
 </div>
 
