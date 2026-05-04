@@ -49,34 +49,21 @@
 
         <a href="https://wa.me/254703158470" class="btn">Chat on WhatsApp</a>
     </div>
-<div id="success-message" class="success-message">
-    ✅ Message sent successfully! We will contact you shortly.
-</div>
+    <div class="contact-form">
+        <h2>Send Message</h2>
 
-<!-- RIGHT SIDE (FORM) -->
-<div class="contact-form">
-    <h2>Send Message</h2>
+        <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
 
-    <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Phone Number">
 
-        <!-- Prevent captcha -->
-        <input type="hidden" name="_captcha" value="false">
+            <textarea name="message" placeholder="Your Message" required></textarea>
 
-        <!-- Stay on same page -->
-        <input type="hidden" name="_next" value="contact.html?success=true">
+            <button type="submit">Send Message</button>
 
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <input type="tel" name="phone" placeholder="Phone Number">
-
-        <textarea name="message" placeholder="Your Message" required></textarea>
-
-        <button type="submit">Send Message</button>
-
-    </form> <!-- ✅ THIS WAS MISSING -->
-
-</div>
-
+        </form>
+    </div>
 </section>
 
 <!-- MAP -->
