@@ -381,3 +381,52 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+.hero {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+
+/* Slides container */
+.slides {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Each slide */
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* Active slide */
+.slide.active {
+    opacity: 1;
+}
+
+/* Overlay (darken images) */
+.hero::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+}
+
+/* Content stays above */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
