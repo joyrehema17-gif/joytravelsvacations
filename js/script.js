@@ -19,14 +19,16 @@ function revealOnScroll() {
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll); // VERY IMPORTANT
 
-
-
 <script>
     const urlParams = new URLSearchParams(window.location.search);
+
     if (urlParams.get('success') === 'true') {
-        document.getElementById('success-message').style.display = 'block';
+        const msg = document.getElementById('success-message');
+        msg.style.display = 'block';
+
+        // Auto hide after 5 seconds
+        setTimeout(() => {
+            msg.style.display = 'none';
+        }, 5000);
     }
 </script>
-setTimeout(() => {
-    document.getElementById('success-message').style.display = 'none';
-}, 5000);
