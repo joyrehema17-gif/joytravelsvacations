@@ -372,3 +372,12 @@ body {
 .map-box {
     margin-top: 20px;
 }
+.success-message {
+    display: none;
+    background: #d4edda;
+    color: #155724;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
