@@ -54,17 +54,23 @@
     <div class="contact-form">
         <h2>Send Message</h2>
 
-        <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
+    <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
 
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="tel" name="phone" placeholder="Phone Number">
+    <!-- Prevent captcha -->
+    <input type="hidden" name="_captcha" value="false">
 
-            <textarea name="message" placeholder="Your Message" required></textarea>
+    <!-- Stay on same page -->
+    <input type="hidden" name="_next" value="contact.html?success=true">
 
-            <button type="submit">Send Message</button>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="tel" name="phone" placeholder="Phone Number">
 
-        </form>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+
+</form>
     </div>
 
 </section>
