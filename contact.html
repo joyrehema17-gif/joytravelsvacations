@@ -52,29 +52,30 @@
 <div id="success-message" class="success-message">
     ✅ Message sent successfully! We will contact you shortly.
 </div>
-    <!-- RIGHT SIDE (FORM) -->
-    <div class="contact-form">
-        <h2>Send Message</h2>
+
+<!-- RIGHT SIDE (FORM) -->
+<div class="contact-form">
+    <h2>Send Message</h2>
 
     <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
 
-    <!-- Prevent captcha -->
-    <input type="hidden" name="_captcha" value="false">
+        <!-- Prevent captcha -->
+        <input type="hidden" name="_captcha" value="false">
 
-    <!-- Stay on same page -->
-    <input type="hidden" name="_next" value="contact.html?success=true">
+        <!-- Stay on same page -->
+        <input type="hidden" name="_next" value="contact.html?success=true">
 
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <input type="tel" name="phone" placeholder="Phone Number">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="tel" name="phone" placeholder="Phone Number">
 
-    <textarea name="message" placeholder="Your Message" required></textarea>
+        <textarea name="message" placeholder="Your Message" required></textarea>
 
-    <button type="submit">Send Message</button>
+        <button type="submit">Send Message</button>
 
+    </form> <!-- ✅ THIS WAS MISSING -->
 
-     
-    </div>
+</div>
 
 </section>
 
