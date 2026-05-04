@@ -18,3 +18,15 @@ function revealOnScroll() {
 
 window.addEventListener('scroll', revealOnScroll);
 window.addEventListener('load', revealOnScroll); // VERY IMPORTANT
+
+
+
+<script>
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('success') === 'true') {
+        document.getElementById('success-message').style.display = 'block';
+    }
+</script>
+setTimeout(() => {
+    document.getElementById('success-message').style.display = 'none';
+}, 5000);
