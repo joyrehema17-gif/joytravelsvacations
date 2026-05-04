@@ -332,12 +332,12 @@ body {
 }
 /* ANIMATION */
 .fade-in {
-    opacity: 0;
+    opacity: 0.2; /* instead of 0 */
     transform: translateY(40px);
     transition: 0.8s ease;
 }
 
-.fade-in.show {
+.fade-in {
     opacity: 1;
-    transform: translateY(0);
+    transform: none;
 }
