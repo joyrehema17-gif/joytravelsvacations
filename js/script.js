@@ -5,13 +5,16 @@ window.addEventListener("scroll", () => {
 });
 const elements = document.querySelectorAll('.fade-in');
 
-window.addEventListener('scroll', () => {
+function revealOnScroll() {
     elements.forEach(el => {
-        const position = el.getBoundingClientRect().top;
-        const screen = window.innerHeight;
+        const top = el.getBoundingClientRect().top;
+        const screenHeight = window.innerHeight;
 
-        if(position < screen - 100){
+        if (top < screenHeight - 100) {
             el.classList.add('show');
         }
     });
-});
+}
+
+window.addEventListener('scroll', revealOnScroll);
+window.addEventListener('load', revealOnScroll); // VERY IMPORTANT
