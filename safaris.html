@@ -43,12 +43,50 @@
     <div class="cards">
 
         <!-- SAFARI 1 -->
-        <div class="card">
-            <img src="images/mara.jpg">
-            <h3>3 Days Maasai Mara Safari</h3>
-            <p>Game drives, Big Five, luxury camps</p>
-            <a href="https://wa.me/254703158470" class="btn">Book Now</a>
-        </div>
+<div class="card">
+    <img src="images/mara.jpg">
+
+    <h3>3 Days Maasai Mara Safari</h3>
+
+    <p>Game drives, Big Five, luxury camps</p>
+
+    <button class="btn" onclick="openModal('maraModal')">
+        View Itinerary
+    </button>
+
+    <a href="https://wa.me/254703158470" class="btn">
+        Book Now
+    </a>
+</div>
+        <!-- MASAI MARA POPUP -->
+<div id="maraModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeModal('maraModal')">
+            &times;
+        </span>
+
+        <h2>3 Days Maasai Mara Safari</h2>
+
+        <h3>Day 1</h3>
+        <p>Pick up from Nairobi and drive to Maasai Mara. Evening game drive.</p>
+
+        <h3>Day 2</h3>
+        <p>Full-day safari exploring the reserve and spotting the Big Five.</p>
+
+        <h3>Day 3</h3>
+        <p>Morning game drive then return to Nairobi.</p>
+
+        <br>
+
+        <a href="https://wa.me/254703158470" class="btn">
+            Book This Safari
+        </a>
+
+    </div>
+
+</div>
 
         <!-- SAFARI 2 -->
         <div class="card">
