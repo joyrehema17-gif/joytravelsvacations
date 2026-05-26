@@ -56,20 +56,22 @@ box.style.display="none";
 
 });
 
-}
-document.querySelectorAll(".book-btn").forEach(button => {
+document.querySelectorAll(".book-btn").forEach(button=>{
 
-button.addEventListener("click", function(){
+button.addEventListener("click",function(){
 
-let card=this.closest(".card");
+const card=this.closest(".card");
 
-let safari=card.querySelector(".tour-name").innerText;
+const safari=
+card.querySelector(".tour-name").innerText;
 
-let message=`Hello Joy Travels, I would like to book ${safari}. Kindly share price, itinerary and availability.`;
+const message=
+`Hello Joy Travels, I would like to book ${safari}. Kindly share itinerary, price and availability.`;
 
-let url=`https://wa.me/254703158470?text=${encodeURIComponent(message)}`;
-
-window.open(url,"_blank");
+window.open(
+`https://wa.me/254703158470?text=${encodeURIComponent(message)}`,
+"_blank"
+);
 
 });
 
