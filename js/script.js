@@ -35,3 +35,25 @@ function showSlide() {
 // Change slide every 4 seconds
 setInterval(showSlide, 4000);
 </script>
+
+function openModal(id){
+    document.getElementById(id).style.display="block";
+}
+
+function closeModal(id){
+    document.getElementById(id).style.display="none";
+}
+
+window.onclick=function(e){
+
+let modal=document.querySelectorAll('.modal');
+
+modal.forEach(box=>{
+
+if(e.target===box){
+box.style.display="none";
+}
+
+});
+
+}
