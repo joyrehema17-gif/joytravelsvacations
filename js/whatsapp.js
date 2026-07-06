@@ -2,37 +2,32 @@
 // WHATSAPP BOOKING
 // ==========================================
 
-document.querySelectorAll(".book-btn").forEach(function(button){
+document.addEventListener("click", function (e) {
 
-    button.addEventListener("click", function(){
+    if (!e.target.classList.contains("book-btn")) return;
 
-        const card = this.closest(".card");
+    const safari = e.target.dataset.safari;
 
-        if(!card) return;
-
-        const safari =
-        card.querySelector(".tour-name").innerText;
-
-        const message =
+    const message =
 `Hello Joy Travels and Vacations,
 
 I would like to book:
 
 ${safari}
 
-Kindly share:
+Kindly send me:
 
-• Price
 • Full itinerary
+• Price
 • Availability
+• Pickup information
 
 Thank you.`;
 
-        const url =
-`https://wa.me/254703158470?text=${encodeURIComponent(message)}`;
-
-        window.open(url,"_blank");
-
-    });
+    window.open(
+        "https://wa.me/254703158470?text=" +
+        encodeURIComponent(message),
+        "_blank"
+    );
 
 });
