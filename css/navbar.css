@@ -1,0 +1,29 @@
+.navbar{
+    background:#1a1a1a;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+.logo img{
+    height:60px;
+}
+
+.nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+}
+
+.book-btn{
+    background:#E67E22;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+}
