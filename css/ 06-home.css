@@ -194,3 +194,86 @@
     font-size:14px;
 
 }
+/* ==========================================
+   HOME GRID
+========================================== */
+
+.home-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1.2fr 1fr;
+
+    gap:30px;
+
+    padding:70px 8%;
+
+    background:var(--cream);
+
+}
+
+.info-box,
+.booking-box,
+.social-box{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.feature-list{
+
+    list-style:none;
+
+    padding:0;
+
+}
+
+.feature-list li{
+
+    padding:12px 0;
+
+    border-bottom:1px solid #eeeeee;
+
+}
+
+.booking-box form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+}
+
+.booking-box input,
+.booking-box select,
+.booking-box textarea{
+
+    padding:14px;
+
+    border:1px solid #dddddd;
+
+    border-radius:6px;
+
+    font-size:15px;
+
+}
+
+.booking-box textarea{
+
+    min-height:120px;
+
+}
+
+.tripadvisor-card{
+
+    margin-bottom:25px;
+
+}
