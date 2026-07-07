@@ -1,29 +1,115 @@
+/* ==========================================
+   NAVBAR
+========================================== */
+
 .navbar{
-    background:#1a1a1a;
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    z-index:999;
+
     display:flex;
+
     justify-content:space-between;
+
     align-items:center;
-    padding:15px 40px;
+
+    padding:15px 8%;
+
+    background:rgba(27,27,27,.92);
+
+    backdrop-filter:blur(8px);
+
+    box-sizing:border-box;
+
 }
 
 .logo img{
-    height:60px;
+
+    height:70px;
+
 }
 
 .nav-links{
+
     display:flex;
-    gap:25px;
+
     list-style:none;
+
+    gap:35px;
+
 }
 
 .nav-links a{
+
     color:white;
+
     text-decoration:none;
+
+    font-weight:600;
+
+    transition:.3s;
+
+    position:relative;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:0;
+
+    left:0;
+
+    bottom:-8px;
+
+    height:2px;
+
+    background:var(--primary);
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
 }
 
 .book-btn{
-    background:#E67E22;
+
+    background:var(--accent);
+
     color:white;
-    padding:10px 20px;
-    border-radius:5px;
+
+    padding:12px 25px;
+
+    border-radius:6px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.book-btn:hover{
+
+    transform:translateY(-3px);
+
 }
