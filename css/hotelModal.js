@@ -71,3 +71,67 @@ const hotels = {
     }
 
 };
+const modal = document.getElementById("hotelModal");
+
+const details = document.getElementById("hotelDetails");
+
+document.querySelectorAll(".details-btn").forEach(button=>{
+
+    button.onclick=function(e){
+
+        e.preventDefault();
+
+        const hotel=hotels[this.dataset.hotel];
+
+        details.innerHTML=`
+
+        <img src="${hotel.image}" style="width:100%;border-radius:10px;margin-bottom:20px;">
+
+        <h2>${hotel.name}</h2>
+
+        <p><strong>📍 ${hotel.location}</strong></p>
+
+        <p>${hotel.description}</p>
+
+        <h3>Facilities</h3>
+
+        <ul>
+
+            ${hotel.facilities.map(f=>`<li>✅ ${f}</li>`).join("")}
+
+        </ul>
+
+        <h3 style="color:#D4AF37;">
+            ${hotel.price}
+        </h3>
+
+        <a class="btn"
+        target="_blank"
+        href="https://wa.me/254703158470?text=Hello Joy, I would like to book ${encodeURIComponent(hotel.name)}">
+
+        Book This Hotel
+
+        </a>
+
+        `;
+
+        modal.style.display="block";
+
+    }
+
+});
+document.querySelector(".close").onclick=function(){
+
+    modal.style.display="none";
+
+}
+
+window.onclick=function(e){
+
+    if(e.target==modal){
+
+        modal.style.display="none";
+
+    }
+
+}
