@@ -1,12 +1,32 @@
+/* ==========================================
+   Joy Travels & Vacations
+   Variables
+========================================== */
+
 :root{
-    --primary:#f5a623;
-    --secondary:#1a1a1a;
-    --accent:#D4AF37;
 
-    --light:#fff8e7;
-    --white:#ffffff;
-    --text:#333333;
+    /* Brand Colors */
 
-    --shadow:0 5px 15px rgba(0,0,0,.1);
-    --radius:10px;
+    --primary:#D4AF37;
+    --primary-dark:#B88A1B;
+
+    --accent:#F4A300;
+
+    --dark:#1B1B1B;
+    --dark-light:#2A2A2A;
+
+    --cream:#F8F4EC;
+    --white:#FFFFFF;
+
+    --text:#444;
+    --text-light:#777;
+
+    /* Effects */
+
+    --shadow:0 10px 30px rgba(0,0,0,.15);
+
+    --radius:12px;
+
+    --transition:.35s ease;
+
 }
