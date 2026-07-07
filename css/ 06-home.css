@@ -400,3 +400,49 @@ TOP DESTINATIONS
     text-decoration:none;
 
 }
+/* ==========================================
+   FEATURED SAFARIS
+========================================== */
+
+.featured-safaris{
+    padding:90px 8%;
+    background:var(--cream);
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    transition:0.35s ease;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:230px;
+    object-fit:cover;
+}
+
+.card h3{
+    padding:20px 20px 10px;
+    color:var(--dark);
+}
+
+.card p{
+    padding:0 20px;
+    color:var(--text);
+}
+
+.card .btn{
+    margin:20px;
+}
