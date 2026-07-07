@@ -661,3 +661,50 @@ GALLERY
     margin-top:40px;
 
 }
+/* ==========================================
+GALLERY POPUP
+========================================== */
+
+#galleryModal{
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.9);
+
+    z-index:9999;
+
+    text-align:center;
+
+    padding-top:50px;
+
+}
+
+#galleryImage{
+
+    max-width:90%;
+
+    max-height:85vh;
+
+    border-radius:12px;
+
+}
+
+#galleryModal .close{
+
+    position:absolute;
+
+    top:20px;
+
+    right:35px;
+
+    color:white;
+
+    font-size:40px;
+
+    cursor:pointer;
+
+}
