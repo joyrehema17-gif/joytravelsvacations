@@ -567,3 +567,36 @@ TOP DESTINATIONS
     color:white;
 
 }
+.joy-highlights{
+
+    display:flex;
+
+    gap:30px;
+
+    margin:35px 0;
+
+}
+
+.joy-highlights div{
+
+    text-align:center;
+
+}
+
+.joy-highlights h3{
+
+    color:var(--primary);
+
+    font-size:34px;
+
+    margin-bottom:5px;
+
+}
+
+.joy-highlights span{
+
+    color:#666;
+
+    font-size:15px;
+
+}
