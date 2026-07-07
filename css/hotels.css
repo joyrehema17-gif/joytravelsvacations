@@ -1,0 +1,113 @@
+/* ==========================================
+HOTELS HERO
+========================================== */
+
+.hotel-hero{
+
+    height:75vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("../images/hotel-hero.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.hotel-hero .hero-content{
+
+    color:white;
+
+    max-width:750px;
+
+}
+
+.hero-tag{
+
+    display:inline-block;
+
+    background:rgba(212,175,55,.9);
+
+    color:white;
+
+    padding:10px 25px;
+
+    border-radius:30px;
+
+    margin-bottom:25px;
+
+    font-weight:bold;
+
+    letter-spacing:1px;
+
+}
+
+.hotel-hero h1{
+
+    font-size:60px;
+
+    margin-bottom:20px;
+
+}
+
+.hotel-hero p{
+
+    font-size:22px;
+
+    margin-bottom:35px;
+
+    line-height:1.6;
+
+}
+
+/* ==========================================
+INTRO
+========================================== */
+
+.hotel-intro{
+
+    padding:80px 8%;
+
+    background:white;
+
+}
+
+.hotel-intro .section-title{
+
+    max-width:850px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.hotel-intro h2{
+
+    font-size:42px;
+
+    color:var(--dark);
+
+    margin-bottom:20px;
+
+}
+
+.hotel-intro p{
+
+    font-size:18px;
+
+    color:var(--text);
+
+    line-height:1.8;
+
+}
