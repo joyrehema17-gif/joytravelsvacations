@@ -1,1 +1,11 @@
+/* Newsletter */
 
+@media(max-width:900px){
+
+.newsletter-container{
+
+    grid-template-columns:1fr;
+
+}
+
+}
