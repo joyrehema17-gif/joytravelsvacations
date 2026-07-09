@@ -1,1 +1,80 @@
+/* ==========================================
+   RESET CSS
+   Joy Travels & Vacations
+========================================== */
 
+/* Remove default browser spacing */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* HTML */
+
+html{
+    scroll-behavior:smooth;
+}
+
+/* Body */
+
+body{
+    min-height:100vh;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+}
+
+/* Images */
+
+img,
+picture{
+    max-width:100%;
+    display:block;
+}
+
+/* Forms */
+
+input,
+button,
+textarea,
+select{
+    font:inherit;
+}
+
+/* Links */
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* Lists */
+
+ul,
+ol{
+    list-style:none;
+}
+
+/* Tables */
+
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* Buttons */
+
+button{
+    border:none;
+    background:none;
+    cursor:pointer;
+}
+
+/* Textareas */
+
+textarea{
+    resize:vertical;
+}
