@@ -76,3 +76,12 @@ window.open(
 });
 
 });
+const params = new URLSearchParams(window.location.search);
+
+if (params.get("subscribed") === "true") {
+    document.getElementById("newsletter-success").style.display = "block";
+
+    setTimeout(() => {
+        document.getElementById("newsletter-success").style.display = "none";
+    }, 5000);
+}
