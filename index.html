@@ -18,7 +18,6 @@
 
     <!-- Homepage Only -->
     <link rel="stylesheet" href="css/06-home.css">
-    <link rel="stylesheet" href="css/07-safaris.css">
     <!-- Mobile -->
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -55,16 +54,15 @@
 
         <h1>
 
-            DISCOVER KENYA<br>
+           DISCOVER KENYA
 
-            WITH <span>JOY</span>
+             WITH <span>JOY</span>
 
         </h1>
 
         <p>
 
-            Unforgettable Safaris, Beaches,
-            Culture and Adventures
+           Luxury Safaris • Beach Holidays • Cultural Experiences
 
         </p>
 
@@ -213,30 +211,9 @@
 </section>
 
     <div class="section-divider">
-    <span>✦</span>
+    <span>Explore Kenya</span>
 </div>
 
-<section class="booking">
-    <h2>Quick Booking</h2>
-    <p>Plan your dream safari with us</p>
-    
-<form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <input type="tel" name="phone" placeholder="Phone Number">
-    
-    <select name="safari">
-        <option>Select Safari</option>
-        <option>Maasai Mara</option>
-        <option>Lake Nakuru</option>
-        <option>Watamu Excursion</option>
-    </select>
-    <input type="date" name="date">
-    <textarea name="message" placeholder="Message"></textarea>
-    <button type="submit">Send Booking Request</button>
-</form>   
-</section>
-    
 <div class="reviews-social-wrapper">
 
     <section class="section reviews">
@@ -664,35 +641,45 @@ NEWSLETTER & SPECIAL OFFERS
 
         </div>
 
-        <div class="newsletter-form">
+        <div id="newsletter-success" class="success-message">
+    ✅ Thank you for subscribing! We'll keep you updated with our latest safari offers.
+</div>
 
             <form>
 
-                <input
-                    type="text"
-                    placeholder="Your Name"
-                    required>
+              <div class="newsletter-form">
 
-                <input
-                    type="email"
-                    placeholder="Your Email Address"
-                    required>
+    <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
 
-                <button type="submit">
+        <!-- Disable CAPTCHA -->
+        <input type="hidden" name="_captcha" value="false">
 
-                    Subscribe Now
+        <!-- Return to homepage after submission -->
+        <input type="hidden" name="_next" value="index.html?subscribed=true">
 
-                </button>
+        <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required>
 
-            </form>
+        <input
+            type="email"
+            name="email"
+            placeholder="Your Email Address"
+            required>
 
-            <small>
+        <button type="submit">
+            Subscribe Now
+        </button>
 
-                We respect your privacy. No spam. Unsubscribe anytime.
+    </form>
 
-            </small>
+    <small>
+        We respect your privacy. No spam. Unsubscribe anytime.
+    </small>
 
-        </div>
+</div>
 
     </div>
 
