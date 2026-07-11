@@ -83,7 +83,7 @@
 
 /* =====================================================
    FEATURE BAR
-/* 2. FEATURE BAR */
+ 2. FEATURE BAR 
 ===================================================== */
 
 .feature-bar{
@@ -123,7 +123,7 @@
 }
 /* =====================================================
    HOME GRID
-/* 3. HOME GRID */
+ 3. HOME GRID 
 ===================================================== */
 .home-grid{
     display:grid;
@@ -182,7 +182,7 @@
 
 /* =====================================================
    REVIEWS & SOCIAL
-/* 4. REVIEWS & SOCIAL */
+ 4. REVIEWS & SOCIAL 
 ===================================================== */
 
 .reviews-social-wrapper{
@@ -234,7 +234,7 @@
 
 /* =====================================================
    TOP DESTINATIONS
-/* 5. TOP DESTINATIONS */
+ 5. TOP DESTINATIONS 
 ===================================================== */
 
 .destinations-home{
@@ -299,7 +299,7 @@
 
 /* =====================================================
    FEATURED SAFARIS
-   /* 6. FEATURED SAFARIS */
+   6. FEATURED SAFARIS 
 ===================================================== */
 
 .featured-safaris{
@@ -369,7 +369,7 @@
 
 /* =====================================================
    MEET JOY
-   /* 7. MEET JOY */
+    7. MEET JOY
 ===================================================== */
 
 .meet-joy{
@@ -454,7 +454,7 @@
 
 /* =====================================================
    GALLERY
-   /* 8. GALLERY */
+  8. GALLERY 
 ===================================================== */
 
 .gallery-section{
@@ -494,7 +494,7 @@
    
 /* =====================================================
    TESTIMONIALS
-   /* 9. TESTIMONIALS */
+    9. TESTIMONIALS 
 ===================================================== */
 
 .testimonials{
@@ -571,170 +571,106 @@
 
 /* =====================================================
    NEWSLETTER
-   /* 10. NEWSLETTER */
+   10. NEWSLETTER 
 ===================================================== */
 
 .newsletter{
-
     padding:100px 8%;
-
     background:linear-gradient(135deg,#0f5132,#1d8348);
-
     color:#fff;
-
 }
-
 .newsletter-container{
-
     display:grid;
-
     grid-template-columns:1fr 1fr;
-
     gap:60px;
-
     align-items:center;
-
 }
 
 .newsletter-text h2{
-
     font-size:46px;
-
     margin:20px 0;
-
 }
-
 .newsletter-text p{
-
     line-height:1.9;
-
     margin-bottom:30px;
-
 }
 
 .newsletter-benefits{
-
     list-style:none;
-
     padding:0;
 
 }
-
 .newsletter-benefits li{
-
     margin-bottom:15px;
-
     font-size:17px;
-
 }
 
 .newsletter-form{
-
     background:#fff;
-
     padding:40px;
-
     border-radius:15px;
-
     box-shadow:var(--shadow);
-
 }
 
 .newsletter-form form{
-
     display:flex;
-
     flex-direction:column;
-
     gap:18px;
 
 }
 
 .newsletter-form input{
-
     padding:16px;
-
     border:1px solid #ddd;
-
     border-radius:8px;
-
     font-size:16px;
 
 }
 
 .newsletter-form button{
-
     padding:16px;
-
     background:var(--primary);
-
     color:#fff;
-
     border:none;
-
     border-radius:8px;
-
     font-size:17px;
-
     cursor:pointer;
-
     transition:.3s;
-
 }
-
 .newsletter-form button:hover{
-
     background:var(--primary-dark);
-
 }
 
 .newsletter-form small{
-
     display:block;
-
     margin-top:20px;
-
     color:#666;
-
     text-align:center;
-
 }
-
 .offer-tag{
-
     display:inline-block;
-
     background:#fff;
-
     color:var(--primary);
-
     padding:8px 18px;
-
     border-radius:30px;
-
     font-weight:bold;
-
 }
 .newsletter .section-title h2,
 .newsletter h2{
-
     color:#fff;
-
 }
 
 .newsletter .section-title p,
 .newsletter p{
-
     color:#f5f5f5;
-
 }
+
 /* =====================================================
    SMALL HELPERS
-  /* 11. SMALL HELPERS */
+ 11. SMALL HELPERS 
 ===================================================== */
 
 /* Decorative divider between sections */
-
 .section-divider{
     text-align:center;
     padding:30px 0;
