@@ -549,16 +549,27 @@
     flex:1;
 
 }
+/* Add padding to all content except the image */
+.card h3,
+.card p,
+.card .btn{
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.card h3{
+    margin-top:25px;
+}
 
 .card-content p{
-
-    flex:1;
+    margin-bottom:18px;
 
 }
 
 .card .btn{
-
-    margin:0 20px 20px;
+ display:block;
+    width:calc(100% - 60px);
+    margin-bottom:18px;
 
 }
 /* =====================================================
