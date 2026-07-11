@@ -1,137 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Excursions | Joy Travels and Vacations</title>
-    <link rel="stylesheet" href="css/style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Excursions | Joy Travels & Vacations</title>
+
+<!-- Global -->
+<link rel="stylesheet" href="css/01-variables.css">
+<link rel="stylesheet" href="css/02-reset.css">
+<link rel="stylesheet" href="css/03-global.css">
+
+<!-- Shared -->
+<link rel="stylesheet" href="css/04-navbar.css">
+<link rel="stylesheet" href="css/05-footer.css">
+
+<!-- Page -->
+<link rel="stylesheet" href="css/09-excursions.css">
+
+<!-- Shared -->
+<link rel="stylesheet" href="css/17-modal.css">
+<link rel="stylesheet" href="css/18-animations.css">
+<link rel="stylesheet" href="css/19-responsive.css">
+
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar">
-    <div class="logo">
-        <img src="images/logo.png" alt="Joy Travels Logo">
-    </div>
+<div id="navbar"></div>
+<!-- ==========================================
+EXCURSION HERO
+========================================== -->
 
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="safaris.html">Safaris</a></li>
-        <li><a href="destinations.html">Destinations</a></li>
-        <li><a href="excursions.html">Excursions</a></li>
-        <li><a href="transfers.html">Transfers</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+<section class="excursion-hero">
 
-    <a href="https://wa.me/254703158470" class="book-btn">Book Now</a>
-</nav>
+<div class="hero-overlay"></div>
 
-<!-- HERO -->
-<section class="hero" style="height:60vh;">
-    <div class="hero-content">
-        <h1>Excursions & Day Trips</h1>
-        <p>Explore the Coast and Beyond</p>
-    </div>
+<div class="hero-content">
+
+<span>DAY TRIPS & EXPERIENCES</span>
+
+<h1>Explore Kenya Beyond the Safari</h1>
+
+<p>
+
+From marine adventures and historical tours to nature walks and cultural experiences, discover unforgettable excursions across Kenya.
+
+</p>
+
+<a href="contact.html" class="btn">
+
+Book an Excursion
+
+</a>
+
+</div>
+
 </section>
+<section class="excursion-intro">
 
-<!-- EXCURSIONS -->
-<section class="section">
-    <h2>Popular Excursions</h2>
+<div class="section-title">
 
-    <div class="cards">
+<h2>Choose Your Adventure</h2>
 
-        <!-- WATAMU MARINE -->
-        <div class="card">
-            <img src="images/watamu.jpg">
-            <h3>Watamu Marine Park</h3>
-            <p>Snorkeling, dolphins and coral reefs</p>
-            <a href="https://wa.me/254703158470" class="btn">Book Now</a>
-        </div>
+<p>
 
-        <!-- DOLPHIN TOUR -->
-        <div class="card">
-            <img src="images/dolphin.jpg">
-            <h3>Dolphin Watching</h3>
-            <p>Experience dolphins in their natural habitat</p>
-            <a href="https://wa.me/254703158470" class="btn">Book Now</a>
-        </div>
+Whether you're staying on the coast or visiting inland, our carefully selected excursions offer something for every traveler.
 
-        <!-- ARABUKO FOREST -->
-        <div class="card">
-            <img src="images/forest.jpg">
-            <h3>Arabuko Sokoke Forest</h3>
-            <p>Nature walks and bird watching</p>
-            <a href="https://wa.me/254703158470" class="btn">Book Now</a>
-        </div>
+</p>
 
-        <!-- MALINDI TOUR -->
-        <div class="card">
-            <img src="images/malindi.jpg">
-            <h3>Malindi City Tour</h3>
-            <p>Culture, history and coastal experience</p>
-            <a href="https://wa.me/254703158470" class="btn">Book Now</a>
-        </div>
+</div>
 
-        <!-- SAND DUNES -->
-        <div class="card">
-            <img src="images/sand.jpg">
-            <h3>Che Shale Sand Dunes</h3>
-            <p>Adventure and stunning views</p>
-            <a href="https://wa.me/254703158470" class="btn">Book Now</a>
-        </div>
-
-        <!-- SUNSET DHOW -->
-        <div class="card">
-            <img src="images/dhow.jpg">
-            <h3>Sunset Dhow Cruise</h3>
-            <p>Relax with ocean sunset views</p>
-            <a href="https://wa.me/254703158470" class="btn">Book Now</a>
-        </div>
-
-    </div>
 </section>
+<section class="excursion-category">
 
-<!-- CTA -->
+<div class="section-title">
+
+<h2>Marine Excursions</h2>
+
+<p>Experience Kenya's spectacular coastline.</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="images/excursions/wasini.jpg">
+
+<h3>Wasini Island</h3>
+
+<p>Dolphins, snorkeling and seafood lunch.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/kisite.jpg">
+
+<h3>Kisite Marine Park</h3>
+
+<p>One of Africa's best marine parks.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/watamu.jpg">
+
+<h3>Watamu Marine Park</h3>
+
+<p>Coral reefs and tropical fish.</p>
+
+</div>
+
+</div>
+
+</section>
+    
+<section class="excursion-category">
+
+<div class="section-title">
+
+<h2>Nature & Wildlife</h2>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="images/excursions/shimba.jpg">
+
+<h3>Shimba Hills</h3>
+
+<p>Forest reserve with elephants and waterfalls.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/haller.jpg">
+
+<h3>Haller Park</h3>
+
+<p>Feed giraffes and discover wildlife.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/arabuko.jpg">
+
+<h3>Arabuko Sokoke</h3>
+
+<p>East Africa's largest coastal forest.</p>
+
+</div>
+
+</div>
+
+</section>
+<section class="excursion-category">
+
+<div class="section-title">
+
+<h2>History & Culture</h2>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="images/excursions/fortjesus.jpg">
+
+<h3>Fort Jesus</h3>
+
+<p>UNESCO World Heritage Site in Mombasa.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/oldtown.jpg">
+
+<h3>Old Town Mombasa</h3>
+
+<p>Explore Swahili history and architecture.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/gede.jpg">
+
+<h3>Gede Ruins</h3>
+
+<p>Ancient Swahili civilization hidden in the forest.</p>
+
+</div>
+
+</div>
+
+</section>
+<section class="excursion-category">
+
+<div class="section-title">
+
+<h2>Adventure Activities</h2>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="images/excursions/quadbike.jpg">
+
+<h3>Quad Biking</h3>
+
+<p>Ride through coastal trails.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/kayak.jpg">
+
+<h3>Mida Creek Kayaking</h3>
+
+<p>Paddle through beautiful mangroves.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/excursions/dhow.jpg">
+
+<h3>Sunset Dhow Cruise</h3>
+
+<p>Relax aboard a traditional Swahili dhow.</p>
+
+</div>
+
+</div>
+
+</section>
+<section class="why-visit">
+
+<div class="section-title">
+
+<h2>Why Book With Joy Travels?</h2>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-box">
+
+🌊
+
+<h3>Local Experts</h3>
+
+<p>Experienced local guides.</p>
+
+</div>
+
+<div class="why-box">
+
+🚐
+
+<h3>Comfort Transport</h3>
+
+<p>Safe and reliable transfers.</p>
+
+</div>
+
+<div class="why-box">
+
+📷
+
+<h3>Amazing Experiences</h3>
+
+<p>Create unforgettable memories.</p>
+
+</div>
+
+<div class="why-box">
+
+💬
+
+<h3>24/7 Support</h3>
+
+<p>We're always here to help.</p>
+
+</div>
+
+</div>
+
+</section>
 <section class="booking">
-    <h2>Book Your Excursion Today</h2>
-    <p>Let us create a memorable coastal experience</p>
-    <a href="https://wa.me/254703158470" class="btn">Chat on WhatsApp</a>
+
+<h2>Ready for Your Next Adventure?</h2>
+
+<p>
+
+Book your excursion today and discover another side of Kenya.
+
+</p>
+
+<a href="https://wa.me/254703158470"
+
+class="btn">
+
+Book Now
+
+</a>
+
 </section>
+<div id="footer"></div>
 
-<!-- FOOTER -->
-<footer class="footer">
-
-    <div class="footer-container">
-
-        <div class="footer-col">
-            <img src="images/logo.png" class="footer-logo">
-            <p>Explore Kenya with Joy Travels and Vacations.</p>
-        </div>
-
-        <div class="footer-col">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="safaris.html">Safaris</a></li>
-                <li><a href="excursions.html">Excursions</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-col">
-            <h3>Contact</h3>
-            <p>📞 +254 703158470</p>
-            <p>📧 joyrehema17@gmail.com</p>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        <p>© 2026 Joy Travels and Vacations</p>
-    </div>
-
-</footer>
+<script src="js/components.js"></script>
+<script src="js/animations.js"></script>
 
 </body>
 </html>
