@@ -125,3 +125,109 @@
         opacity:1;
     }
 }
+/* =====================================================
+   SAFARIS RESPONSIVE
+===================================================== */
+
+/* Tablets */
+
+@media (max-width:992px){
+
+.safari-grid,
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.safari-hero{
+
+    height:70vh;
+
+}
+
+.safari-hero h1{
+
+    font-size:48px;
+
+}
+
+.modal-content{
+
+    width:90%;
+
+    max-height:85vh;
+
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.safari-grid,
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.safari-hero{
+
+    height:60vh;
+
+}
+
+.safari-hero h1{
+
+    font-size:36px;
+
+}
+
+.modal-content{
+
+    width:95%;
+
+    padding:25px;
+
+}
+
+.modal-content h2{
+
+    font-size:28px;
+
+}
+
+}
+
+/* Small Phones */
+
+@media (max-width:576px){
+
+.safari-card img,
+.card img{
+
+    height:220px;
+
+}
+
+.modal-content{
+
+    padding:20px;
+
+}
+
+.modal-content h2{
+
+    font-size:24px;
+
+}
+
+.modal-content p{
+
+    font-size:15px;
+
+}
+
+}
