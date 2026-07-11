@@ -294,3 +294,113 @@
     transform:translateY(-8px);
 
 }
+/* =====================================================
+   DESTINATIONS RESPONSIVE
+===================================================== */
+
+/* ==========================================
+   Tablets (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.destination-hero{
+
+    height:70vh;
+
+}
+
+.destination-hero h1{
+
+    font-size:48px;
+
+}
+
+.destination-grid,
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.destination-content{
+
+    padding:25px;
+
+}
+
+}
+
+
+/* ==========================================
+   Mobile (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.destination-hero{
+
+    height:60vh;
+
+}
+
+.destination-hero h1{
+
+    font-size:36px;
+
+}
+
+.destination-hero p{
+
+    font-size:18px;
+
+}
+
+.destination-grid,
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.section-title h2{
+
+    font-size:34px;
+
+}
+
+}
+
+
+/* ==========================================
+   Small Phones (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.destination-hero h1{
+
+    font-size:30px;
+
+}
+
+.destination-hero p{
+
+    font-size:16px;
+
+}
+
+.destination-card img,
+.card img{
+
+    height:220px;
+
+}
+
+.destination-content{
+
+    padding:20px;
+
+}
+
+}
