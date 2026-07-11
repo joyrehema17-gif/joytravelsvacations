@@ -454,3 +454,138 @@
     transform:translateY(-8px);
 
 }
+/* =====================================================
+   GROUP TRAVEL RESPONSIVE
+===================================================== */
+
+/* ==========================================
+   Tablets (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.group-hero{
+
+    height:70vh;
+
+}
+
+.group-hero h1{
+
+    font-size:48px;
+
+}
+
+.group-grid,
+.package-grid,
+.benefits-grid,
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.group-content,
+.package-content{
+
+    padding:25px;
+
+}
+
+}
+
+
+/* ==========================================
+   Mobile (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.group-hero{
+
+    height:60vh;
+
+}
+
+.group-hero h1{
+
+    font-size:36px;
+
+}
+
+.group-hero p{
+
+    font-size:18px;
+
+}
+
+.group-grid,
+.package-grid,
+.benefits-grid,
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.group-card,
+.package-card{
+
+    max-width:550px;
+
+    margin:auto;
+
+}
+
+.group-content,
+.package-content{
+
+    padding:22px;
+
+}
+
+.booking{
+
+    text-align:center;
+
+}
+
+}
+
+
+/* ==========================================
+   Small Phones (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.group-hero h1{
+
+    font-size:30px;
+
+}
+
+.group-hero p{
+
+    font-size:16px;
+
+}
+
+.group-card img,
+.package-card img,
+.card img{
+
+    height:220px;
+
+}
+
+.group-content,
+.package-content{
+
+    padding:20px;
+
+}
+
+}
