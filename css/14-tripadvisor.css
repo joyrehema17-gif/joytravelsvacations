@@ -1,1 +1,366 @@
+/* =====================================================
+   TRIPADVISOR PAGE
+   Joy Travels & Vacations
+===================================================== */
 
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.tripadvisor-hero{
+
+    position:relative;
+
+    height:70vh;
+
+    background:url("../images/tripadvisor/hero.jpg") center/cover no-repeat;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    overflow:hidden;
+
+}
+
+.tripadvisor-hero .hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+
+}
+
+.tripadvisor-hero .hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    color:#fff;
+
+    max-width:900px;
+
+    padding:20px;
+
+}
+
+.tripadvisor-hero span{
+
+    display:inline-block;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    margin-bottom:20px;
+
+}
+
+.tripadvisor-hero h1{
+
+    font-size:60px;
+
+    margin-bottom:25px;
+
+}
+
+.tripadvisor-hero p{
+
+    font-size:22px;
+
+    line-height:1.8;
+
+    max-width:760px;
+
+    margin:auto auto 35px;
+
+}
+
+
+/* =====================================================
+   INTRODUCTION
+===================================================== */
+
+.tripadvisor-intro{
+
+    padding:90px 8%;
+
+    background:#fff;
+
+}
+
+
+/* =====================================================
+   REVIEW STATISTICS
+===================================================== */
+
+.review-stats{
+
+    padding:90px 8%;
+
+    background:var(--cream);
+
+}
+
+.stats-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+}
+
+.stat-box{
+
+    background:#fff;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.stat-box h2{
+
+    font-size:42px;
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+}
+
+.stat-box p{
+
+    color:#666;
+
+}
+
+
+/* =====================================================
+   FEATURED REVIEWS
+===================================================== */
+
+.featured-reviews{
+
+    padding:100px 8%;
+
+    background:#fff;
+
+}
+
+.featured-reviews .cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.featured-reviews .card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+    text-align:center;
+
+}
+
+.featured-reviews .card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.featured-reviews p{
+
+    margin:20px 0;
+
+    line-height:1.8;
+
+    color:#666;
+
+}
+
+.featured-reviews h4{
+
+    color:var(--dark);
+
+}
+
+
+/* =====================================================
+   WHY CHOOSE US
+===================================================== */
+
+.why-us{
+
+    padding:100px 8%;
+
+    background:#f8f8f8;
+
+}
+
+.why-us .cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:30px;
+
+}
+
+.why-us .card{
+
+    background:#fff;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.why-us .card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.why-us h3{
+
+    margin-top:20px;
+
+}
+
+
+/* =====================================================
+   TRIPADVISOR LINK
+===================================================== */
+
+.tripadvisor-link{
+
+    padding:100px 8%;
+
+    text-align:center;
+
+    background:#fff;
+
+}
+
+.tripadvisor-link h2{
+
+    margin-bottom:20px;
+
+}
+
+.tripadvisor-link p{
+
+    max-width:700px;
+
+    margin:0 auto 35px;
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   GOOGLE REVIEWS
+===================================================== */
+
+.google-reviews{
+
+    padding:90px 8%;
+
+    background:var(--cream);
+
+    text-align:center;
+
+}
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.booking{
+
+    text-align:center;
+
+}
+
+.booking p{
+
+    max-width:700px;
+
+    margin:auto auto 35px;
+
+}
+
+
+/* =====================================================
+   HOVER EFFECTS
+===================================================== */
+
+.card,
+.stat-box{
+
+    transition:all .35s ease;
+
+}
+
+
+/* =====================================================
+   SIMPLE ANIMATIONS
+===================================================== */
+
+.card:hover,
+.stat-box:hover{
+
+    transform:translateY(-8px);
+
+}
