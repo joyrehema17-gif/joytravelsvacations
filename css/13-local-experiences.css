@@ -283,3 +283,141 @@ RESPONSIVE
 }
 
 }
+/* =====================================================
+   LOCAL EXPERIENCES RESPONSIVE
+===================================================== */
+
+/* ==========================================
+   Tablets (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.local-hero{
+
+    height:70vh;
+
+}
+
+.local-hero h1{
+
+    font-size:48px;
+
+}
+
+.experience-grid,
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.experience-content{
+
+    padding:25px;
+
+}
+
+}
+
+
+/* ==========================================
+   Mobile (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.local-hero{
+
+    height:60vh;
+
+}
+
+.local-hero h1{
+
+    font-size:36px;
+
+}
+
+.local-hero p{
+
+    font-size:18px;
+
+}
+
+.experience-grid,
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.experience-card{
+
+    max-width:550px;
+
+    margin:auto;
+
+}
+
+.experience-content{
+
+    padding:22px;
+
+}
+
+.booking{
+
+    text-align:center;
+
+}
+
+}
+
+
+/* ==========================================
+   Small Phones (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.local-hero h1{
+
+    font-size:30px;
+
+}
+
+.local-hero p{
+
+    font-size:16px;
+
+}
+
+.experience-card img,
+.card img{
+
+    height:220px;
+
+}
+
+.experience-content{
+
+    padding:20px;
+
+}
+
+.section-title h2{
+
+    font-size:30px;
+
+}
+
+.section-title p{
+
+    font-size:16px;
+
+}
+
+}
