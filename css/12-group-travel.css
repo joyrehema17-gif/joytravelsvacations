@@ -1,1 +1,456 @@
+/* =====================================================
+   GROUP TRAVEL PAGE
+   Joy Travels & Vacations
+===================================================== */
 
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.group-hero{
+
+    position:relative;
+
+    height:70vh;
+
+    background:url("../images/hero/group-travel.jpg") center/cover no-repeat;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    text-align:center;
+
+    overflow:hidden;
+
+}
+
+.group-hero .hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+
+}
+
+.group-hero .hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+    max-width:900px;
+
+    padding:20px;
+
+    color:#fff;
+
+}
+
+.group-hero span{
+
+    display:inline-block;
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:20px;
+
+}
+
+.group-hero h1{
+
+    font-size:62px;
+
+    margin-bottom:25px;
+
+}
+
+.group-hero p{
+
+    max-width:760px;
+
+    margin:auto auto 35px;
+
+    font-size:22px;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   INTRODUCTION
+===================================================== */
+
+.group-intro{
+
+    padding:90px 8%;
+
+    background:#fff;
+
+}
+
+
+/* =====================================================
+   GROUP TYPES
+===================================================== */
+
+.group-types{
+
+    padding:90px 8%;
+
+    background:var(--cream);
+
+}
+
+.group-types .cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:35px;
+
+}
+
+.group-types .card{
+
+    background:#fff;
+
+    padding:40px 30px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    text-align:center;
+
+    transition:.35s;
+
+}
+
+.group-types .card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.group-types h3{
+
+    margin-bottom:15px;
+
+    color:var(--dark);
+
+}
+
+.group-types p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   GROUP PACKAGES
+===================================================== */
+
+.group-packages{
+
+    padding:90px 8%;
+
+}
+
+.group-packages .cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.group-packages .card{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+}
+
+.group-packages .card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.group-packages h3{
+
+    margin-bottom:15px;
+
+}
+
+.group-packages p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   WHY CHOOSE US
+===================================================== */
+
+.why-group{
+
+    padding:100px 8%;
+
+    background:#f8f8f8;
+
+}
+
+.why-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+
+}
+
+.why-box{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+}
+
+.why-box:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.why-box h3{
+
+    margin:20px 0 15px;
+
+}
+
+.why-box p{
+
+    color:#666;
+
+    line-height:1.7;
+
+}
+
+
+/* =====================================================
+   INCLUDED SERVICES
+===================================================== */
+
+.included-services{
+
+    padding:90px 8%;
+
+    background:#fff;
+
+}
+
+.included-services .cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+.included-services .card{
+
+    padding:35px;
+
+    background:var(--cream);
+
+    border-radius:15px;
+
+    text-align:center;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.included-services .card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+
+/* =====================================================
+   BENEFITS TABLE
+===================================================== */
+
+.group-benefits{
+
+    padding:100px 8%;
+
+    background:#fafafa;
+
+}
+
+.benefits-table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    max-width:900px;
+
+    margin:auto;
+
+    background:#fff;
+
+    box-shadow:var(--shadow);
+
+}
+
+.benefits-table th{
+
+    background:var(--primary);
+
+    color:#fff;
+
+    padding:18px;
+
+}
+
+.benefits-table td{
+
+    padding:18px;
+
+    border-bottom:1px solid #eee;
+
+    text-align:center;
+
+}
+
+.benefits-table tr:hover{
+
+    background:#f7f7f7;
+
+}
+
+
+/* =====================================================
+   CTA
+===================================================== */
+
+.group-booking{
+
+    padding:100px 8%;
+
+    background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+               url("../images/group/cta.jpg") center/cover;
+
+    color:#fff;
+
+    text-align:center;
+
+}
+
+.group-booking h2{
+
+    font-size:48px;
+
+    margin-bottom:20px;
+
+}
+
+.group-booking p{
+
+    max-width:720px;
+
+    margin:0 auto 35px;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+.group-booking .btn{
+
+    padding:16px 40px;
+
+}
+
+
+/* =====================================================
+   HOVER EFFECTS
+===================================================== */
+
+.group-types .card,
+.group-packages .card,
+.why-box,
+.included-services .card{
+
+    transition:all .35s ease;
+
+}
+
+
+/* =====================================================
+   SIMPLE FADE-IN
+===================================================== */
+
+.group-types .card:hover,
+.group-packages .card:hover,
+.why-box:hover,
+.included-services .card:hover{
+
+    transform:translateY(-8px);
+
+}
