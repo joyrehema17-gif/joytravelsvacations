@@ -1,106 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Joy Travels and Vacations</title>
-    <link rel="stylesheet" href="css/style.css">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact Us | Joy Travels & Vacations</title>
+
+<!-- CSS -->
+
+<link rel="stylesheet" href="css/01-variables.css">
+<link rel="stylesheet" href="css/02-reset.css">
+<link rel="stylesheet" href="css/03-global.css">
+<link rel="stylesheet" href="css/04-navbar.css">
+<link rel="stylesheet" href="css/05-footer.css">
+<link rel="stylesheet" href="css/16-contact.css">
+<link rel="stylesheet" href="css/17-modal.css">
+<link rel="stylesheet" href="css/18-animations.css">
+<link rel="stylesheet" href="css/19-responsive.css">
+
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<nav class="navbar">
-    <div class="logo">
-        <img src="images/logo.png" alt="Joy Travels Logo">
-    </div>
+<!-- ==========================================
+NAVBAR
+========================================== -->
 
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="safaris.html">Safaris</a></li>
-        <li><a href="destinations.html">Destinations</a></li>
-        <li><a href="excursions.html">Excursions</a></li>
-        <li><a href="transfers.html">Transfers</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+<div id="navbar"></div>
 
-    <a href="https://wa.me/254703158470" class="book-btn">Book Now</a>
-</nav>
+<!-- ==========================================
+HERO
+========================================== -->
 
-<!-- HERO -->
-<section class="hero" style="height:50vh;">
+<section class="contact-hero">
+
+    <div class="hero-overlay"></div>
+
     <div class="hero-content">
-        <h1>Contact Us</h1>
-        <p>We’re here to help you plan your perfect trip</p>
+
+        <span>WE'D LOVE TO HEAR FROM YOU</span>
+
+        <h1>Let's Plan Your Kenyan Adventure</h1>
+
+        <p>
+
+            Have questions about safaris, hotels,
+            transfers or local experiences?
+            Contact our team today.
+
+        </p>
+
     </div>
+
 </section>
 
-<!-- CONTACT SECTION -->
-<section class="section contact-container">
+<!-- ==========================================
+CONTACT INFO
+========================================== -->
 
-    <!-- LEFT SIDE -->
-    <div class="contact-info">
-        <h2>Get In Touch</h2>
+<section class="contact-info">
 
-        <p>📞 <strong>Phone:</strong> +254 703 158470</p>
-        <p>📧 <strong>Email:</strong> joyrehema17@gmail.com</p>
-        <p>📍 <strong>Location:</strong> Kenya</p>
+<div class="section-title">
 
-        <a href="https://wa.me/254703158470" class="btn">Chat on WhatsApp</a>
-    </div>
-    <div class="contact-form">
-        <h2>Send Message</h2>
+<h2>Get In Touch</h2>
 
-        <form action="https://formsubmit.co/joyrehema17@gmail.com" method="POST">
+<p>We're here to help you plan the perfect trip.</p>
 
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <input type="tel" name="phone" placeholder="Phone Number">
+</div>
 
-            <textarea name="message" placeholder="Your Message" required></textarea>
+<div class="contact-grid">
 
-            <button type="submit">Send Message</button>
+<div class="contact-card">
 
-        </form>
-    </div>
+<h3>📍 Location</h3>
+
+<p>Mombasa • Watamu • Kenya</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📞 Phone</h3>
+
+<p>+254 703 158 470</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>📧 Email</h3>
+
+<p>joyrehema17@gmail.com</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>🕒 Office Hours</h3>
+
+<p>
+
+Monday – Saturday<br>
+
+8:00 AM – 6:00 PM
+
+</p>
+
+</div>
+
+</div>
+
 </section>
 
-<!-- MAP -->
-<section class="section">
-    <h2>Our Location</h2>
+<!-- ==========================================
+CONTACT FORM
+========================================== -->
 
-    <div class="map-box">
-        <iframe 
-        src="https://www.google.com/maps?q=Kenya&output=embed"
-        width="100%" height="300" style="border:0;">
-        </iframe>
-    </div>
+<section class="contact-form-section">
+
+<div class="section-title">
+
+<h2>Send Us a Message</h2>
+
+<p>Complete the form below and we'll respond as soon as possible.</p>
+
+</div>
+
+<form
+action="https://formsubmit.co/joyrehema17@gmail.com"
+method="POST"
+class="contact-form">
+
+<input
+type="text"
+name="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Your Email"
+required>
+
+<input
+type="text"
+name="subject"
+placeholder="Subject">
+
+<textarea
+name="message"
+rows="7"
+placeholder="Tell us about your dream trip..."
+required></textarea>
+
+<input
+type="hidden"
+name="_subject"
+value="New Inquiry from Joy Travels Website">
+
+<input
+type="hidden"
+name="_captcha"
+value="false">
+
+<input
+type="hidden"
+name="_template"
+value="table">
+
+<button
+type="submit"
+class="btn">
+
+Send Message
+
+</button>
+
+</form>
+
 </section>
 
-<!-- FOOTER -->
-<footer class="footer">
+<!-- ==========================================
+GOOGLE MAP
+========================================== -->
 
-    <div class="footer-container">
-        <div class="footer-col">
-            <img src="images/logo.png" class="footer-logo">
-            <p>Explore Kenya with Joy Travels and Vacations.</p>
-        </div>
+<section class="contact-map">
 
-        <div class="footer-col">
-            <h3>Contact</h3>
-            <p>📞 +254 703 158470</p>
-            <p>📧 joyrehema17@gmail.com</p>
-        </div>
-    </div>
+<div class="section-title">
 
-    <div class="footer-bottom">
-        <p>© 2026 Joy Travels and Vacations</p>
-    </div>
+<h2>Find Us</h2>
 
-</footer>
+</div>
+
+<iframe
+
+src="YOUR_GOOGLE_MAP_EMBED_LINK"
+
+width="100%"
+
+height="450"
+
+style="border:0;"
+
+loading="lazy"
+
+allowfullscreen>
+
+</iframe>
+
+</section>
+
+<!-- ==========================================
+FAQ
+========================================== -->
+
+<section class="faq">
+
+<div class="section-title">
+
+<h2>Frequently Asked Questions</h2>
+
+</div>
+
+<div class="faq-grid">
+
+<div class="faq-item">
+
+<h3>How do I book a safari?</h3>
+
+<p>
+
+Simply send us a message through the form or WhatsApp,
+and we'll prepare a personalized itinerary.
+
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Can I customize my safari?</h3>
+
+<p>
+
+Yes. Every itinerary can be tailored to your travel style,
+budget and schedule.
+
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Do you provide airport transfers?</h3>
+
+<p>
+
+Yes. We provide reliable airport and hotel transfers
+throughout Kenya.
+
+</p>
+
+</div>
+
+<div class="faq-item">
+
+<h3>Do you organize group tours?</h3>
+
+<p>
+
+Absolutely. We organize school trips,
+family holidays,
+corporate retreats,
+church groups and private tours.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ==========================================
+WHATSAPP CTA
+========================================== -->
+
+<section class="booking">
+
+<h2>
+
+Need a Quick Response?
+
+</h2>
+
+<p>
+
+Chat directly with Joy Travels & Vacations on WhatsApp.
+
+</p>
+
+<a
+
+href="https://wa.me/254703158470"
+
+class="btn">
+
+Chat on WhatsApp
+
+</a>
+
+</section>
+
+<!-- ==========================================
+FOOTER
+========================================== -->
+
+<div id="footer"></div>
+
+<!-- ==========================================
+JAVASCRIPT
+========================================== -->
+
+<script src="js/components.js"></script>
 <script src="js/script.js"></script>
-<script src="js/contact.js"></script>
 <script src="js/animations.js"></script>
+
 </body>
 </html>
