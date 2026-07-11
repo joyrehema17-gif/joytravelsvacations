@@ -4,128 +4,352 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destinations | Joy Travels and Vacations</title>
-    <link rel="stylesheet" href="css/style.css">
+   <!-- Global -->
+<link rel="stylesheet" href="css/01-variables.css">
+<link rel="stylesheet" href="css/02-reset.css">
+<link rel="stylesheet" href="css/03-global.css">
+
+<!-- Shared -->
+<link rel="stylesheet" href="css/04-navbar.css">
+<link rel="stylesheet" href="css/05-footer.css">
+
+<!-- Page -->
+<link rel="stylesheet" href="css/08-destinations.css">
+
+<!-- Shared -->
+<link rel="stylesheet" href="css/17-modal.css">
+<link rel="stylesheet" href="css/18-animations.css">
+<link rel="stylesheet" href="css/19-responsive.css">
 </head>
 
 <body>
 
 <!-- NAVBAR -->
-<nav class="navbar">
-    <div class="logo">
-        <img src="images/logo.png" alt="Joy Travels Logo">
-    </div>
+<div id="navbar"></div>
 
-    <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="safaris.html">Safaris</a></li>
-        <li><a href="destinations.html">Destinations</a></li>
-        <li><a href="excursions.html">Excursions</a></li>
-        <li><a href="transfers.html">Transfers</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    
 
-    <a href="https://wa.me/254703158470" class="book-btn">Book Now</a>
-</nav>
+<!-- ==========================================
+DESTINATION HERO
+========================================== -->
 
-<!-- HERO -->
-<section class="hero" style="height:60vh;">
+<section class="destination-hero">
+
+    <div class="hero-overlay"></div>
+
     <div class="hero-content">
+
+        <span>DISCOVER KENYA</span>
+
         <h1>Top Destinations in Kenya</h1>
-        <p>Discover the beauty of safari and coast</p>
-    </div>
-</section>
 
-<!-- DESTINATIONS GRID -->
-<section class="section">
-    <h2>Explore Our Destinations</h2>
+        <p>
 
-    <div class="cards">
+            Discover Kenya's spectacular wildlife parks,
+            tropical beaches, mountains and cultural treasures.
 
-        <!-- MARA -->
-        <div class="card">
-            <img src="images/mara.jpg">
-            <h3>Maasai Mara</h3>
-            <p>World-famous for the Big Five and Great Migration</p>
-        </div>
+        </p>
 
-        <!-- NAKURU -->
-        <div class="card">
-            <img src="images/nakuru.jpg">
-            <h3>Lake Nakuru</h3>
-            <p>Flamingos, rhinos and scenic landscapes</p>
-        </div>
+        <a href="safaris.html" class="btn">
 
-        <!-- AMBOSELI -->
-        <div class="card">
-            <img src="images/amboseli.jpg">
-            <h3>Amboseli</h3>
-            <p>Elephants with Mt. Kilimanjaro backdrop</p>
-        </div>
+            Explore Safaris
 
-        <!-- TSAVO -->
-        <div class="card">
-            <img src="images/tsavo.jpg">
-            <h3>Tsavo National Park</h3>
-            <p>Vast wilderness and red elephants</p>
-        </div>
-
-        <!-- WATAMU -->
-        <div class="card">
-            <img src="images/watamu.jpg">
-            <h3>Watamu</h3>
-            <p>White sandy beaches and marine life</p>
-        </div>
-
-        <!-- DIANI -->
-        <div class="card">
-            <img src="images/diani.jpg">
-            <h3>Diani Beach</h3>
-            <p>Luxury beach escapes and water sports</p>
-        </div>
+        </a>
 
     </div>
+
+</section>
+    <!-- ==========================================
+INTRODUCTION
+========================================== -->
+
+<section class="destination-intro">
+
+<div class="section-title">
+
+<h2>Explore Kenya</h2>
+
+<p>
+
+Kenya offers incredible diversity.
+From the Great Migration in Maasai Mara
+to the turquoise waters of Watamu,
+every destination has its own unforgettable story.
+
+</p>
+
+</div>
+
 </section>
 
+
+
+
+    
+    <!-- ==========================================
+NATIONAL PARKS
+========================================== -->
+
+<section class="destination-category">
+
+<div class="section-title">
+
+<h2>National Parks</h2>
+
+<p>
+
+Experience Kenya's famous wildlife parks.
+
+</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="images/destinations/samburu.jpg">
+
+<h3>Samburu</h3>
+
+<p>Unique wildlife and beautiful landscapes.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/destinations/hellsgate.jpg">
+
+<h3>Hell's Gate</h3>
+
+<p>Cycle through dramatic cliffs and wildlife.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/destinations/nairobi.jpg">
+
+<h3>Nairobi National Park</h3>
+
+<p>The world's only wildlife park inside a capital city.</p>
+
+</div>
+
+</div>
+
+</section>
+    <!-- ==========================================
+COASTAL DESTINATIONS
+========================================== -->
+
+<section class="destination-category">
+
+<div class="section-title">
+
+<h2>Kenya Coast</h2>
+
+<p>
+
+Relax on Africa's finest beaches.
+
+</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="images/destinations/lamu.jpg">
+
+<h3>Lamu Island</h3>
+
+<p>UNESCO World Heritage Site.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/destinations/malindi.jpg">
+
+<h3>Malindi</h3>
+
+<p>History, beaches and marine parks.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/destinations/watamu.jpg">
+
+<h3>Watamu</h3>
+
+<p>Dolphins, coral reefs and white beaches.</p>
+
+</div>
+
+</div>
+
+</section>
+    <!-- ==========================================
+MOUNTAINS
+========================================== -->
+
+<section class="destination-category">
+
+<div class="section-title">
+
+<h2>Mountain Adventures</h2>
+
+<p>
+
+Explore Kenya's beautiful highlands.
+
+</p>
+
+</div>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="images/destinations/mtkenya.jpg">
+
+<h3>Mount Kenya</h3>
+
+<p>Kenya's highest mountain.</p>
+
+</div>
+
+<div class="card">
+
+<img src="images/destinations/aberdare.jpg">
+
+<h3>Aberdare</h3>
+
+<p>Forests, waterfalls and wildlife.</p>
+
+</div>
+
+</div>
+
+</section>
+    <!-- ==========================================
+WHY VISIT KENYA
+========================================== -->
+
+<section class="why-visit">
+
+<div class="section-title">
+
+<h2>Why Visit Kenya?</h2>
+
+</div>
+
+<div class="why-grid">
+
+<div class="why-box">
+
+🦁
+
+<h3>Big Five</h3>
+
+<p>Experience Africa's legendary wildlife.</p>
+
+</div>
+
+<div class="why-box">
+
+🏖️
+
+<h3>Beautiful Beaches</h3>
+
+<p>Relax on the Indian Ocean coastline.</p>
+
+</div>
+
+<div class="why-box">
+
+🌍
+
+<h3>Culture</h3>
+
+<p>Meet Kenya's diverse communities.</p>
+
+</div>
+
+<div class="why-box">
+
+📷
+
+<h3>Photography</h3>
+
+<p>Capture unforgettable safari moments.</p>
+
+</div>
+
+</div>
+
+</section>
+    <!-- ==========================================
+TRAVEL TIPS
+========================================== -->
+
+<section class="travel-tips">
+
+<div class="section-title">
+
+<h2>Best Time To Visit</h2>
+
+<p>
+
+Kenya is a year-round destination, but each season offers a unique experience.
+
+</p>
+
+</div>
+
+<div class="tips-grid">
+
+<div>
+
+<h3>June - October</h3>
+
+<p>Great Migration & best safari season.</p>
+
+</div>
+
+<div>
+
+<h3>November - March</h3>
+
+<p>Perfect weather for beaches and photography.</p>
+
+</div>
+
+<div>
+
+<h3>April - May</h3>
+
+<p>Green season with fewer crowds and excellent value.</p>
+
+</div>
+
+</div>
+
+</section>
+        
 <!-- CTA -->
 <section class="booking">
     <h2>Plan Your Dream Destination</h2>
     <p>Let us take you there in style</p>
+    
     <a href="https://wa.me/254703158470" class="btn">Start Planning</a>
 </section>
 
 <!-- FOOTER -->
-<footer class="footer">
 
-    <div class="footer-container">
-
-        <div class="footer-col">
-            <img src="images/logo.png" class="footer-logo">
-            <p>Explore Kenya with Joy Travels and Vacations.</p>
-        </div>
-
-        <div class="footer-col">
-            <h3>Quick Links</h3>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="safaris.html">Safaris</a></li>
-                <li><a href="destinations.html">Destinations</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-col">
-            <h3>Contact</h3>
-            <p>📞 0703158470</p>
-            <p>📧 joyrehema17@gmail.com</p>
-        </div>
-
-    </div>
-
-    <div class="footer-bottom">
-        <p>© 2026 Joy Travels and Vacations</p>
-    </div>
-
-</footer>
-
+<div id="footer"></div>
 </body>
 </html>
