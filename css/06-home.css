@@ -591,4 +591,144 @@
 .hidden{
     display:none;
 }
+/* =====================================================
+   HOME RESPONSIVE
+===================================================== */
 
+/* Tablets */
+
+@media (max-width:992px){
+
+.hero{
+
+    height:80vh;
+
+}
+
+.hero-content h1{
+
+    font-size:48px;
+
+}
+
+.hero-content p{
+
+    font-size:20px;
+
+}
+
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.gallery-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.newsletter-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.meet-joy{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.meet-joy img{
+
+    margin:auto;
+
+}
+
+}
+
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.hero{
+
+    height:65vh;
+
+}
+
+.hero-content h1{
+
+    font-size:38px;
+
+}
+
+.hero-content p{
+
+    font-size:18px;
+
+}
+
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.gallery-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.newsletter-form{
+
+    padding:30px;
+
+}
+
+.newsletter-text h2{
+
+    font-size:34px;
+
+}
+
+}
+
+
+/* Small Phones */
+
+@media (max-width:576px){
+
+.hero-content h1{
+
+    font-size:30px;
+
+}
+
+.hero-content p{
+
+    font-size:16px;
+
+}
+
+.gallery-item img{
+
+    height:220px;
+
+}
+
+.newsletter-text h2{
+
+    font-size:28px;
+
+}
+
+}
