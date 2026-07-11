@@ -232,3 +232,87 @@
     transition:all .35s ease;
 
 }
+/* =====================================================
+   EXCURSIONS RESPONSIVE
+===================================================== */
+
+/* Tablets */
+
+@media (max-width:992px){
+
+.excursion-hero{
+
+    height:70vh;
+
+}
+
+.excursion-hero h1{
+
+    font-size:48px;
+
+}
+
+.excursion-grid,
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+.excursion-hero{
+
+    height:60vh;
+
+}
+
+.excursion-hero h1{
+
+    font-size:36px;
+
+}
+
+.excursion-grid,
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.excursion-content{
+
+    padding:25px;
+
+}
+
+}
+
+/* Small Phones */
+
+@media (max-width:576px){
+
+.excursion-card img,
+.card img{
+
+    height:220px;
+
+}
+
+.excursion-hero h1{
+
+    font-size:30px;
+
+}
+
+.excursion-hero p{
+
+    font-size:16px;
+
+}
+
+}
