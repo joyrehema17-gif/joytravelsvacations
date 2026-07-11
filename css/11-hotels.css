@@ -234,3 +234,125 @@ HOTEL CARDS
     background:#25D366;
 
 }
+/* =====================================================
+   TRANSFERS RESPONSIVE
+===================================================== */
+
+/* ==========================================
+   Tablets (992px)
+========================================== */
+
+@media (max-width:992px){
+
+.transfer-hero{
+
+    height:70vh;
+
+}
+
+.transfer-hero h1{
+
+    font-size:48px;
+
+}
+
+.transfer-grid,
+.vehicle-grid,
+.cards{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.transfer-content,
+.vehicle-content{
+
+    padding:25px;
+
+}
+
+}
+
+
+/* ==========================================
+   Mobile (768px)
+========================================== */
+
+@media (max-width:768px){
+
+.transfer-hero{
+
+    height:60vh;
+
+}
+
+.transfer-hero h1{
+
+    font-size:36px;
+
+}
+
+.transfer-hero p{
+
+    font-size:18px;
+
+}
+
+.transfer-grid,
+.vehicle-grid,
+.cards{
+
+    grid-template-columns:1fr;
+
+}
+
+.transfer-content,
+.vehicle-content{
+
+    padding:22px;
+
+}
+
+.booking{
+
+    text-align:center;
+
+}
+
+}
+
+
+/* ==========================================
+   Small Phones (576px)
+========================================== */
+
+@media (max-width:576px){
+
+.transfer-hero h1{
+
+    font-size:30px;
+
+}
+
+.transfer-hero p{
+
+    font-size:16px;
+
+}
+
+.transfer-card img,
+.vehicle-card img,
+.card img{
+
+    height:220px;
+
+}
+
+.transfer-content,
+.vehicle-content{
+
+    padding:20px;
+
+}
+
+}
