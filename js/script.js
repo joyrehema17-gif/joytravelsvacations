@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     await loadComponent("footer", "components/footer.html");
 
-    initializeNavbar();
+  
 
 });
 
@@ -35,6 +35,11 @@ async function loadComponent(id, file){
         }
 
         element.innerHTML = await response.text();
+       if(id === "navbar"){
+
+    initializeNavbar();
+
+}
 
     }
 
