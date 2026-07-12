@@ -113,7 +113,13 @@ section{
 @media(max-width:576px){
 .safari-stats{
     grid-template-columns:1fr;
-
 }
-
+}
+@media(max-width:900px){
+.why-joy{
+    grid-template-columns:1fr;
+}
+.why-joy-image{
+    order:-1;
+}
 }
