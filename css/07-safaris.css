@@ -344,3 +344,44 @@ PREMIUM SAFARI CARDS
     flex:1;
     text-align:center;
 }
+
+
+/* ==========================================
+WHY TRAVEL WITH JOY
+========================================== */
+.why-joy{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:center;
+    gap:80px;
+    padding:120px 8%;
+   background:#fff;
+}
+.why-joy-image img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+    transition:.5s;
+}
+.why-joy-image img:hover{
+    transform:scale(1.03);
+}
+.why-joy-content h2{
+    font-size:44px;
+    margin:20px 0;
+    color:var(--secondary);
+}
+.why-joy-content p{
+    color:#666;
+    line-height:1.9;
+    margin-bottom:35px;
+}
+.benefits{
+    list-style:none;
+    margin-bottom:40px;
+}
+.benefits li{
+    margin-bottom:18px;
+    font-size:18px;
+    color:#444;
+}
