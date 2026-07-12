@@ -44,7 +44,7 @@
     object-fit:cover;
 }
 
-.safari-content{
+.card-content{
     padding:25px;
 }
 
@@ -67,12 +67,12 @@
 
 /* Buttons */
 
-.safari-buttons{
+.card-buttons{
     display:flex;
     gap:15px;
 }
 
-.safari-buttons .btn{
+.card-buttons .btn{
     flex:1;
     text-align:center;
 }
