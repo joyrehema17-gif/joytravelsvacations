@@ -48,10 +48,11 @@ async function loadComponent(id, file){
 /* =====================================================
    INITIALIZE NAVBAR
 ===================================================== */
-
 function initializeNavbar(){
 
     highlightActivePage();
+
+    initializeMobileMenu();
 
 }
 /* =====================================================
