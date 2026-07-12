@@ -38,9 +38,9 @@
 
     display:flex;
 
-    list-style:none;
+    align-items:center;
 
-    gap:35px;
+    gap:32px;
 
 }
 
@@ -111,5 +111,132 @@
 .book-btn:hover{
 
     transform:translateY(-3px);
+
+}
+/* =====================================================
+   DROPDOWN MENU
+===================================================== */
+
+.dropdown{
+
+    position:relative;
+
+}
+
+/* Dropdown Link */
+
+.dropdown > a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+}
+
+/* CSS Arrow */
+
+.dropdown > a::after{
+
+    content:"";
+
+    width:7px;
+
+    height:7px;
+
+    border-right:2px solid currentColor;
+
+    border-bottom:2px solid currentColor;
+
+    transform:rotate(45deg);
+
+    transition:.3s;
+
+    margin-top:-3px;
+
+}
+
+/* Rotate Arrow */
+
+.dropdown:hover > a::after{
+
+    transform:rotate(225deg);
+
+    margin-top:4px;
+
+}
+
+/* Dropdown Box */
+
+.dropdown-menu{
+
+    position:absolute;
+
+    top:calc(100% + 15px);
+
+    left:0;
+
+    min-width:240px;
+
+    background:#fff;
+
+    border-radius:12px;
+
+    list-style:none;
+
+    padding:10px 0;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(15px);
+
+    transition:.35s;
+
+    z-index:1000;
+
+}
+
+/* Show */
+
+.dropdown:hover .dropdown-menu{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+.dropdown-menu li{
+
+    width:100%;
+
+}
+
+.dropdown-menu a{
+
+    display:block;
+
+    padding:14px 24px;
+
+    color:var(--dark);
+
+    text-decoration:none;
+
+    transition:.25s;
+
+}
+
+.dropdown-menu a:hover{
+
+    background:var(--primary);
+
+    color:#fff;
 
 }
