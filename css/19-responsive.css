@@ -3,182 +3,103 @@
    Joy Travels & Vacations
 ===================================================== */
 
-
 /* =====================================================
    LARGE TABLETS
    (1200px)
 ===================================================== */
-
 @media (max-width:1200px){
-
 .container{
-
     width:95%;
-
 }
-
 }
-
-
 /* =====================================================
    TABLETS
    (992px)
 ===================================================== */
-
 @media (max-width:992px){
-
 section{
-
     padding:80px 5%;
-
 }
-
 .container{
-
     width:95%;
-
 }
-
 .section-title{
-
     margin-bottom:50px;
-
 }
-
 .section-title h2{
-
     font-size:40px;
-
 }
-
 .section-title p{
-
     font-size:18px;
-
 }
-
 .footer-container{
-
     grid-template-columns:repeat(2,1fr);
-
     gap:40px;
-
 }
-
 }
-
-
 /* =====================================================
    MOBILE
    (768px)
 ===================================================== */
-
 @media (max-width:768px){
-
 section{
-
     padding:70px 20px;
-
 }
-
 .container{
-
     width:100%;
-
 }
-
 .section-title{
-
     margin-bottom:40px;
-
 }
-
 .section-title h2{
-
     font-size:34px;
-
 }
-
 .section-title p{
-
     font-size:17px;
-
 }
-
 .btn,
 .btn-outline,
 .btn-small{
-
     width:100%;
-
     text-align:center;
-
 }
-
 img{
-
     max-width:100%;
-
     height:auto;
-
 }
-
 }
-
-
 /* =====================================================
    SMALL PHONES
    (576px)
 ===================================================== */
-
 @media (max-width:576px){
-
 section{
-
     padding:60px 18px;
-
 }
-
 .section-title h2{
-
     font-size:30px;
-
 }
-
 .section-title p{
-
     font-size:16px;
-
 }
-
 .footer-container{
-
     grid-template-columns:1fr;
-
     text-align:center;
-
 }
-
 .footer-bottom{
-
     display:flex;
-
     flex-direction:column;
-
     justify-content:center;
-
     align-items:center;
-
     gap:10px;
-
     text-align:center;
-
 }
-
 .footer-logo{
-
     margin:auto;
-
 }
-
+}
+@media(max-width:768px){
+.hero{
+    background-attachment:scroll;
+}
 }
