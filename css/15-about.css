@@ -9,14 +9,8 @@
 ===================================================== */
 
 .about-hero{
-    position:relative;
-    height:70vh;
     background:url("../images/about/hero.jpg") center/cover no-repeat;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    overflow:hidden;
+    
 }
 .about-hero::before{
     content:"";
