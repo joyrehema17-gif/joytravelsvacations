@@ -3,7 +3,6 @@
    Joy Travels & Vacations
 ===================================================== */
 
-
 /* =====================================================
    HERO
 ===================================================== */
@@ -65,42 +64,16 @@
     text-transform:uppercase;
 
     margin-bottom:20px;
-
 }
-
-.transfers-hero h1{
-
-    font-size:62px;
-
-    margin-bottom:25px;
-
-}
-
-.transfers-hero p{
-
-    font-size:22px;
-
-    line-height:1.8;
-
-    max-width:760px;
-
-    margin:auto;
-
-}
-
 
 /* =====================================================
    INTRODUCTION
 ===================================================== */
-
 .transfer-intro{
-
     padding:90px 8%;
-
     background:#fff;
 
 }
-
 
 /* =====================================================
    TRANSFER CATEGORIES
