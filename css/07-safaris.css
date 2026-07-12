@@ -245,3 +245,102 @@ WHY CHOOSE OUR SAFARIS
     line-height:1.8;
 
 }
+/* ==========================================
+PREMIUM SAFARI CARDS
+========================================== */
+.safari-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+    gap:40px;
+    margin-top:60px;
+}
+.safari-card{
+    background:#fff;
+    border-radius:22px;
+    overflow:hidden;
+    box-shadow:0 15px 40px rgba(0,0,0,.10);
+    transition:.4s;
+}
+.safari-card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 25px 60px rgba(0,0,0,.18);
+
+}
+
+
+
+.card-image{
+    position:relative;
+    height:260px;
+    overflow:hidden;
+}
+.card-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:.6s;
+}
+.safari-card:hover img{
+    transform:scale(1.08);
+}
+
+
+.badge{
+    position:absolute;
+    top:18px;
+    left:18px;
+    background:#d4af37;
+    color:#fff;
+    padding:8px 16px;
+    border-radius:30px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+
+.duration{
+    position:absolute;
+    bottom:18px;
+    right:18px;
+    background:rgba(0,0,0,.75);
+    color:#fff;
+    padding:8px 15px;
+    border-radius:30px;
+}
+
+
+.card-content{
+    padding:30px;
+}
+.destination{
+    color:#777;
+    margin:15px 0;
+}
+.description{
+    color:#666;
+    line-height:1.8;
+}
+
+
+.price{
+    margin:30px 0;
+}
+.price small{
+    color:#999;
+    letter-spacing:2px;
+}
+.price h2{
+    color:var(--primary);
+    font-size:34px;
+    margin-top:5px;
+}
+
+
+.card-buttons{
+    display:flex;
+    gap:15px;
+}
+.card-buttons .btn{
+    flex:1;
+    text-align:center;
+}
