@@ -242,3 +242,32 @@ ul{
     text-align:center;
     font-weight:600;
 }
+/* =====================================================
+   GLOBAL HERO CONTENT
+===================================================== */
+.hero-content{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+    color:#ffffff;
+    z-index:2;
+    position:relative;
+}
+.hero-content h1{
+    color:#ffffff;
+    font-size:clamp(2.5rem,5vw,4.5rem);
+    font-weight:700;
+    line-height:1.2;
+    margin-bottom:20px;
+    text-shadow:0 4px 15px rgba(0,0,0,.45);
+}
+.hero-content h1 span{
+    color:var(--accent);
+}
+.hero-content p{
+    color:#ffffff;
+    font-size:1.25rem;
+    line-height:1.7;
+    margin-bottom:35px;
+    text-shadow:0 3px 10px rgba(0,0,0,.60);
+}
