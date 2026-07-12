@@ -121,104 +121,127 @@
 ===================================================== */
 
 /* Tablets */
-
 @media (max-width:992px){
-
 .safari-grid,
 .cards{
-
     grid-template-columns:repeat(2,1fr);
-
 }
-
 .safari-hero{
-
     height:70vh;
-
 }
-
 .safari-hero h1{
-
     font-size:48px;
-
 }
-
 .modal-content{
-
     width:90%;
-
     max-height:85vh;
-
 }
-
 }
-
 /* Mobile */
-
 @media (max-width:768px){
-
 .safari-grid,
 .cards{
-
     grid-template-columns:1fr;
-
 }
-
 .safari-hero{
-
     height:60vh;
-
 }
-
 .safari-hero h1{
-
     font-size:36px;
-
 }
-
 .modal-content{
-
     width:95%;
-
     padding:25px;
-
 }
-
 .modal-content h2{
-
     font-size:28px;
-
 }
-
 }
-
 /* Small Phones */
-
 @media (max-width:576px){
-
 .safari-card img,
 .card img{
-
     height:220px;
-
 }
-
 .modal-content{
-
     padding:20px;
-
 }
-
 .modal-content h2{
-
     font-size:24px;
-
 }
-
 .modal-content p{
-
     font-size:15px;
-
 }
+}
+/* ==========================================
+SAFARI STATISTICS
+========================================== */
+.safari-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1px;
+    background:#e9ecef;
+    max-width:1200px;
+    margin:-60px auto 80px;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 12px 35px rgba(0,0,0,.10);
+    position:relative;
+    z-index:5;
+}
+.stat{
+    background:#fff;
+    padding:35px;
+    text-align:center;
+    transition:.35s;
+}
+.stat:hover{
+    transform:translateY(-6px);
+}
+.stat h3{
+    font-size:42px;
+    color:var(--primary);
+    margin-bottom:10px;
+}
+.stat p{
+    color:#666;
+    font-weight:600;
+}
+
+/* ==========================================
+WHY CHOOSE OUR SAFARIS
+========================================== */
+.why-safari{
+    padding:90px 8%;
+    background:#f8f8f8;
+}
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:60px;
+}
+.why-card{
+    background:#fff;
+    padding:40px 30px;
+    border-radius:18px;
+    text-align:center;
+    transition:.35s;
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+}
+.why-card:hover{
+    transform:translateY(-10px);
+}
+.why-icon{
+    font-size:50px;
+    margin-bottom:20px;
+}
+.why-card h3{
+    margin-bottom:15px;
+    color:var(--primary);
+}
+.why-card p{
+    color:#666;
+    line-height:1.8;
 
 }
