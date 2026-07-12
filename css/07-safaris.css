@@ -418,9 +418,13 @@ WHY TRAVEL WITH JOY
     height:280px;
     object-fit:cover;
     border-radius:18px;
+    border:6px solid white;
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
     transition:.4s;
     cursor:pointer;
 }
+
+
 .gallery-grid img:hover{
     transform:scale(1.05);
 }
@@ -460,7 +464,10 @@ TRAVELER REVIEWS
     margin-bottom:25px;
 }
 .review-card h4{
-    color:var(--primary);
+    color:var(--secondary);
+    font-size:22px;
+    margin-top:15px;
+   
 }
 .review-card span{
     color:#888;
