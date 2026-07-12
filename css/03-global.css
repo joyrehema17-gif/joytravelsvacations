@@ -271,3 +271,46 @@ ul{
     margin-bottom:35px;
     text-shadow:0 3px 10px rgba(0,0,0,.60);
 }
+/* =====================================================
+   GLOBAL HERO SECTION
+===================================================== */
+
+.hero{
+    position:relative;
+    min-height:75vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+/* Dark Overlay */
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    z-index:1;
+}
+/* Hero Content */
+.hero-content{
+    position:relative;
+    z-index:2;
+    width:min(90%,900px);
+    text-align:center;
+    animation:heroFade 1s ease;
+}
+/* Hero Animation */
+@keyframes heroFade{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
