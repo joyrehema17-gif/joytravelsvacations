@@ -8,10 +8,13 @@
    LOAD SHARED COMPONENTS
 ===================================================== */
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
 
-    loadComponent("navbar", "components/navbar.html");
-    loadComponent("footer", "components/footer.html");
+    await loadComponent("navbar", "components/navbar.html");
+
+    await loadComponent("footer", "components/footer.html");
+
+    initializeNavbar();
 
 });
 
@@ -40,6 +43,36 @@ async function loadComponent(id, file){
         console.error(error);
 
     }
+
+}
+/* =====================================================
+   INITIALIZE NAVBAR
+===================================================== */
+
+function initializeNavbar(){
+
+    highlightActivePage();
+
+}
+/* =====================================================
+   ACTIVE PAGE
+===================================================== */
+
+function highlightActivePage(){
+
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    const navLinks = document.querySelectorAll(".nav-links a");
+
+    navLinks.forEach(link => {
+
+        if(link.getAttribute("href") === currentPage){
+
+            link.classList.add("active");
+
+        }
+
+    });
 
 }
 /* =====================================================
