@@ -527,3 +527,25 @@ FINAL CTA
     );
 
 }
+
+.booking h2{
+    font-size:42px;
+    margin-bottom:20px;
+    color:var(--secondary);
+}
+.booking{
+    padding:100px 8%;
+    text-align:center;
+    background:#f8f8f8;
+}
+.booking p{
+    max-width:700px;
+    margin:0 auto 35px;
+    color:#666;
+    font-size:20px;
+    line-height:1.8;
+}
+.booking .btn{
+    display:inline-block;
+
+}
