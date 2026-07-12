@@ -81,6 +81,7 @@ function highlightActivePage(){
     });
 
 }
+
 /* =====================================================
    MOBILE MENU
 ===================================================== */
@@ -93,9 +94,21 @@ function initializeMobileMenu(){
 
     if(!toggle || !navLinks) return;
 
-toggle.addEventListener("click", () => {
+    function toggleMenu(){
+
+        console.log("Toggle menu");
 
         navLinks.classList.toggle("active");
+
+    }
+
+    toggle.addEventListener("click", toggleMenu);
+
+    toggle.addEventListener("touchstart", function(e){
+
+        e.preventDefault();
+
+        toggleMenu();
 
     });
 
