@@ -1,16 +1,22 @@
-/* ==========================================
+/* =====================================================
+   JOY TRAVELS & VACATIONS
    NAVBAR
-========================================== */
+===================================================== */
+/* =====================================================
+   1. NAVBAR CONTAINER
+===================================================== */
 
 .navbar{
 
-    position:fixed;
+    position:sticky;
 
     top:0;
 
+    left:0;
+
     width:100%;
 
-    z-index:999;
+    z-index:9999;
 
     display:flex;
 
@@ -22,17 +28,41 @@
 
     background:rgba(27,27,27,.92);
 
-    backdrop-filter:blur(8px);
+    backdrop-filter:blur(10px);
+
+    box-shadow:0 2px 15px rgba(0,0,0,.08);
+
+    transition:all .35s ease;
 
     box-sizing:border-box;
+
+}
+/* =====================================================
+   2. LOGO
+===================================================== */
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
 
 }
 
 .logo img{
 
-    height:70px;
+    height:62px;
+
+    width:auto;
+
+    display:block;
+
+    transition:.35s ease;
 
 }
+/* =====================================================
+   3. NAVIGATION LINKS
+===================================================== */
 
 .nav-links{
 
@@ -42,27 +72,38 @@
 
     gap:32px;
 
+    list-style:none;
+
+    margin:0;
+
+    padding:0;
+
 }
 
-.nav-links a{
-
-    color:white;
-
-    text-decoration:none;
-
-    font-weight:600;
-
-    transition:.3s;
+.nav-links li{
 
     position:relative;
 
 }
 
-.nav-links a:hover{
+.nav-links a{
 
-    color:var(--primary);
+    position:relative;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    transition:.3s ease;
 
 }
+/* =====================================================
+   4. LINK HOVER
+===================================================== */
 
 .nav-links a::after{
 
@@ -70,45 +111,107 @@
 
     position:absolute;
 
-    width:0;
-
     left:0;
 
     bottom:-8px;
 
+    width:0;
+
     height:2px;
 
-    background:var(--primary);
+    background:var(--accent);
 
-    transition:.3s;
+    transition:.3s ease;
 
 }
 
-.nav-links a:hover::after{
+.nav-links a:hover{
+
+    color:var(--accent);
+
+}
+
+.nav-links a:hover::after,
+
+.nav-links a.active::after{
 
     width:100%;
 
 }
-
 .book-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
 
     background:var(--accent);
 
-    color:white;
+    color:#fff;
 
-    padding:12px 25px;
+    padding:14px 28px;
 
-    border-radius:6px;
+    border-radius:40px;
 
     text-decoration:none;
 
-    font-weight:bold;
+    font-weight:700;
 
-    transition:.3s;
+    transition:all .3s ease;
 
 }
 
 .book-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+}
+/* =====================================================
+   NAVIGATION BUTTONS
+===================================================== */
+
+.nav-buttons{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.call-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:14px 28px;
+
+    border:2px solid var(--accent);
+
+    border-radius:40px;
+
+    color:var(--accent);
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:all .3s ease;
+
+}
+
+.call-btn:hover{
+
+    background:var(--accent);
+
+    color:#fff;
 
     transform:translateY(-3px);
 
