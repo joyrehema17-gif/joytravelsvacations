@@ -271,9 +271,6 @@ ul{
     margin-bottom:35px;
     text-shadow:0 3px 10px rgba(0,0,0,.60);
 }
-/* =====================================================
-   GLOBAL HERO SECTION
-===================================================== */
 
 /* =====================================================
    GLOBAL HERO SECTION
@@ -316,7 +313,7 @@ ul{
 @keyframes heroFade{
     from{
         opacity:0;
-        transform:translateY(30px);
+        transform:translateY(40px);
     }
     to{
         opacity:1;
