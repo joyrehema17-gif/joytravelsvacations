@@ -409,3 +409,37 @@ WHY TRAVEL WITH JOY
 .gallery-grid img:hover{
     transform:scale(1.05);
 }
+/* ==========================================
+FINAL CTA
+========================================== */
+
+.safari-cta{
+    background:url("../images/cta-safari.jpg") center/cover no-repeat;
+    padding:140px 8%;
+    position:relative;
+    text-align:center;
+
+}
+.safari-cta::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+}
+.cta-overlay{
+    position:relative;
+    z-index:2;
+    max-width:800px;
+    margin:auto;
+}
+.cta-overlay h2{
+    color:#fff;
+    font-size:52px;
+    margin-bottom:25px;
+}
+.cta-overlay p{
+    color:#fff;
+    font-size:22px;
+    margin-bottom:40px;
+    line-height:1.8;
+}
