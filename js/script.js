@@ -152,18 +152,18 @@ function showSlide(){
     if(currentSlide >= slides.length){
 
         currentSlide = 0;
-
     }
-
 }
-
 if(slides.length){
-
     showSlide();
 
     setInterval(showSlide,4000);
 
 }
+/* =====================================================
+   WHATSAPP BOOKING
+===================================================== */
+
 document.addEventListener("click", function (e) {
 
     const button = e.target.closest(".book-btn");
