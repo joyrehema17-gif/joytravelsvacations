@@ -34,7 +34,85 @@ if (safariContainer && typeof safaris !== "undefined") {
 
             </div>
         `;
+safariContainer.innerHTML += `
 
+<div class="safari-card">
+
+    <div class="card-image">
+
+        <img src="${safari.image}" alt="${safari.title}">
+
+        <span class="badge">
+
+            ⭐ Featured
+
+        </span>
+
+        <span class="duration">
+
+            ${safari.duration}
+
+        </span>
+
+    </div>
+
+    <div class="card-content">
+
+        <h3 class="tour-name">
+
+            ${safari.title}
+
+        </h3>
+
+        <p class="destination">
+
+            📍 Kenya Safari Experience
+
+        </p>
+
+        <p class="description">
+
+            ${safari.shortDescription}
+
+        </p>
+
+        <div class="price">
+
+            <small>FROM</small>
+
+            <h2>${safari.price}</h2>
+
+        </div>
+
+        <div class="card-buttons">
+
+            <button
+                class="btn"
+                onclick="openModal('${safari.id}')">
+
+                View Itinerary
+
+            </button>
+
+            <button
+                class="btn book-btn"
+                data-safari="${safari.title}">
+
+                Book Now
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+`;
+
+
+
+        
         // Build itinerary HTML
         let itineraryHTML = "";
 
