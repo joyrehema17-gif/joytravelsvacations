@@ -409,6 +409,50 @@ WHY TRAVEL WITH JOY
 .gallery-grid img:hover{
     transform:scale(1.05);
 }
+
+/* ==========================================
+TRAVELER REVIEWS
+========================================== */
+.reviews-section{
+    padding:120px 8%;
+    background:#fff;
+}
+.reviews-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:35px;
+    margin-top:60px;
+}
+.review-card{
+    background:#f8f8f8;
+    padding:40px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    transition:.35s;
+}
+.review-card:hover{
+    transform:translateY(-10px);
+}
+.stars{
+    color:#d4af37;
+    font-size:24px;
+    margin-bottom:20px;
+}
+.review-card p{
+    line-height:1.9;
+    color:#666;
+    font-style:italic;
+    margin-bottom:25px;
+}
+.review-card h4{
+    color:var(--primary);
+}
+.review-card span{
+    color:#888;
+}
+
+
+
 /* ==========================================
 FINAL CTA
 ========================================== */
