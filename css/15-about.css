@@ -9,63 +9,36 @@
 ===================================================== */
 
 .about-hero{
-
     position:relative;
-
     height:70vh;
-
     background:url("../images/about/hero.jpg") center/cover no-repeat;
-
     display:flex;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
     overflow:hidden;
-
 }
-
 .about-hero::before{
-
     content:"";
-
     position:absolute;
-
     inset:0;
-
     background:rgba(0,0,0,.55);
-
 }
 
 .about-hero .hero-content{
-
     position:relative;
-
     z-index:2;
-
     max-width:900px;
-
     padding:20px;
-
     color:#fff;
-
 }
 
 .about-hero span{
-
     display:inline-block;
-
     color:var(--primary);
-
     font-weight:700;
-
     text-transform:uppercase;
-
     letter-spacing:2px;
-
     margin-bottom:20px;
 
 }
@@ -74,53 +47,28 @@
 /* =====================================================
    OUR STORY
 ===================================================== */
-
 .about-story{
-
     padding:100px 8%;
-
     background:#fff;
-
 }
 
 .story-grid{
-
     display:grid;
-
     grid-template-columns:1fr 1fr;
-
     gap:60px;
-
     align-items:center;
 
 }
 
 .story-image img{
-
     width:100%;
-
     border-radius:18px;
-
     box-shadow:var(--shadow);
 
 }
-
 .story-content h2{
-
     margin-bottom:25px;
-
 }
-
-.story-content p{
-
-    margin-bottom:20px;
-
-    color:#666;
-
-    line-height:1.9;
-
-}
-
 
 /* =====================================================
    MISSION & VISION
