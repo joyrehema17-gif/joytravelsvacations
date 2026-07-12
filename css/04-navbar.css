@@ -170,7 +170,7 @@
 
 }
 /* =====================================================
-   NAVIGATION BUTTONS
+   5. NAVIGATION BUTTONS
 ===================================================== */
 
 .nav-buttons{
@@ -183,6 +183,8 @@
 
 }
 
+/* Call Button */
+
 .call-btn{
 
     display:inline-flex;
@@ -191,7 +193,7 @@
 
     justify-content:center;
 
-    padding:14px 28px;
+    padding:12px 26px;
 
     border:2px solid var(--accent);
 
@@ -201,7 +203,7 @@
 
     text-decoration:none;
 
-    font-weight:700;
+    font-weight:600;
 
     transition:all .3s ease;
 
@@ -216,8 +218,42 @@
     transform:translateY(-3px);
 
 }
+
+/* Book Button */
+
+.book-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:12px 28px;
+
+    background:var(--accent);
+
+    color:#fff;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    border-radius:40px;
+
+    transition:all .3s ease;
+
+}
+
+.book-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 25px rgba(0,0,0,.18);
+
+}
 /* =====================================================
-   DROPDOWN MENU
+   6. DROPDOWN MENU
 ===================================================== */
 
 .dropdown{
@@ -254,7 +290,7 @@
 
     transform:rotate(45deg);
 
-    transition:.3s;
+    transition:.3s ease;
 
     margin-top:-3px;
 
@@ -286,11 +322,11 @@
 
     border-radius:12px;
 
-    list-style:none;
-
     padding:10px 0;
 
-    box-shadow:0 15px 40px rgba(0,0,0,.12);
+    list-style:none;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
 
     opacity:0;
 
@@ -298,13 +334,13 @@
 
     transform:translateY(15px);
 
-    transition:.35s;
+    transition:all .3s ease;
 
     z-index:1000;
 
 }
 
-/* Show */
+/* Show Menu */
 
 .dropdown:hover .dropdown-menu{
 
