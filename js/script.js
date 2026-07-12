@@ -164,3 +164,20 @@ if(slides.length){
     setInterval(showSlide,4000);
 
 }
+document.addEventListener("click", function (e) {
+
+    const button = e.target.closest(".book-btn");
+
+    if (!button) return;
+
+    const safari = button.dataset.safari || "a Kenya Safari";
+
+    const message =
+        `Hello Joy Travels, I would like to book ${safari}. Kindly share itinerary, price and availability.`;
+
+    window.open(
+        `https://wa.me/254703158470?text=${encodeURIComponent(message)}`,
+        "_blank"
+    );
+
+});
