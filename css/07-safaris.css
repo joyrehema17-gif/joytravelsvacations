@@ -255,16 +255,20 @@ PREMIUM SAFARI CARDS
     margin-top:60px;
 }
 .safari-card{
-    background:#fff;
+     background:#fff;
     border-radius:22px;
     overflow:hidden;
     box-shadow:0 15px 40px rgba(0,0,0,.10);
-    transition:.4s;
+    transition:
+   transform .35s ease,
+   box-shadow .35s ease;
+
+
 }
 .safari-card:hover{
-    transform:translateY(-12px);
+   transform:translateY(-8px) scale(1.02);
     box-shadow:0 25px 60px rgba(0,0,0,.18);
-
+   
 }
 
 
