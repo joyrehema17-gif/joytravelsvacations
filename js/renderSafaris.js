@@ -1,9 +1,10 @@
 // ==========================================
 // Render Safari Cards
 // ==========================================
-
-const safariContainer = document.getElementById("safari-container");
+const safariContainer = document.getElementById("safariContainer");
+//const safariContainer = document.getElementById("safari-container");
 const modalContainer = document.getElementById("modal-container");
+
 
 if (safariContainer && typeof safaris !== "undefined") {
 
