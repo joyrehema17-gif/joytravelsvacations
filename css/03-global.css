@@ -94,6 +94,7 @@ img{
     cursor:pointer;
     font-weight:700;
     transition:var(--transition);
+   
 }
 
 .btn:hover{
@@ -252,6 +253,7 @@ ul{
     color:#ffffff;
     z-index:2;
     position:relative;
+   animation:heroFade 1.2s ease-out;
 }
 .hero-content h1{
     color:#ffffff;
@@ -260,6 +262,7 @@ ul{
     line-height:1.2;
     margin-bottom:20px;
     text-shadow:0 4px 15px rgba(0,0,0,.45);
+      animation:heroFade 1.3s ease;
 }
 .hero-content h1 span{
     color:var(--primary);
@@ -270,6 +273,7 @@ ul{
     line-height:1.7;
     margin-bottom:35px;
     text-shadow:0 3px 10px rgba(0,0,0,.60);
+     animation:heroFade 1.6s ease;
 }
 
 /* =====================================================
@@ -287,6 +291,7 @@ ul{
     background-position:center;
     background-repeat:no-repeat;
     background-attachment:fixed;
+   animation:heroZoom 20s ease-in-out infinite alternate;
 }
 
 /* Dark Overlay */
@@ -318,5 +323,13 @@ ul{
     to{
         opacity:1;
         transform:translateY(0);
+    }
+}
+@keyframes heroZoom{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.05);
     }
 }
