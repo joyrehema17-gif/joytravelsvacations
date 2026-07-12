@@ -1,29 +1,18 @@
 // ==========================================
 // SAFARI MODALS
 // ==========================================
-
-function openModal(id) {
-
+function openModal(id){
     document.getElementById(id).style.display = "block";
-
 }
-
-function closeModal(id) {
-
+function closeModal(id){
     document.getElementById(id).style.display = "none";
-
 }
-
-window.addEventListener("click", function(event){
-
-    document.querySelectorAll(".modal").forEach(function(modal){
-
-        if(event.target === modal){
-
+window.onclick = function(e){
+    document.querySelectorAll(".modal").forEach(modal=>{
+        if(e.target === modal){
             modal.style.display = "none";
-
         }
 
     });
 
-});
+}
