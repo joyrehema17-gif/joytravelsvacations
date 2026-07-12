@@ -379,3 +379,20 @@
     color:#fff;
 
 }
+/* =====================================================
+   7. ACTIVE PAGE
+===================================================== */
+
+.nav-links a.active{
+
+    color:var(--accent);
+
+    font-weight:700;
+
+}
+
+.nav-links a.active::after{
+
+    width:100%;
+
+}
