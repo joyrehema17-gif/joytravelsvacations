@@ -95,8 +95,6 @@ function initializeMobileMenu(){
 
 toggle.addEventListener("click", () => {
 
-        console.log("Menu clicked");
-
         navLinks.classList.toggle("active");
 
     });
