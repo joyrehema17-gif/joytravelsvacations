@@ -380,6 +380,86 @@
 
 }
 /* =====================================================
+   8. MOBILE MENU BUTTON
+===================================================== */
+
+.menu-toggle{
+
+    display:none;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    cursor:pointer;
+
+    gap:6px;
+
+}
+
+.menu-toggle span{
+
+    width:28px;
+
+    height:3px;
+
+    background:#fff;
+
+    border-radius:5px;
+
+    transition:.3s;
+
+}
+/* =====================================================
+   9. MOBILE NAVIGATION
+===================================================== */
+
+@media (max-width:992px){
+
+    .menu-toggle{
+
+        display:flex;
+
+    }
+
+    .nav-links{
+
+        position:absolute;
+
+        top:100%;
+
+        left:0;
+
+        width:100%;
+
+        background:rgba(27,27,27,.98);
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        padding:30px;
+
+        gap:20px;
+
+        display:none;
+
+    }
+
+    .nav-links.active{
+
+        display:flex;
+
+    }
+
+    .nav-buttons{
+
+        display:none;
+
+    }
+
+}
+/* =====================================================
    7. ACTIVE PAGE
 ===================================================== */
 
