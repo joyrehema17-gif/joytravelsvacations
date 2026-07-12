@@ -7,87 +7,39 @@
 /* =====================================================
    HERO
 ===================================================== */
-
 .group-hero{
-
     position:relative;
-
     height:70vh;
-
     background:url("../images/hero/group-travel.jpg") center/cover no-repeat;
-
     display:flex;
-
     align-items:center;
-
     justify-content:center;
-
     text-align:center;
-
     overflow:hidden;
-
 }
 
 .group-hero .hero-overlay{
-
     position:absolute;
-
     inset:0;
-
     background:rgba(0,0,0,.55);
 
 }
-
 .group-hero .hero-content{
-
     position:relative;
-
     z-index:2;
-
     max-width:900px;
-
     padding:20px;
-
     color:#fff;
 
 }
-
 .group-hero span{
-
     display:inline-block;
-
     color:var(--primary);
-
     font-weight:700;
-
     letter-spacing:2px;
-
     text-transform:uppercase;
-
     margin-bottom:20px;
-
 }
-
-.group-hero h1{
-
-    font-size:62px;
-
-    margin-bottom:25px;
-
-}
-
-.group-hero p{
-
-    max-width:760px;
-
-    margin:auto auto 35px;
-
-    font-size:22px;
-
-    line-height:1.8;
-
-}
-
 
 /* =====================================================
    INTRODUCTION
