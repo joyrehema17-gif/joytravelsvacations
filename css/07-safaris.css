@@ -70,10 +70,14 @@
 .card-buttons{
     display:flex;
     gap:15px;
+    margin-top:25px;
 }
-
 .card-buttons .btn{
     flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:50px;
     text-align:center;
 }
 
