@@ -1,1 +1,72 @@
+/* ==========================================
+   GALLERY HERO
+========================================== */
 
+.gallery-hero{
+
+    background:url("../images/gallery/gallery-hero.jpg")
+    center center/cover no-repeat;
+
+}
+
+/* ==========================================
+   FILTERS
+========================================== */
+
+.gallery-filter{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    padding:60px 8%;
+
+    background:#fff;
+
+}
+
+.gallery-filter button{
+
+    padding:12px 24px;
+
+    border:none;
+
+    border-radius:40px;
+
+    background:#f5f5f5;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.gallery-filter button:hover,
+
+.gallery-filter button.active{
+
+    background:var(--primary);
+
+    color:#fff;
+
+}
+
+/* ==========================================
+   GALLERY GRID
+========================================== */
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
