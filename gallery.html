@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gallery | Joy Travels & Vacations</title>
+
+    <!-- Global -->
+    <link rel="stylesheet" href="css/01-variables.css">
+    <link rel="stylesheet" href="css/02-reset.css">
+    <link rel="stylesheet" href="css/03-global.css">
+
+    <!-- Components -->
+    <link rel="stylesheet" href="css/04-navbar.css">
+    <link rel="stylesheet" href="css/05-footer.css">
+
+    <!-- Shared Hero -->
+    <link rel="stylesheet" href="css/06-home.css">
+
+    <!-- Gallery -->
+    <link rel="stylesheet" href="css/20-gallery.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+<div id="navbar"></div>
+
+<!-- HERO -->
+
+<section class="hero gallery-hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+        <span>DISCOVER KENYA</span>
+
+        <h1>Photo Gallery</h1>
+
+        <p>
+
+            Every photograph tells a story.
+            Every journey creates a memory.
+
+        </p>
+
+    </div>
+
+</section>
+
+<!-- FILTERS -->
+
+<section class="gallery-filter">
+
+    <button class="active" data-filter="all">All</button>
+
+    <button data-filter="safari">Safaris</button>
+
+    <button data-filter="wildlife">Wildlife</button>
+
+    <button data-filter="beaches">Beaches</button>
+
+    <button data-filter="culture">Culture</button>
+
+    <button data-filter="hotels">Hotels</button>
+
+    <button data-filter="transfers">Transfers</button>
+
+</section>
+
+<!-- GALLERY -->
+
+<section class="section">
+
+    <div class="section-title">
+
+        <h2>
+
+            Explore Kenya Through Our Lens
+
+        </h2>
+
+        <p>
+
+            Discover unforgettable moments from our
+            safari adventures and coastal experiences.
+
+        </p>
+
+    </div>
+
+    <div id="galleryContainer"
+         class="gallery-grid">
+
+    </div>
+
+</section>
+
+<!-- LIGHTBOX -->
+
+<div id="lightbox" class="lightbox">
+
+    <span class="close-lightbox">&times;</span>
+
+    <img id="lightbox-image">
+
+    <p id="lightbox-caption"></p>
+
+</div>
+
+<!-- CTA -->
+
+<section class="booking">
+
+    <h2>
+
+        Ready To Experience Kenya?
+
+    </h2>
+
+    <p>
+
+        Let us create your unforgettable journey.
+
+    </p>
+
+    <a href="https://wa.me/254703158470"
+       class="btn">
+
+        Book Your Adventure
+
+    </a>
+
+</section>
+
+<div id="footer"></div>
+
+<script src="js/components.js"></script>
+<script src="js/script.js"></script>
+
+<script src="js/gallery-data.js"></script>
+<script src="js/renderGallery.js"></script>
+<script src="js/lightbox.js"></script>
+
+<script src="js/animations.js"></script>
+
+</body>
+</html>
