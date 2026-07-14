@@ -169,3 +169,110 @@
     margin-bottom:25px;
 
 }
+/* ==========================================
+   LIGHTBOX
+========================================== */
+
+.lightbox{
+
+    display:none;
+
+    position:fixed;
+
+    inset:0;
+
+    background:rgba(0,0,0,.95);
+
+    z-index:99999;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+}
+
+.lightbox img{
+
+    max-width:90%;
+
+    max-height:75vh;
+
+    border-radius:15px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.5);
+
+}
+
+.lightbox-info{
+
+    color:white;
+
+    text-align:center;
+
+    margin-top:25px;
+
+}
+
+.close-lightbox{
+
+    position:absolute;
+
+    top:25px;
+
+    right:35px;
+
+    color:white;
+
+    font-size:40px;
+
+    cursor:pointer;
+
+}
+
+.prev,
+.next{
+
+    position:absolute;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    background:rgba(255,255,255,.15);
+
+    color:white;
+
+    border:none;
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    cursor:pointer;
+
+    font-size:28px;
+
+}
+
+.prev{
+
+    left:40px;
+
+}
+
+.next{
+
+    right:40px;
+
+}
+
+.prev:hover,
+.next:hover{
+
+    background:var(--primary);
+
+}
