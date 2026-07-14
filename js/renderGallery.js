@@ -24,49 +24,33 @@ function renderGallery(category) {
 
         galleryContainer.innerHTML += `
 
-        <div class="gallery-card">
+       <div class="gallery-card view-photo"
+    data-image="${item.image}"
+    data-title="${item.title}">
 
-            <img src="${item.image}"
-                 alt="${item.title}">
+    <img src="${item.image}"
+         alt="${item.title}">
 
-            <div class="gallery-overlay">
+    <div class="gallery-overlay">
 
-                <span class="gallery-category">
+        <span class="gallery-category">
+            ${item.category}
+        </span>
 
-                    ${item.category}
+        <h3>${item.title}</h3>
 
-                </span>
+        <p>${item.description}</p>
 
-                <h3>
+    </div>
 
-                    ${item.title}
-
-                </h3>
-
-                <p>
-
-                    ${item.description}
-
-                </p>
-
-                <button
-                    class="btn view-photo"
-                    data-image="${item.image}"
-                    data-title="${item.title}">
-
-                    View Photo
-
-                </button>
-
-            </div>
-
-        </div>
+</div>
 
         `;
 
     });
 
 }
+
 
 // ==========================================
 // Filter Buttons
