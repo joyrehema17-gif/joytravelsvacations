@@ -19,17 +19,20 @@ let currentIndex = 0;
 
 document.addEventListener("click", function (e) {
 
-    if (e.target.classList.contains("view-photo")) {
+ const card = e.target.closest(".view-photo");
 
-        currentIndex = galleryImages.findIndex(
-            item => item.image === e.target.dataset.image
-        );
+if (card) {
 
-        openLightbox(currentIndex);
+    currentIndex = galleryImages.findIndex(
+        item => item.image === card.dataset.image
+    );
 
-    }
+    openLightbox(currentIndex);
+
+}
 
 });
+
 
 // ==========================================
 
