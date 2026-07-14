@@ -85,6 +85,7 @@
     box-shadow:var(--shadow);
 
     cursor:pointer;
+  
 
 }
 
@@ -99,28 +100,26 @@
     transition:.5s;
 
 }
+/* ==========================================
+   GALLERY OVERLAY
+========================================== */
 
 .gallery-overlay{
 
     position:absolute;
-
     inset:0;
-
     background:rgba(0,0,0,.65);
 
-    color:#fff;
-
     display:flex;
-
     flex-direction:column;
-
     justify-content:center;
-
     align-items:center;
 
     text-align:center;
 
     padding:30px;
+
+    color:#fff;
 
     opacity:0;
 
@@ -159,14 +158,23 @@
 }
 
 .gallery-overlay h3{
+color:#fff;
 
     margin-bottom:15px;
 
 }
 
 .gallery-overlay p{
+ color:#fff;
 
-    margin-bottom:25px;
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+.gallery-category{
+
+    color:#fff;
 
 }
 /* ==========================================
