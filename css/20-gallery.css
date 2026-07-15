@@ -105,55 +105,63 @@
 ========================================== */
 
 .gallery-overlay{
-
     position:absolute;
     inset:0;
-    background:rgba(0,0,0,.65);
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,.85),
+        rgba(0,0,0,.45)
+    );
 
     display:flex;
     flex-direction:column;
-    justify-content:center;
-    align-items:center;
-
-    text-align:center;
-
+    justify-content:flex-end;
     padding:30px;
-
     color:#fff;
-
     opacity:0;
+    transform:translateY(30px);
+    transition:.45s ease;
+}
+.gallery-card img{
 
-    transition:.4s;
-
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    transition:transform .8s ease;
 }
 
 .gallery-card:hover img{
-
-    transform:scale(1.08);
-
+     transform:scale(1.10);
 }
 
 .gallery-card:hover .gallery-overlay{
+ opacity:1;
 
-    opacity:1;
+    transform:translateY(0);
 
 }
 
 .gallery-category{
 
-    background:var(--primary);
+    display:inline-block;
+
+    background:rgba(212,175,55,.95);
 
     color:#fff;
 
-    padding:6px 16px;
+    padding:8px 18px;
 
     border-radius:30px;
 
+    font-size:13px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
     margin-bottom:15px;
-
-    text-transform:capitalize;
-
-    font-size:14px;
 
 }
 
