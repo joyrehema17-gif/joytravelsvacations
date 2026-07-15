@@ -14,15 +14,27 @@ if (homeGallery && typeof galleryImages !== "undefined") {
 
         <a href="gallery.html" class="home-gallery-card">
 
-            <img src="${item.image}" alt="${item.title}">
+    <img
+        src="${item.image}"
+        alt="${item.title}">
 
-            <div class="home-gallery-overlay">
+    <div class="home-gallery-overlay">
 
-                <h3>${item.title}</h3>
+        <span class="gallery-label">
 
-            </div>
+            ${item.category}
 
-        </a>
+        </span>
+
+        <h3>
+
+            ${item.title}
+
+        </h3>
+
+    </div>
+
+</a>
 
         `;
 
