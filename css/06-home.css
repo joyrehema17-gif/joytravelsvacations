@@ -705,8 +705,9 @@ HOME GALLERY PREVIEW
     transition:.4s;
 }
 .home-gallery-overlay h3{
-    color:white;
-    font-size:20px;
+    color:#fff;
+    margin-top:8px;
+    font-size:22px;
 }
 
 .gallery-button{
