@@ -734,10 +734,10 @@ WHY US
     background:#ffffff;
 }
 .stats-grid{
-    display:grid;
+     display:grid;
     grid-template-columns:repeat(4,1fr);
     gap:30px;
-    margin:60px 0;
+    margin-top:70px;
 }
 .stat-box{
     text-align:center;
