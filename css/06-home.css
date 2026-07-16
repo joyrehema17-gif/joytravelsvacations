@@ -764,12 +764,18 @@ WHY US
     gap:35px;
 }
 .why-card{
-    padding:40px;
-    border-radius:20px;
-    background:#fff;
+   
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
     text-align:center;
+    padding:45px 35px;
+    background:#fff;
+    border-radius:20px;
     box-shadow:var(--shadow);
     transition:.4s;
+    overflow:hidden;
 }
 .why-card:hover{
     transform:translateY(-10px);
