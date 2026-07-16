@@ -799,6 +799,10 @@ WHY US
     color:var(--text);
     line-height:1.8;
 }
+.why-card:hover .why-icon{
 
+    transform:rotate(8deg) scale(1.08);
+
+}
 
 
