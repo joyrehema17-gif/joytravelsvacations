@@ -780,16 +780,31 @@ WHY US
 .why-card:hover{
     transform:translateY(-10px);
 }
-.why-icon{
-     width:90px;
+    .why-icon{
+
+    width:90px;
     height:90px;
+
     display:flex;
     justify-content:center;
     align-items:center;
+
+    margin:0 auto 25px;
+
     border-radius:50%;
-    margin-bottom:25px;
-    font-size:36px;
+
+    background:linear-gradient(
+        135deg,
+        var(--primary),
+        #f4c542
+    );
+
     color:#fff;
+
+    font-size:36px;
+
+    box-shadow:0 10px 30px rgba(212,175,55,.35);
+
 }
 .why-card h3{
    margin:15px 0;
