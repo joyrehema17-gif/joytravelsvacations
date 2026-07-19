@@ -9,7 +9,7 @@
 ===================================================== */
 
 .about-hero{
-    background:url("../images/about/hero.jpg") center/cover no-repeat;
+    background:url("../images/hero/about.jpg") center/cover no-repeat;
     
 }
 .about-hero::before{
