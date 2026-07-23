@@ -366,3 +366,25 @@ GLOBAL SECTION SPACING
     color:#666;
     line-height:1.8;
 }
+/* ==========================================
+   PAGE LAYOUT
+========================================== */
+
+html,
+body{
+    width:100%;
+    min-height:100%;
+    margin:0;
+    padding:0;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+#footer{
+    width:100%;
+    margin-top:auto;
+}
