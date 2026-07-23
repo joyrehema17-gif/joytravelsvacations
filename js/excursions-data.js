@@ -1,15 +1,81 @@
 // ==========================================
 // EXCURSIONS DATA
+// Joy Travels & Vacations
 // ==========================================
 
 const excursions = [
 
+    // ==========================================
+    // MARINE EXCURSIONS
+    // ==========================================
+
     {
-        id: "watamu-marine",
+        id: "wasini-island",
+        category: "Marine Excursions",
 
-        title: "Watamu Marine National Park",
+        title: "Wasini Island",
 
-        image: "images/excursions/watamu-marine.jpg",
+        image: "images/excursions/wasini.jpg",
+
+        duration: "Full Day",
+
+        price: "From KSh 8,500",
+
+        location: "Wasini Island, Kenya",
+
+        shortDescription:
+            "Enjoy dolphins, snorkeling, beautiful ocean scenery and a delicious seafood lunch.",
+
+        description:
+            "Experience an unforgettable day on the Kenyan coast with a trip to Wasini Island. Enjoy a scenic boat ride across the Indian Ocean, explore the beautiful marine environment, look out for dolphins and relax with a delicious seafood lunch.",
+
+        highlights: [
+            "Dolphin watching",
+            "Snorkeling",
+            "Boat excursion",
+            "Seafood lunch",
+            "Indian Ocean scenery"
+        ]
+    },
+
+
+    {
+        id: "kisite-marine-park",
+        category: "Marine Excursions",
+
+        title: "Kisite Marine Park",
+
+        image: "images/excursions/kisite.jpg",
+
+        duration: "Full Day",
+
+        price: "From KSh 9,500",
+
+        location: "South Coast, Kenya",
+
+        shortDescription:
+            "Discover one of Kenya's most spectacular marine parks with snorkeling, coral reefs and incredible marine life.",
+
+        description:
+            "Explore the crystal-clear waters of Kisite-Mpunguti Marine National Park. Enjoy a boat trip across the Indian Ocean, discover colorful coral reefs and experience the rich marine life of Kenya's South Coast.",
+
+        highlights: [
+            "Marine park experience",
+            "Snorkeling",
+            "Coral reefs",
+            "Marine wildlife",
+            "Boat excursion"
+        ]
+    },
+
+
+    {
+        id: "watamu-marine-park",
+        category: "Marine Excursions",
+
+        title: "Watamu Marine Park",
+
+        image: "images/excursions/watamu.jpg",
 
         duration: "Full Day",
 
@@ -18,56 +84,246 @@ const excursions = [
         location: "Watamu, Kenya",
 
         shortDescription:
-            "Discover the beauty of Watamu's crystal-clear waters, coral reefs and incredible marine life.",
+            "Explore coral reefs, tropical fish and the spectacular marine environment of Watamu.",
 
         description:
-            "Enjoy an unforgettable day exploring the Watamu Marine National Park. Experience the beauty of the Indian Ocean, discover colorful coral reefs and, depending on the season, enjoy the opportunity to see dolphins and other marine life.",
+            "Spend a memorable day exploring the Watamu Marine National Park. Enjoy the beautiful Indian Ocean, discover colorful coral reefs and experience the incredible marine life found along the Kenyan coast.",
 
         highlights: [
             "Boat excursion",
-            "Snorkeling experience",
+            "Snorkeling",
             "Coral reefs",
-            "Marine wildlife",
-            "Beautiful coastal scenery"
+            "Tropical fish",
+            "Marine wildlife"
         ]
     },
 
 
     {
-        id: "malindi-watamu",
+        id: "robinson-island",
+        category: "Marine Excursions",
 
-        title: "Malindi & Watamu Day Excursion",
+        title: "Robinson Island",
 
-        image: "images/excursions/malindi-watamu.jpg",
+        image: "images/excursions/robinson-island.jpg",
 
         duration: "Full Day",
 
         price: "From KSh 7,500",
 
-        location: "Malindi & Watamu, Kenya",
+        location: "Malindi, Kenya",
 
         shortDescription:
-            "Explore the beautiful coastal towns of Malindi and Watamu in one unforgettable day.",
+            "Escape to a beautiful coastal island and enjoy a relaxing day surrounded by the Indian Ocean.",
 
         description:
-            "Experience the best of the Kenyan coast as you explore Malindi and Watamu. Discover beautiful beaches, historic landmarks, local culture and breathtaking ocean views.",
+            "Discover the peaceful beauty of Robinson Island and enjoy a relaxing coastal experience away from the busy town. Take in the ocean views, enjoy the natural surroundings and create unforgettable memories along the Kenyan coast.",
 
         highlights: [
-            "Malindi town",
-            "Watamu beaches",
-            "Local culture",
-            "Coastal scenery",
-            "Professional guide"
+            "Island experience",
+            "Indian Ocean",
+            "Boat excursion",
+            "Relaxation",
+            "Coastal scenery"
+        ]
+    },
+
+
+    // ==========================================
+    // NATURE & WILDLIFE
+    // ==========================================
+
+    {
+        id: "shimba-hills",
+        category: "Nature & Wildlife",
+
+        title: "Shimba Hills",
+
+        image: "images/excursions/shimba.jpg",
+
+        duration: "Full Day",
+
+        price: "From KSh 8,500",
+
+        location: "Shimba Hills, Kenya",
+
+        shortDescription:
+            "Explore a beautiful forest reserve famous for elephants, wildlife, waterfalls and spectacular landscapes.",
+
+        description:
+            "Discover the natural beauty of Shimba Hills National Reserve. Enjoy a scenic drive through the reserve, look out for elephants and other wildlife and visit the spectacular Sheldrick Falls surrounded by lush coastal landscapes.",
+
+        highlights: [
+            "Wildlife viewing",
+            "Elephants",
+            "Sheldrick Falls",
+            "Scenic landscapes",
+            "Nature experience"
+        ]
+    },
+
+
+    {
+        id: "haller-park",
+        category: "Nature & Wildlife",
+
+        title: "Haller Park",
+
+        image: "images/excursions/haller.jpg",
+
+        duration: "Half Day",
+
+        price: "From KSh 4,500",
+
+        location: "Mombasa, Kenya",
+
+        shortDescription:
+            "Discover wildlife, nature trails and the famous giraffe feeding experience at Haller Park.",
+
+        description:
+            "Visit Haller Park, a remarkable nature sanctuary created from a former limestone quarry. Enjoy walking trails, discover wildlife and experience the unforgettable opportunity to feed giraffes under the guidance of experienced staff.",
+
+        highlights: [
+            "Giraffe feeding",
+            "Wildlife viewing",
+            "Nature trails",
+            "Family friendly",
+            "Conservation experience"
+        ]
+    },
+
+
+    {
+        id: "arabuko-sokoke",
+        category: "Nature & Wildlife",
+
+        title: "Arabuko Sokoke Forest",
+
+        image: "images/excursions/arabuko.jpg",
+
+        duration: "Half Day",
+
+        price: "From KSh 5,500",
+
+        location: "Kilifi County, Kenya",
+
+        shortDescription:
+            "Explore East Africa's largest remaining coastal forest and discover its unique wildlife and natural beauty.",
+
+        description:
+            "Explore the incredible Arabuko Sokoke Forest, one of Kenya's most important coastal ecosystems. Enjoy a nature walk through the forest and discover unique birds, butterflies, plants and other wildlife.",
+
+        highlights: [
+            "Nature walk",
+            "Bird watching",
+            "Forest wildlife",
+            "Coastal ecosystem",
+            "Photography"
+        ]
+    },
+
+
+    {
+        id: "marafa-hells-kitchen",
+        category: "Nature & Wildlife",
+
+        title: "Marafa's Hell's Kitchen",
+
+        image: "images/excursions/marafa-hells-kitchen.jpg",
+
+        duration: "Full Day",
+
+        price: "From KSh 7,500",
+
+        location: "Marafa, Kilifi County",
+
+        shortDescription:
+            "Discover the spectacular sandstone canyon known as Marafa's Hell's Kitchen and experience one of Kenya's hidden natural wonders.",
+
+        description:
+            "Travel into the heart of Kilifi County to discover Marafa's Hell's Kitchen, a dramatic sandstone canyon shaped by wind and water over thousands of years. Explore the colorful landscape, learn about the local legends and enjoy breathtaking views of this unique natural attraction.",
+
+        highlights: [
+            "Spectacular canyon",
+            "Natural landscapes",
+            "Local legends",
+            "Photography",
+            "Cultural experience"
+        ]
+    },
+
+
+    // ==========================================
+    // HISTORY & CULTURE
+    // ==========================================
+
+    {
+        id: "fort-jesus",
+        category: "History & Culture",
+
+        title: "Fort Jesus",
+
+        image: "images/excursions/fortjesus.jpg",
+
+        duration: "Half Day",
+
+        price: "From KSh 4,500",
+
+        location: "Mombasa, Kenya",
+
+        shortDescription:
+            "Step into history and explore one of Kenya's most famous historical landmarks.",
+
+        description:
+            "Visit Fort Jesus in Mombasa and discover centuries of coastal history. Explore the historic fortifications, learn about the region's Portuguese and Swahili heritage and enjoy the fascinating stories surrounding this iconic landmark.",
+
+        highlights: [
+            "Historical landmark",
+            "Portuguese history",
+            "Swahili heritage",
+            "Museum experience",
+            "Cultural discovery"
+        ]
+    },
+
+
+    {
+        id: "old-town-mombasa",
+        category: "History & Culture",
+
+        title: "Old Town Mombasa",
+
+        image: "images/excursions/oldtown.jpg",
+
+        duration: "Half Day",
+
+        price: "From KSh 4,000",
+
+        location: "Mombasa, Kenya",
+
+        shortDescription:
+            "Explore narrow streets, historic buildings and the rich Swahili culture of Mombasa Old Town.",
+
+        description:
+            "Take a journey through the historic streets of Mombasa Old Town. Discover beautiful Swahili architecture, historic buildings, local markets and the cultural influences that have shaped this fascinating coastal city.",
+
+        highlights: [
+            "Swahili architecture",
+            "Historic streets",
+            "Local markets",
+            "Cultural experience",
+            "Photography"
         ]
     },
 
 
     {
         id: "gede-ruins",
+        category: "History & Culture",
 
-        title: "Gede Ruins Cultural Tour",
+        title: "Gede Ruins",
 
-        image: "images/excursions/gede-ruins.jpg",
+        image: "images/excursions/gede.jpg",
 
         duration: "Half Day",
 
@@ -76,104 +332,111 @@ const excursions = [
         location: "Gede, Kilifi County",
 
         shortDescription:
-            "Step back in time and discover the fascinating history of the ancient Swahili settlement of Gede.",
+            "Discover the mysterious remains of an ancient Swahili civilization hidden within a coastal forest.",
 
         description:
-            "Visit the historic Gede Ruins and explore the remains of an ancient Swahili town surrounded by beautiful coastal forest. Learn about the history, architecture and culture of this fascinating archaeological site.",
+            "Explore the fascinating Gede Ruins, the remains of an ancient Swahili settlement surrounded by beautiful coastal forest. Learn about the history, architecture and culture of this mysterious archaeological site.",
 
         highlights: [
-            "Historical ruins",
-            "Swahili culture",
-            "Professional guide",
+            "Ancient ruins",
+            "Swahili civilization",
+            "Historical discovery",
             "Nature walk",
             "Photography"
         ]
     },
 
 
+    // ==========================================
+    // ADVENTURE ACTIVITIES
+    // ==========================================
+
     {
-        id: "mida-creek",
+        id: "quad-biking",
+        category: "Adventure Activities",
 
-        title: "Mida Creek & Arabuko Sokoke",
+        title: "Quad Biking",
 
-        image: "images/excursions/mida-creek.jpg",
+        image: "images/excursions/quadbike.jpg",
 
-        duration: "Full Day",
+        duration: "2–3 Hours",
 
-        price: "From KSh 7,000",
+        price: "From KSh 5,000",
 
-        location: "Watamu, Kenya",
+        location: "Kenyan Coast",
 
         shortDescription:
-            "Experience mangrove forests, local community life and the natural beauty of Kenya's coastal ecosystem.",
+            "Enjoy an exciting quad biking adventure through scenic coastal trails and natural landscapes.",
 
         description:
-            "Explore the spectacular Mida Creek ecosystem and discover the beauty of Arabuko Sokoke Forest. Enjoy a peaceful connection with nature while learning about the importance of mangroves and coastal conservation.",
+            "Get ready for an exciting outdoor adventure on a quad bike. Ride through scenic coastal trails, discover beautiful landscapes and enjoy the thrill of exploring Kenya from a different perspective.",
 
         highlights: [
-            "Mida Creek",
-            "Mangrove ecosystem",
-            "Arabuko Sokoke Forest",
-            "Nature experience",
-            "Community conservation"
+            "Quad biking",
+            "Coastal trails",
+            "Outdoor adventure",
+            "Scenic landscapes",
+            "Professional guidance"
         ]
     },
 
 
     {
-        id: "dolphin-experience",
+        id: "mida-creek-kayaking",
+        category: "Adventure Activities",
 
-        title: "Dolphin & Snorkeling Experience",
+        title: "Mida Creek Kayaking",
 
-        image: "images/excursions/dolphins.jpg",
+        image: "images/excursions/kayak.jpg",
 
         duration: "Half Day",
 
-        price: "From KSh 6,500",
+        price: "From KSh 5,500",
 
         location: "Watamu, Kenya",
 
         shortDescription:
-            "Enjoy an exciting ocean adventure with snorkeling, beautiful marine life and the possibility of dolphin sightings.",
+            "Paddle peacefully through beautiful mangrove channels and discover the natural beauty of Mida Creek.",
 
         description:
-            "Spend an exciting day on the Indian Ocean exploring the underwater world around Watamu. Enjoy snorkeling in clear waters and keep your eyes open for dolphins and other marine life.",
+            "Enjoy a peaceful kayaking adventure through the beautiful mangrove channels of Mida Creek. Experience the calm waters, discover coastal wildlife and learn about the importance of mangrove ecosystems.",
 
         highlights: [
-            "Dolphin watching",
-            "Snorkeling",
-            "Boat ride",
-            "Indian Ocean",
-            "Marine life"
+            "Kayaking",
+            "Mangrove forests",
+            "Mida Creek",
+            "Bird watching",
+            "Nature experience"
         ]
     },
 
 
     {
-        id: "lamu-cultural",
+        id: "sunset-dhow-cruise",
+        category: "Adventure Activities",
 
-        title: "Lamu Island Cultural Experience",
+        title: "Sunset Dhow Cruise",
 
-        image: "images/excursions/lamu.jpg",
+        image: "images/excursions/dhow.jpg",
 
-        duration: "Full Day",
+        duration: "2–3 Hours",
 
-        price: "From KSh 9,500",
+        price: "From KSh 4,500",
 
-        location: "Lamu, Kenya",
+        location: "Kenyan Coast",
 
         shortDescription:
-            "Discover the unique Swahili culture, history and timeless charm of Lamu Island.",
+            "Relax aboard a traditional Swahili dhow and watch the spectacular African sunset over the Indian Ocean.",
 
         description:
-            "Explore the historic island of Lamu and experience its unique Swahili culture. Discover narrow streets, traditional architecture, local markets and the rich history that makes Lamu one of Kenya's most fascinating destinations.",
+            "End your day in style aboard a traditional Swahili dhow. Cruise along the beautiful Kenyan coastline while enjoying the warm colors of the setting sun and the peaceful atmosphere of the Indian Ocean.",
 
         highlights: [
-            "Lamu Old Town",
-            "Swahili culture",
-            "Traditional architecture",
-            "Local markets",
-            "Cultural experience"
+            "Traditional dhow",
+            "Sunset views",
+            "Indian Ocean",
+            "Relaxing experience",
+            "Photography"
         ]
     }
 
