@@ -128,3 +128,31 @@ section{
     grid-template-columns:1fr;
 }
 }
+/* ==========================================
+   EXCURSION CARDS RESPONSIVE
+========================================== */
+
+@media (max-width: 900px){
+    .excursion-category .cards{
+        grid-template-columns:repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .excursion-category{
+        padding:60px 5%;
+    }
+    .excursion-category .cards{
+        grid-template-columns:1fr;
+    }
+    .excursion-image{
+        height:230px;
+    }
+    .excursion-bottom{
+        flex-direction:column;
+        align-items:stretch;
+    }
+    .excursion-details-btn{
+        width:100%;
+    }
+}
