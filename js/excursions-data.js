@@ -19,7 +19,7 @@ const excursions = [
 
         duration: "Full Day",
 
-        price: "From KSh 8,500",
+        price: "KSh 8,500",
 
         location: "Wasini Island, Kenya",
 
@@ -49,7 +49,7 @@ const excursions = [
 
         duration: "Full Day",
 
-        price: "From KSh 9,500",
+        price: "KSh 9,500",
 
         location: "South Coast, Kenya",
 
@@ -79,7 +79,7 @@ const excursions = [
 
         duration: "Full Day",
 
-        price: "From KSh 8,500",
+        price: "KSh 8,500",
 
         location: "Watamu, Kenya",
 
@@ -109,7 +109,7 @@ const excursions = [
 
         duration: "Full Day",
 
-        price: "From KSh 7,500",
+        price: "KSh 7,500",
 
         location: "Malindi, Kenya",
 
@@ -143,7 +143,7 @@ const excursions = [
 
         duration: "Full Day",
 
-        price: "From KSh 8,500",
+        price: "KSh 8,500",
 
         location: "Shimba Hills, Kenya",
 
@@ -173,7 +173,7 @@ const excursions = [
 
         duration: "Half Day",
 
-        price: "From KSh 4,500",
+        price: "KSh 4,500",
 
         location: "Mombasa, Kenya",
 
@@ -203,7 +203,7 @@ const excursions = [
 
         duration: "Half Day",
 
-        price: "From KSh 5,500",
+        price: "KSh 5,500",
 
         location: "Kilifi County, Kenya",
 
@@ -233,7 +233,7 @@ const excursions = [
 
         duration: "Full Day",
 
-        price: "From KSh 7,500",
+        price: "KSh 7,500",
 
         location: "Marafa, Kilifi County",
 
@@ -267,7 +267,7 @@ const excursions = [
 
         duration: "Half Day",
 
-        price: "From KSh 4,500",
+        price: "KSh 4,500",
 
         location: "Mombasa, Kenya",
 
@@ -297,7 +297,7 @@ const excursions = [
 
         duration: "Half Day",
 
-        price: "From KSh 4,000",
+        price: "KSh 4,000",
 
         location: "Mombasa, Kenya",
 
@@ -327,7 +327,7 @@ const excursions = [
 
         duration: "Half Day",
 
-        price: "From KSh 4,500",
+        price: "KSh 4,500",
 
         location: "Gede, Kilifi County",
 
@@ -361,7 +361,7 @@ const excursions = [
 
         duration: "2–3 Hours",
 
-        price: "From KSh 5,000",
+        price: "KSh 5,000",
 
         location: "Kenyan Coast",
 
@@ -391,7 +391,7 @@ const excursions = [
 
         duration: "Half Day",
 
-        price: "From KSh 5,500",
+        price: "KSh 5,500",
 
         location: "Watamu, Kenya",
 
@@ -421,7 +421,7 @@ const excursions = [
 
         duration: "2–3 Hours",
 
-        price: "From KSh 4,500",
+        price: "KSh 4,500",
 
         location: "Kenyan Coast",
 
