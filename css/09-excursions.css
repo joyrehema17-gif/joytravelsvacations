@@ -388,3 +388,30 @@
 .excursion-description{
     max-width:100%;
 }
+/* ==========================================
+   EXCURSION PAGE FULL WIDTH FIX
+========================================== */
+
+.excursion-category{
+    width:100%;
+    max-width:none;
+    box-sizing:border-box;
+}
+
+.excursion-category .cards{
+    width:100%;
+    max-width:1400px;
+    margin:50px auto 0;
+    padding:0 20px;
+    box-sizing:border-box;
+
+    display:grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    gap:35px;
+}
+
+.excursion-card{
+    width:100%;
+    min-width:0;
+    box-sizing:border-box;
+}
