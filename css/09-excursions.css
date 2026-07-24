@@ -415,3 +415,42 @@
     min-width:0;
     box-sizing:border-box;
 }
+/* ==========================================
+EXCURSION CARD PRICE & BUTTON FIX
+========================================== */
+
+.excursion-bottom{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:25px;
+    margin-top:30px;
+    padding-top:25px;
+    border-top:1px solid #eee;
+}
+
+.excursion-price{
+    flex:0 0 auto;
+    min-width:110px;
+}
+
+.excursion-price small{
+    display:block;
+    margin-bottom:8px;
+    color:#888;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.excursion-price strong{
+    display:block;
+    white-space:nowrap;
+    font-size:18px;
+    color:var(--primary);
+}
+
+.excursion-bottom .btn{
+    flex:0 0 auto;
+    white-space:nowrap;
+    padding:15px 30px;
+}
