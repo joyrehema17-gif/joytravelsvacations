@@ -313,15 +313,36 @@
 /* ==========================================
    CARD BOTTOM
 ========================================== */
-
 .excursion-bottom{
     display:flex;
     align-items:center;
     justify-content:space-between;
     gap:20px;
+
     margin-top:25px;
     padding-top:20px;
+
     border-top:1px solid #eee;
+}
+
+.excursion-price{
+    flex:1;
+    min-width:0;
+}
+
+.excursion-price small{
+    display:block;
+    font-size:11px;
+    color:#888;
+    letter-spacing:1px;
+    margin-bottom:5px;
+}
+
+.excursion-price strong{
+    display:block;
+    white-space:nowrap;
+    font-size:18px;
+    color:var(--primary);
 }
 
 /* ==========================================
