@@ -551,7 +551,26 @@
     }
 
 }
+/* ==========================================
+   EXCURSIONS FOOTER ISOLATION
+========================================== */
 
+#footer{
+    display:block;
+    width:100vw;
+    max-width:none;
+    margin-left:calc(50% - 50vw);
+    margin-right:calc(50% - 50vw);
+    padding:0;
+    box-sizing:border-box;
+}
+
+#footer .footer{
+    width:100%;
+    max-width:none;
+    margin:0;
+    box-sizing:border-box;
+}
 
 
 
