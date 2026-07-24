@@ -454,3 +454,24 @@ EXCURSION CARD PRICE & BUTTON FIX
     white-space:nowrap;
     padding:15px 30px;
 }
+/* ==========================================
+EXCURSION CARDS - WIDTH & SPACING
+========================================== */
+
+.excursion-category .cards{
+    width:100%;
+    max-width:1400px;
+    margin:50px auto 0;
+
+    display:grid;
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    gap:25px;
+
+    box-sizing:border-box;
+}
+
+.excursion-card{
+    width:100%;
+    min-width:0;
+    box-sizing:border-box;
+}
