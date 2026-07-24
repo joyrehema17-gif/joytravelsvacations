@@ -110,3 +110,439 @@
     }
 
 }
+/* ==========================================
+   EXCURSION DETAILS MODAL
+========================================== */
+
+.excursion-modal{
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    padding:30px;
+
+    visibility:hidden;
+    opacity:0;
+
+    z-index:9999;
+
+    transition:
+        opacity .35s ease,
+        visibility .35s ease;
+}
+
+
+/* ==========================================
+   ACTIVE MODAL
+========================================== */
+
+.excursion-modal.active{
+    visibility:visible;
+    opacity:1;
+}
+
+
+/* ==========================================
+   MODAL OVERLAY
+========================================== */
+
+.excursion-modal-overlay{
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,.75);
+
+    backdrop-filter:blur(5px);
+}
+
+
+/* ==========================================
+   MODAL CONTENT
+========================================== */
+
+.excursion-modal-content{
+    position:relative;
+
+    width:100%;
+    max-width:950px;
+    max-height:90vh;
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:
+        0 25px 70px rgba(0,0,0,.35);
+
+    transform:translateY(30px) scale(.96);
+
+    transition:
+        transform .35s ease;
+
+    overflow-y:auto;
+
+    z-index:2;
+}
+
+
+.excursion-modal.active
+.excursion-modal-content{
+
+    transform:translateY(0) scale(1);
+
+}
+
+
+/* ==========================================
+   CLOSE BUTTON
+========================================== */
+
+.excursion-modal-close{
+
+    position:absolute;
+
+    top:15px;
+    right:15px;
+
+    width:45px;
+    height:45px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:rgba(0,0,0,.65);
+
+    color:#ffffff;
+
+    font-size:30px;
+
+    line-height:1;
+
+    cursor:pointer;
+
+    z-index:5;
+
+    transition:.3s;
+}
+
+
+.excursion-modal-close:hover{
+
+    background:var(--primary);
+
+    transform:rotate(90deg);
+
+}
+
+
+/* ==========================================
+   MODAL IMAGE
+========================================== */
+
+.excursion-modal-image{
+
+    width:100%;
+    height:380px;
+
+    overflow:hidden;
+}
+
+
+.excursion-modal-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    display:block;
+
+}
+
+
+/* ==========================================
+   MODAL BODY
+========================================== */
+
+.excursion-modal-body{
+
+    padding:40px;
+
+}
+
+
+.excursion-modal-category{
+
+    display:inline-block;
+
+    margin-bottom:12px;
+
+    color:var(--primary);
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+
+.excursion-modal-body h2{
+
+    margin:0 0 15px;
+
+    font-size:38px;
+
+    color:var(--dark);
+
+}
+
+
+/* ==========================================
+   META INFORMATION
+========================================== */
+
+.excursion-modal-meta{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:25px;
+
+    margin-bottom:25px;
+
+    color:#666;
+
+    font-size:15px;
+
+}
+
+
+/* ==========================================
+   DESCRIPTION
+========================================== */
+
+.excursion-modal-description{
+
+    margin-bottom:30px;
+
+    font-size:17px;
+
+    line-height:1.8;
+
+    color:var(--text);
+
+}
+
+
+/* ==========================================
+   HIGHLIGHTS
+========================================== */
+
+.excursion-modal-highlights{
+
+    margin-bottom:30px;
+
+}
+
+
+.excursion-modal-highlights h3{
+
+    margin-bottom:15px;
+
+    font-size:22px;
+
+}
+
+
+.excursion-modal-highlights ul{
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(2,1fr);
+
+    gap:10px 25px;
+
+    padding:0;
+
+    margin:0;
+
+    list-style:none;
+
+}
+
+
+.excursion-modal-highlights li{
+
+    position:relative;
+
+    padding-left:25px;
+
+    color:var(--text);
+
+}
+
+
+.excursion-modal-highlights li::before{
+
+    content:"✓";
+
+    position:absolute;
+
+    left:0;
+
+    color:var(--primary);
+
+    font-weight:bold;
+
+}
+
+
+/* ==========================================
+   MODAL FOOTER
+========================================== */
+
+.excursion-modal-footer{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:25px;
+
+    padding-top:25px;
+
+    border-top:1px solid #eee;
+
+}
+
+
+/* ==========================================
+   MODAL PRICE
+========================================== */
+
+.excursion-modal-price{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+
+.excursion-modal-price small{
+
+    font-size:12px;
+
+    color:#888;
+
+    letter-spacing:1px;
+
+}
+
+
+.excursion-modal-price strong{
+
+    font-size:25px;
+
+    color:var(--primary);
+
+}
+
+
+/* ==========================================
+   PREVENT BACKGROUND SCROLL
+========================================== */
+
+body.modal-open{
+
+    overflow:hidden;
+
+}
+
+
+/* ==========================================
+   MODAL RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+    .excursion-modal{
+
+        padding:15px;
+
+    }
+
+
+    .excursion-modal-content{
+
+        max-height:92vh;
+
+        border-radius:15px;
+
+    }
+
+
+    .excursion-modal-image{
+
+        height:250px;
+
+    }
+
+
+    .excursion-modal-body{
+
+        padding:25px;
+
+    }
+
+
+    .excursion-modal-body h2{
+
+        font-size:28px;
+
+    }
+
+
+    .excursion-modal-highlights ul{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .excursion-modal-footer{
+
+        flex-direction:column;
+
+        align-items:stretch;
+
+    }
+
+
+    .excursion-modal-footer .btn{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+}
