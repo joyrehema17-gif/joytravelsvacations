@@ -572,38 +572,5 @@
     box-sizing:border-box;
 }
 
-/* ==========================================
-   EXCURSIONS FOOTER FULL-WIDTH FIX
-========================================== */
 
-body{
-    margin:0;
-    padding:0;
-}
-
-#footer{
-    width:100%;
-    margin:0;
-    padding:0;
-}
-
-#footer .footer{
-    width:100%;
-    margin:0;
-    box-sizing:border-box;
-}
-/* Remove unwanted white space below footer */
-html,
-body{
-    min-height:100%;
-}
-
-body{
-    display:flex;
-    flex-direction:column;
-}
-
-#footer{
-    margin-top:auto;
-}
 
