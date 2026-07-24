@@ -371,3 +371,20 @@
     cursor:pointer;
     white-space:nowrap;
 }
+.excursion-card{
+    min-width:0;
+}
+
+.excursion-content{
+    min-width:0;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.excursion-content h3{
+    word-wrap:break-word;
+}
+
+.excursion-description{
+    max-width:100%;
+}
