@@ -423,41 +423,130 @@ const safaris = [
 {
     id: "tsavo3",
 
-    title: "3 Days Tsavo East Safari",
+    title: "3 Days Tsavo East National Park Safari",
 
     duration: "3 Days / 2 Nights",
 
     location: "Tsavo East National Park",
 
-    price: "$520 Per Person",
+    category: "Wildlife Safari",
 
     image: "images/tsavo.jpg",
 
+    price: "$520 Per Person",
+
     shortDescription:
-    "Red elephants, lions and the famous Aruba Dam.",
+        "Discover Kenya's largest national park, home to the famous red elephants, lions, giraffes, buffaloes and breathtaking wilderness.",
+
+    introduction:
+        "Experience the untamed beauty of Tsavo East National Park, one of Kenya's oldest and largest wildlife reserves. Famous for its vast open plains, the legendary red elephants, Aruba Dam and spectacular landscapes, this safari offers exceptional wildlife viewing and unforgettable African adventures.",
 
     itinerary: [
 
         {
-            day: "Day 1",
+            day: "Day 1: Mombasa / Diani / Watamu – Tsavo East",
+
             description:
-            "Departure from Mombasa or Watamu to Tsavo East."
+            "Depart early from your coastal hotel and drive to Tsavo East National Park through the Bachuma Gate. Begin your first exciting game drive en route to the lodge while searching for elephants, lions, zebras and giraffes. Arrive at the lodge for lunch before relaxing. Later enjoy an afternoon game drive visiting Aruba Dam, one of the park's best wildlife viewing areas. Dinner and overnight at your safari lodge or luxury tented camp."
         },
 
         {
-            day: "Day 2",
+            day: "Day 2: Full Day Game Drive",
+
             description:
-            "Morning and afternoon game drives."
+            "After breakfast depart for a full day exploring the enormous Tsavo East ecosystem. Search for the famous red elephants, buffaloes, cheetahs, leopards, ostriches and numerous bird species. Enjoy picnic lunch inside the park before continuing your afternoon wildlife adventure. Return to the lodge for dinner and overnight."
         },
 
         {
-            day: "Day 3",
+            day: "Day 3: Tsavo East – Return to the Coast",
+
             description:
-            "Breakfast then return to the coast."
+            "Enjoy an early morning game drive when predators are most active. Return to the lodge for breakfast before checking out. Enjoy a final game drive while exiting the park before returning to Mombasa, Diani, Watamu or Malindi in the afternoon."
+        }
+
+    ],
+
+    highlights: [
+
+        "Famous Red Elephants",
+
+        "Aruba Dam Wildlife Viewing",
+
+        "Big Cats",
+
+        "Large Herds of Buffalo",
+
+        "Beautiful Savannah Landscapes",
+
+        "Excellent Bird Watching",
+
+        "Professional Safari Guide"
+
+    ],
+
+    included: [
+
+        "Transport in a 4x4 Safari Land Cruiser with pop-up roof",
+
+        "Park entrance fees",
+
+        "2 nights accommodation",
+
+        "Full board meals",
+
+        "Professional English-speaking driver-guide",
+
+        "Unlimited game drives",
+
+        "Bottled drinking water"
+
+    ],
+
+    excluded: [
+
+        "International and domestic flights",
+
+        "Travel insurance",
+
+        "Alcoholic and soft drinks",
+
+        "Tips and gratuities",
+
+        "Personal expenses"
+
+    ],
+
+    bring: [
+
+        "Comfortable safari clothing",
+
+        "Camera with extra batteries",
+
+        "Binoculars",
+
+        "Sun hat and sunscreen",
+
+        "Light jacket for mornings",
+
+        "Personal medication",
+
+        "Power bank"
+
+    ],
+
+    seasons: [
+
+        {
+            period: "January – June",
+            price: "$520 Per Person"
+        },
+
+        {
+            period: "July – December",
+            price: "$680 Per Person"
         }
 
     ]
-
-}
+},
 
 ];
