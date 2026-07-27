@@ -2,6 +2,9 @@
 // SAFARI MODALS
 // Joy Travels & Vacations
 // ==========================================
+// ==========================================
+// OPEN SAFARI MODAL
+// ==========================================
 
 function openModal(id) {
 
@@ -12,7 +15,11 @@ function openModal(id) {
         return;
     }
 
+    // Show modal
     modal.style.display = "block";
+
+    // Stop background page from scrolling
+    document.body.classList.add("modal-open");
 
 }
 
@@ -29,25 +36,11 @@ function closeModal(id) {
         return;
     }
 
-    // Close modal
+    // Hide modal
     modal.style.display = "none";
 
-    // Wait briefly, then scroll to Safari Collection
-    setTimeout(function() {
-
-        const packages =
-            document.getElementById("packages");
-
-        if (packages) {
-
-            window.scrollTo({
-                top: packages.offsetTop,
-                behavior: "smooth"
-            });
-
-        }
-
-    }, 100);
+    // Allow background page to scroll again
+    document.body.classList.remove("modal-open");
 
 }
 
@@ -64,21 +57,8 @@ window.onclick = function(event) {
 
             modal.style.display = "none";
 
-            setTimeout(function() {
-
-                const packages =
-                    document.getElementById("packages");
-
-                if (packages) {
-
-                    window.scrollTo({
-                        top: packages.offsetTop,
-                        behavior: "smooth"
-                    });
-
-                }
-
-            }, 100);
+            // Enable background scrolling again
+            document.body.classList.remove("modal-open");
 
         }
 
@@ -103,21 +83,8 @@ document.addEventListener(
 
                     modal.style.display = "none";
 
-                    setTimeout(function() {
-
-                        const packages =
-                            document.getElementById("packages");
-
-                        if (packages) {
-
-                            window.scrollTo({
-                                top: packages.offsetTop,
-                                behavior: "smooth"
-                            });
-
-                        }
-
-                    }, 100);
+                    // Enable background scrolling again
+                    document.body.classList.remove("modal-open");
 
                 }
 
