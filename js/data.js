@@ -305,35 +305,119 @@ const safaris = [
 {
     id: "nakuru2",
 
-    title: "2 Days Lake Nakuru Safari",
+    title: "2 Days Lake Nakuru National Park Safari",
 
     duration: "2 Days / 1 Night",
 
     location: "Lake Nakuru National Park",
 
-    price: "$380 Per Person",
+    category: "Wildlife Safari",
 
     image: "images/nakuru.jpg",
 
+    price: "$380 Per Person",
+
     shortDescription:
-    "Rhinos, flamingos and beautiful lake scenery.",
+        "Discover the famous rhinos of Lake Nakuru National Park, spectacular lake views, acacia woodlands and abundant birdlife on this exciting short safari.",
+
+    introduction:
+        "Lake Nakuru National Park is one of Kenya's finest wildlife destinations, renowned for its thriving populations of black and white rhinos, endangered Rothschild's giraffes, tree-climbing lions, buffaloes and thousands of water birds. This short safari is perfect for travellers looking for an unforgettable wildlife experience within a limited time.",
 
     itinerary: [
 
         {
-            day: "Day 1",
+            day: "Day 1: Nairobi – Lake Nakuru National Park",
+
             description:
-            "Drive to Lake Nakuru and enjoy an afternoon game drive."
+            "Depart Nairobi in the morning and drive through the spectacular Great Rift Valley with a brief stop at the viewpoint for photographs. Continue to Lake Nakuru National Park arriving in time for lunch. In the afternoon enjoy an exciting game drive searching for rhinos, lions, buffaloes, giraffes, zebras and numerous bird species before dinner and overnight at your lodge."
         },
 
         {
-            day: "Day 2",
+            day: "Day 2: Lake Nakuru – Nairobi",
+
             description:
-            "Morning wildlife viewing before returning to Nairobi."
+            "After an early breakfast enjoy another morning game drive around the lake. Visit popular viewpoints including Baboon Cliff and search for wildlife before departing for Nairobi, arriving in the afternoon."
+        }
+
+    ],
+
+    highlights: [
+
+        "Black and White Rhinos",
+
+        "Rothschild's Giraffes",
+
+        "Great Rift Valley Viewpoint",
+
+        "Lake Nakuru Scenic Landscapes",
+
+        "Excellent Bird Watching",
+
+        "Professional Safari Guide"
+
+    ],
+
+    included: [
+
+        "Transport in a 4x4 safari Land Cruiser with pop-up roof",
+
+        "Park entrance fees",
+
+        "1 night's accommodation",
+
+        "Full board meals",
+
+        "Professional English-speaking driver-guide",
+
+        "Game drives",
+
+        "Bottled drinking water"
+
+    ],
+
+    excluded: [
+
+        "International flights",
+
+        "Travel insurance",
+
+        "Alcoholic and soft drinks",
+
+        "Tips and gratuities",
+
+        "Personal expenses"
+
+    ],
+
+    bring: [
+
+        "Comfortable safari clothing",
+
+        "Binoculars",
+
+        "Camera and spare batteries",
+
+        "Sunglasses and sunscreen",
+
+        "Warm sweater for early mornings",
+
+        "Personal medication"
+
+    ],
+
+    seasons: [
+
+        {
+            period: "January – June",
+            price: "$380 Per Person"
+        },
+
+        {
+            period: "July – December",
+            price: "$480 Per Person"
         }
 
     ]
-
 },
 
 {
