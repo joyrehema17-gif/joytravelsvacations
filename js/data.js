@@ -184,6 +184,7 @@ const safaris = [
     bookingMessage:
     "For last-minute bookings, please call or WhatsApp Joy Travels & Vacations."
 }
+];
 {
     id: "amboseli2",
 
