@@ -620,3 +620,11 @@ body.modal-open{
     min-width:170px;
     text-align:center;
 }
+/* ==========================================
+   PREVENT BACKGROUND SCROLLING
+   WHEN SAFARI MODAL IS OPEN
+========================================== */
+
+body.modal-open {
+    overflow: hidden;
+}
