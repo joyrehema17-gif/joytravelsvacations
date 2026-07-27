@@ -189,35 +189,117 @@ const safaris = [
 {
     id: "amboseli2",
 
-    title: "2 Days Amboseli Safari",
+    title: "2 Days Amboseli National Park Safari",
 
     duration: "2 Days / 1 Night",
 
     location: "Amboseli National Park",
 
+    category: "Wildlife Safari",
+
+    image: "images/mara.jpg", // replace later with amboseli.jpg
+
     price: "$420 Per Person",
 
-    image: "images/amboseli.jpg",
-
     shortDescription:
-    "Elephants, Mount Kilimanjaro views and unforgettable wildlife.",
+        "Discover the famous elephants of Amboseli National Park with spectacular views of Mount Kilimanjaro, exciting game drives and unforgettable African scenery.",
+
+    introduction:
+        "Perfect for travellers with limited time, this 2 Days Amboseli Safari offers incredible wildlife viewing beneath the magnificent backdrop of Mount Kilimanjaro. Amboseli is famous for its large elephant herds, lions, buffaloes, giraffes, zebras and breathtaking landscapes.",
 
     itinerary: [
 
         {
-            day: "Day 1",
+            day: "Day 1: Nairobi – Amboseli National Park",
+
             description:
-            "Travel from Nairobi to Amboseli and enjoy an evening game drive."
+            "Depart Nairobi early in the morning and drive south towards Amboseli National Park. Arrive in time for lunch before relaxing briefly. In the afternoon enjoy your first exciting game drive in search of elephants, lions, giraffes, zebras, wildebeest and numerous bird species while enjoying spectacular views of Mount Kilimanjaro. Dinner and overnight at your lodge or tented camp."
         },
 
         {
-            day: "Day 2",
+            day: "Day 2: Amboseli – Nairobi",
+
             description:
-            "Morning game drive with spectacular Kilimanjaro views before returning."
+            "Wake up early for a sunrise game drive when wildlife is most active and Mount Kilimanjaro is usually at its clearest. Return for breakfast before checking out and driving back to Nairobi, arriving in the afternoon."
+        }
+
+    ],
+
+    highlights: [
+
+        "Large elephant herds",
+
+        "Magnificent Mount Kilimanjaro views",
+
+        "Morning and afternoon game drives",
+
+        "Excellent wildlife photography",
+
+        "Professional safari guide"
+
+    ],
+
+    included: [
+
+        "Transport in a 4x4 safari Land Cruiser with pop-up roof",
+
+        "Park entrance fees",
+
+        "1 night's accommodation",
+
+        "Full board meals",
+
+        "Professional English-speaking driver-guide",
+
+        "Game drives",
+
+        "Drinking water"
+
+    ],
+
+    excluded: [
+
+        "International flights",
+
+        "Travel insurance",
+
+        "Alcoholic and soft drinks",
+
+        "Personal expenses",
+
+        "Tips and gratuities"
+
+    ],
+
+    bring: [
+
+        "Comfortable safari clothing",
+
+        "Camera and spare batteries",
+
+        "Binoculars",
+
+        "Sun hat and sunscreen",
+
+        "Warm jacket for early morning",
+
+        "Personal medication"
+
+    ],
+
+    seasons: [
+
+        {
+            period: "January – June",
+            price: "$420 Per Person"
+        },
+
+        {
+            period: "July – December",
+            price: "$540 Per Person"
         }
 
     ]
-
 },
 
 {
