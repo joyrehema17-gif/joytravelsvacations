@@ -721,7 +721,159 @@ const safaris = [
     ]
 
 },
+{
+    id: "tsavo-amboseli3",
 
+    title: "3 Days Tsavo East & Amboseli Safari",
+
+    duration: "3 Days / 2 Nights",
+
+    location: "Tsavo East National Park & Amboseli National Park",
+
+    price: "Contact Us",
+
+    image: "images/tsavo-amboseli.jpg",
+
+    shortDescription:
+    "Experience the red landscapes and wildlife of Tsavo East, then discover Amboseli with spectacular views of Mount Kilimanjaro.",
+
+    introduction:
+    "Experience an unforgettable 3-day safari combining the spectacular wilderness of Tsavo East with the breathtaking landscapes of Amboseli National Park. Enjoy exciting game drives, discover Kenya's iconic wildlife and, with a little luck, admire Mount Kilimanjaro in the background before continuing your journey to Watamu.",
+
+    itinerary: [
+
+        {
+            day: "Day 1: Tsavo East",
+
+            description:
+            "Depart from your accommodation at around 6:15 AM. Travel along the red-earth road towards Tsavo East, passing through spectacular landscapes and typical African villages. Make your first stop at Crocodile Point, where you can observe crocodiles in the Galana River. Enter Tsavo East at around 10:00 AM and begin your first game drive in search of African savannah wildlife. Arrive at the lodge around 1:00–1:30 PM for check-in, lunch and relaxation. In the afternoon, enjoy a second game drive until sunset. Dinner and overnight stay at the lodge or camp."
+        },
+
+        {
+            day: "Day 2: Tsavo East – Amboseli",
+
+            description:
+            "Enjoy breakfast at 5:30 AM, followed by your final game drive in Tsavo East at around 6:00 AM. Afterwards, depart for Amboseli National Park and arrive at your lodge in time for lunch. In the afternoon, depart for an exciting game drive through Amboseli. With a little luck, admire the spectacular sight of Mount Kilimanjaro in the background, one of Kenya's most iconic landscapes. Dinner and overnight stay at the lodge or camp."
+        },
+
+        {
+            day: "Day 3: Amboseli – Watamu",
+
+            description:
+            "Enjoy breakfast at 6:00 AM, followed by your final game drive in Amboseli. There will also be an opportunity to visit a Maasai village, experience traditional dances and learn about the local culture. Enjoy a lunch stop during the return journey before continuing towards Watamu. Expected arrival in Watamu in the late afternoon, marking the end of the safari."
+        }
+
+    ],
+
+    highlights: [
+
+        "Explore the spectacular wilderness of Tsavo East National Park.",
+
+        "Visit Crocodile Point and observe crocodiles in the Galana River.",
+
+        "Enjoy morning and afternoon game drives in search of African wildlife.",
+
+        "Experience the dramatic red-earth landscapes of Tsavo East.",
+
+        "Explore Amboseli National Park with spectacular views of Mount Kilimanjaro.",
+
+        "Enjoy an opportunity to visit a Maasai village and experience traditional culture.",
+
+        "Travel through some of Kenya's most beautiful landscapes.",
+
+        "Private or group safari options available."
+
+    ],
+
+    included: [
+
+        "Transfers in a 4x4 safari jeep.",
+
+        "Park entrance fees.",
+
+        "All-inclusive accommodation.",
+
+        "Mineral water during game drives.",
+
+        "Licensed Italian-speaking guide.",
+
+        "Professional safari driver.",
+
+        "Comprehensive safari insurance.",
+
+        "Blue Safari in group packages."
+
+    ],
+
+    excluded: [
+
+        "Breakfast on the day of departure.",
+
+        "Drinks during meals.",
+
+        "Tips and personal expenses."
+
+    ],
+
+    accommodation: {
+
+        tsavoEast: [
+
+            "Voi Wildlife Lodge",
+
+            "Manyatta Camp",
+
+            "Sentrim Tahri Camp"
+
+        ],
+
+        amboseli: [
+
+            "AA Lodge",
+
+            "Sentrim Amboseli",
+
+            "Kilima Camp",
+
+            "Kibo Camp"
+
+        ]
+
+    },
+
+    whatToBring: [
+
+        "Sunscreen.",
+
+        "Hat.",
+
+        "Tropical insect repellent.",
+
+        "Comfortable clothing.",
+
+        "Swimming costume.",
+
+        "Practical shoes.",
+
+        "Essential medication.",
+
+        "Power bank.",
+
+        "UK-style travel adapter.",
+
+        "Camera.",
+
+        "Binoculars."
+
+    ],
+
+    importantNote:
+    "Safari itineraries may be subject to changes in the programme, timings or accommodation facilities. You will be notified promptly in the event of any changes. Please note that drones are prohibited in Kenya.",
+
+    availability:
+    "Private or Group Safari"
+
+}
 
 
 
