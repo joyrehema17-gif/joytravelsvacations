@@ -548,5 +548,185 @@ const safaris = [
 
     ]
 },
+{
+    id: "mara-nakuru5",
 
+    title: "5 Days Maasai Mara & Lake Nakuru Safari",
+
+    duration: "5 Days / 4 Nights",
+
+    location: "Maasai Mara & Lake Nakuru, Kenya",
+
+    category: "Wildlife Safari",
+
+    image: "images/mara-nakuru.jpg",
+
+    price: "$1,050 Per Person",
+
+    shortDescription:
+        "Experience the best of Kenya's wildlife with five unforgettable days exploring Maasai Mara and Lake Nakuru National Parks.",
+
+    introduction:
+        "This 5-day Maasai Mara and Lake Nakuru safari combines two of Kenya's most spectacular wildlife destinations. Explore the world-famous Maasai Mara, home to the Big Five and the Great Wildebeest Migration, before discovering the scenic beauty and incredible wildlife of Lake Nakuru National Park. Enjoy exciting game drives, breathtaking landscapes and comfortable accommodation throughout this unforgettable Kenyan safari adventure.",
+
+    itinerary: [
+
+        {
+            day: "Day 1: Nairobi – Lake Nakuru National Park",
+
+            description:
+            "Depart Nairobi in the morning and drive through the scenic Great Rift Valley with a stop at the viewpoint for breathtaking photographs. Continue to Lake Nakuru National Park and enjoy a game drive as you enter the park. Lake Nakuru is famous for its rhinos, buffaloes, giraffes, lions and diverse birdlife. Enjoy lunch at your lodge or camp before an afternoon game drive exploring the park and its beautiful surroundings. Dinner and overnight at your accommodation."
+        },
+
+        {
+            day: "Day 2: Lake Nakuru – Maasai Mara",
+
+            description:
+            "Enjoy an early breakfast followed by a morning game drive in Lake Nakuru National Park. Continue your journey towards the famous Maasai Mara National Reserve, travelling through the beautiful Kenyan countryside and Maasai communities. Arrive at your lodge or tented camp in time for lunch. After some relaxation, enjoy an afternoon game drive in the Maasai Mara, searching for lions, elephants, buffaloes, giraffes and other wildlife. Return to the camp for dinner and overnight."
+        },
+
+        {
+            day: "Day 3: Full-Day Game Drive in Maasai Mara",
+
+            description:
+            "After an early breakfast, depart with a packed lunch for a full-day game drive across the spectacular plains of Maasai Mara. Explore the reserve in search of the Big Five and other wildlife. Visit the Mara River, home to hippos and crocodiles and, during the migration season, one of the most spectacular locations to witness the Great Wildebeest Migration. Enjoy a picnic lunch in the wilderness surrounded by breathtaking scenery. An optional visit to a Maasai village can be arranged at an additional cost to experience the traditions and culture of the Maasai people. Return to your camp for dinner and overnight."
+        },
+
+        {
+            day: "Day 4: Maasai Mara – Full-Day Wildlife Adventure",
+
+            description:
+            "Start the day with an early morning game drive when wildlife is most active. Search for predators returning from their nighttime hunts and observe the beautiful sunrise over the Maasai Mara plains. Return to the camp for breakfast and relaxation. Later, enjoy another exciting game drive exploring different areas of the reserve. Look out for elephants, lions, leopards, cheetahs, giraffes, zebras, wildebeest and many other species. Return to the camp for dinner and overnight."
+        },
+
+        {
+            day: "Day 5: Maasai Mara – Nairobi",
+
+            description:
+            "Enjoy an early breakfast and check out from your accommodation. Embark on a final en-route game drive as you leave the Maasai Mara, giving you one last opportunity to spot wildlife. Drive back to Nairobi through the scenic Great Rift Valley. Stop for lunch along the way before continuing to Nairobi, arriving in the afternoon or early evening, marking the end of your unforgettable Maasai Mara and Lake Nakuru safari."
+        }
+
+    ],
+
+    highlights: [
+
+        "Explore the world-famous Maasai Mara National Reserve",
+
+        "Discover Lake Nakuru National Park",
+
+        "Search for the Big Five",
+
+        "See rhinos at Lake Nakuru",
+
+        "Experience the spectacular Mara River",
+
+        "Witness the Great Wildebeest Migration (seasonal)",
+
+        "Enjoy multiple game drives",
+
+        "Scenic drive through the Great Rift Valley",
+
+        "Optional Maasai village cultural experience",
+
+        "Professional safari guide and comfortable safari vehicle"
+
+    ],
+
+    included: [
+
+        "Transport in a 4x4 safari vehicle with pop-up roof",
+
+        "All park entrance fees",
+
+        "4 nights accommodation in safari lodges or luxury tented camps",
+
+        "Full board accommodation with breakfast, lunch and dinner",
+
+        "Professional English-speaking driver-guide",
+
+        "Game drives as per the itinerary",
+
+        "Bottled drinking water",
+
+        "Services of an experienced safari driver-guide"
+
+    ],
+
+    excluded: [
+
+        "International and domestic flights",
+
+        "Travel insurance",
+
+        "Tips and gratuities for the driver-guide",
+
+        "Hot air balloon safari",
+
+        "Soft and alcoholic drinks",
+
+        "Maasai village entrance fee",
+
+        "Personal expenses",
+
+        "Laundry services",
+
+        "Any other services not mentioned in the itinerary"
+
+    ],
+
+    bring: [
+
+        "Comfortable safari clothing in neutral colours",
+
+        "Sunscreen and lip balm",
+
+        "Insect repellent",
+
+        "First aid kit and personal medication",
+
+        "Binoculars",
+
+        "Camera with zoom lens",
+
+        "Extra memory cards and batteries or power bank",
+
+        "Sunglasses and sun hat",
+
+        "Long-sleeved shirts and long trousers",
+
+        "Warm sweater or jacket for chilly mornings and evenings",
+
+        "Comfortable walking shoes",
+
+        "Personal toiletries",
+
+        "Extra cash for optional activities and souvenirs"
+
+    ],
+
+    seasons: [
+
+        {
+            period: "January – June",
+
+            price: "$1,050 Per Person"
+        },
+
+        {
+            period: "July – December",
+
+            price: "$1,350 Per Person"
+        }
+
+    ]
+
+},
+
+
+
+
+
+
+
+    
 ];
