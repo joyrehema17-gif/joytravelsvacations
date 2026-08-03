@@ -1511,7 +1511,201 @@ const safaris = [
     seasons: "Available throughout the year"
 
 },
+{
+    id: "grand-kenya8",
 
+    title: "8 Days Grand Kenya Safari",
+
+    duration: "8 Days / 7 Nights",
+
+    location: "Masai Mara • Lake Nakuru • Amboseli • Tsavo West • Taita Hills • Tsavo East",
+
+    price: "Contact Us",
+
+    image: "images/grand-kenya8.jpg",
+
+    shortDescription:
+    "The ultimate safari through Kenya's most spectacular wildlife destinations, combining six iconic parks into one unforgettable adventure.",
+
+    introduction:
+    "Experience the very best of Kenya on this incredible eight-day safari. Journey through the legendary Masai Mara, Lake Nakuru, Amboseli, Tsavo West, Taita Hills and Tsavo East while discovering breathtaking landscapes, extraordinary wildlife and authentic African hospitality. This is the perfect safari for travelers who want to experience Kenya's most famous national parks in one unforgettable journey.",
+
+    itinerary: [
+
+        {
+            day: "Day 1 – Masai Mara",
+
+            description:
+            "Depart Nairobi in the morning for the world-famous Masai Mara National Reserve. Between July and September, you may witness the spectacular Great Wildebeest Migration. Enjoy your first afternoon game drive in search of the legendary Big Five before dinner and overnight at your lodge or camp."
+        },
+
+        {
+            day: "Day 2 – Masai Mara",
+
+            description:
+            "Breakfast at 6:00 AM followed by a full-day safari. Depending on the itinerary, enjoy a picnic lunch in the African savannah before continuing your game drive until sunset. Return to camp for dinner and overnight."
+        },
+
+        {
+            day: "Day 3 – Lake Nakuru",
+
+            description:
+            "Morning game drive before leaving Masai Mara for Lake Nakuru National Park. Arrive around midday for check-in and buffet lunch. Relax before an afternoon game drive searching for flamingos and the rare black rhinoceros. Dinner and overnight."
+        },
+
+        {
+            day: "Day 4 – Amboseli",
+
+            description:
+            "Breakfast followed by departure for Amboseli National Park. Arrive around 12:30 PM, check in and enjoy lunch. Afternoon game drive beneath the magnificent backdrop of Mount Kilimanjaro before returning for dinner and overnight."
+        },
+
+        {
+            day: "Day 5 – Tsavo West",
+
+            description:
+            "Morning game drive before travelling to Tsavo West National Park. Arrive around 12:30 PM, enjoy lunch and relax before an afternoon safari exploring volcanic landscapes and wildlife until sunset."
+        },
+
+        {
+            day: "Day 6 – Taita Hills",
+
+            description:
+            "Morning game drive en route to Taita Hills Wildlife Sanctuary. After lunch and relaxation, enjoy an afternoon game drive. Optional night game drive with a park ranger is available at an additional cost for a chance to observe nocturnal wildlife."
+        },
+
+        {
+            day: "Day 7 – Tsavo East",
+
+            description:
+            "Morning game drive before travelling to Tsavo East National Park. Arrive around 1:00 PM for lunch and relaxation before an afternoon game drive searching for the famous red elephants, lions, giraffes and many other species."
+        },
+
+        {
+            day: "Day 8 – Watamu / Mombasa Airport",
+
+            description:
+            "Breakfast at 6:00 AM followed by one final sunrise game drive before continuing to Watamu or Mombasa International Airport depending on your onward travel arrangements."
+        }
+
+    ],
+
+    highlights: [
+
+        "Visit six of Kenya's most famous wildlife destinations.",
+
+        "Search for the legendary Big Five.",
+
+        "Witness the Great Wildebeest Migration (July–September).",
+
+        "Photograph Mount Kilimanjaro in Amboseli.",
+
+        "Visit Lake Nakuru, home of flamingos and black rhinos.",
+
+        "Explore the volcanic landscapes of Tsavo West.",
+
+        "Optional night safari in Taita Hills Wildlife Sanctuary.",
+
+        "Discover the famous red elephants of Tsavo East.",
+
+        "Professional safari guide throughout the journey."
+
+    ],
+
+    included: [
+
+        "Transport in a 4×4 safari jeep with a pop-up roof.",
+
+        "Entrance fees to all national parks.",
+
+        "Full-board accommodation throughout the safari.",
+
+        "Bottled mineral water during game drives.",
+
+        "Licensed Italian-speaking safari guide.",
+
+        "Professional safari driver.",
+
+        "Comprehensive safari insurance."
+
+    ],
+
+    excluded: [
+
+        "Breakfast on the departure day.",
+
+        "Drinks during meals.",
+
+        "Tips and personal expenses.",
+
+        "Domestic flight from Mombasa to Nairobi."
+
+    ],
+
+    bring: [
+
+        "Sunscreen.",
+
+        "Tropical insect repellent.",
+
+        "Hat.",
+
+        "Comfortable walking shoes.",
+
+        "Personal medications.",
+
+        "First-aid essentials.",
+
+        "Power bank.",
+
+        "Camera.",
+
+        "Binoculars.",
+
+        "UK-style power adapter."
+
+    ],
+
+    accommodation: [
+
+        "Masai Mara: Sentrim Mara Camp, AA Lodge Mara, Mara Sweet Acacia Lodge.",
+
+        "Lake Nakuru: Lake Elementaita Lodge.",
+
+        "Amboseli: Kilima Safari Camp, AA Lodge Amboseli, Kibo Safari Camp, Sentrim Amboseli.",
+
+        "Tsavo West: Ngulia Safari Lodge.",
+
+        "Taita Hills: Sarova Salt Lick Game Lodge.",
+
+        "Tsavo East: Voi Wildlife Lodge, Manyatta Camp, Sentrim Tahri Camp."
+
+    ],
+
+    availability: "Private Safari",
+
+    parks: [
+
+        "Masai Mara National Reserve",
+
+        "Lake Nakuru National Park",
+
+        "Amboseli National Park",
+
+        "Tsavo West National Park",
+
+        "Taita Hills Wildlife Sanctuary",
+
+        "Tsavo East National Park"
+
+    ],
+
+    importantNote:
+    "Safari itineraries, departure times and accommodation may occasionally change due to weather conditions, park regulations or operational requirements. Guests will be informed promptly of any necessary changes. Drones are strictly prohibited in Kenya.",
+
+    seasons: "Available throughout the year"
+
+},
     
     
 ];
