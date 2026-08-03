@@ -874,11 +874,6 @@ const safaris = [
     "Private or Group Safari"
 }  
 
-]
-
-},
-
-
 
     
 ];
