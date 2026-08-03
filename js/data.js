@@ -1335,7 +1335,182 @@ const safaris = [
     seasons: "Available throughout the year"
 
 },
+{
+    id: "kenya-grand7",
 
+    title: "7 Days Kenya Grand Explorer Safari",
+
+    duration: "7 Days / 6 Nights",
+
+    location: "Masai Mara • Lake Nakuru • Amboseli • Tsavo West • Tsavo East",
+
+    price: "Contact Us",
+
+    image: "images/kenya-grand7.jpg",
+
+    shortDescription:
+    "Experience Kenya's most iconic national parks on one unforgettable safari through Maasai Mara, Lake Nakuru, Amboseli, Tsavo West and Tsavo East.",
+
+    introduction:
+    "Embark on an unforgettable seven-day safari through Kenya's most spectacular wildlife destinations. From the endless plains of Maasai Mara to the flamingos of Lake Nakuru, the magnificent Mount Kilimanjaro in Amboseli, the volcanic landscapes of Tsavo West and the famous red elephants of Tsavo East, this safari offers the ultimate African adventure.",
+
+    itinerary: [
+
+        {
+            day: "Day 1 – Maasai Mara",
+
+            description:
+            "Depart Nairobi in the morning and travel to the world-famous Maasai Mara National Reserve. After check-in at your lodge or camp and lunch, enjoy your first afternoon game drive across the breathtaking African savannah in search of lions, elephants, giraffes, buffaloes and many other wildlife species. Return to the lodge for dinner and overnight stay."
+        },
+
+        {
+            day: "Day 2 – Maasai Mara",
+
+            description:
+            "Breakfast at 6:00 AM followed by a full-day game drive through Maasai Mara. Enjoy a packed picnic lunch in the heart of the reserve before continuing your safari until sunset. Return to your lodge or camp for dinner and overnight stay."
+        },
+
+        {
+            day: "Day 3 – Lake Nakuru",
+
+            description:
+            "Depart after breakfast for Lake Nakuru National Park. Arrive at your lodge for lunch and relaxation before enjoying an afternoon game drive in search of flamingos, black and white rhinos, Rothschild giraffes and many other wildlife species. Dinner and overnight stay."
+        },
+
+        {
+            day: "Day 4 – Amboseli",
+
+            description:
+            "Depart after breakfast for Amboseli National Park. Arrive at your lodge or camp for lunch and relaxation. In the afternoon, enjoy a game drive with spectacular opportunities to admire Mount Kilimanjaro and Amboseli's famous elephant herds. Dinner and overnight stay."
+        },
+
+        {
+            day: "Day 5 – Tsavo West",
+
+            description:
+            "Enjoy an early morning game drive before departing for Tsavo West National Park. Arrive at your lodge for lunch and relaxation before an afternoon safari exploring volcanic landscapes, springs and abundant wildlife until sunset. Dinner and overnight stay."
+        },
+
+        {
+            day: "Day 6 – Tsavo East",
+
+            description:
+            "Travel to Tsavo East National Park through spectacular landscapes. Arrive at your lodge or camp for lunch before enjoying an afternoon photographic safari searching for the famous red elephants, lions, giraffes and many other species. Dinner and overnight stay."
+        },
+
+        {
+            day: "Day 7 – Watamu / Mombasa",
+
+            description:
+            "Enjoy one final sunrise game drive before departing for Watamu or Mombasa Airport according to your travel itinerary, marking the end of your unforgettable Kenyan safari."
+        }
+
+    ],
+
+    highlights: [
+
+        "Explore Kenya's five most famous wildlife destinations.",
+
+        "Two full days inside Maasai Mara National Reserve.",
+
+        "Visit Lake Nakuru and search for black and white rhinos.",
+
+        "Photograph Mount Kilimanjaro in Amboseli National Park.",
+
+        "Explore the volcanic landscapes of Tsavo West.",
+
+        "Discover the famous red elephants of Tsavo East.",
+
+        "Excellent opportunities to see the Big Five.",
+
+        "Professional safari guide throughout the journey."
+
+    ],
+
+    included: [
+
+        "Transfers in a 4×4 safari jeep with a pop-up roof.",
+
+        "Park entrance fees.",
+
+        "Licensed Italian-speaking safari guide.",
+
+        "Professional licensed safari driver.",
+
+        "Bottled mineral water during game drives.",
+
+        "Comprehensive safari insurance."
+
+    ],
+
+    excluded: [
+
+        "Breakfast on the departure day.",
+
+        "Drinks during meals.",
+
+        "Tips and personal expenses.",
+
+        "Return flight from Mombasa to Nairobi."
+
+    ],
+
+    bring: [
+
+        "Sunscreen.",
+
+        "Tropical insect repellent.",
+
+        "Comfortable safari clothing.",
+
+        "Comfortable walking shoes.",
+
+        "Power bank.",
+
+        "UK-style travel adapter.",
+
+        "Camera.",
+
+        "Binoculars."
+
+    ],
+
+    accommodation: [
+
+        "Maasai Mara: Luxury safari lodge or tented camp.",
+
+        "Lake Nakuru: Safari lodge.",
+
+        "Amboseli: Safari lodge or luxury tented camp.",
+
+        "Tsavo West: Safari lodge.",
+
+        "Tsavo East: Safari lodge or luxury tented camp."
+
+    ],
+
+    availability: "Private Safari",
+
+    parks: [
+
+        "Maasai Mara",
+
+        "Lake Nakuru",
+
+        "Amboseli",
+
+        "Tsavo West",
+
+        "Tsavo East"
+
+    ],
+
+    importantNote:
+    "Safari itineraries, accommodation and schedules may occasionally change due to weather, park regulations or operational requirements. Guests will always be informed in advance of any necessary adjustments. Drones are prohibited in all Kenyan national parks.",
+
+    seasons: "Available throughout the year"
+
+},
 
     
     
