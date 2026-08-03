@@ -197,7 +197,7 @@ const safaris = [
 
     category: "Wildlife Safari",
 
-    image: "images/mara.jpg", // replace later with amboseli.jpg
+    image: "images/amboseli1.jpg", // replace later with amboseli.jpg
 
     price: "$420 Per Person",
 
