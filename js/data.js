@@ -873,7 +873,8 @@ const safaris = [
     availability:
     "Private or Group Safari"
 
-}
+}  
+];
 {
     id: "tsavo-west-amboseli4",
 
@@ -1031,10 +1032,3 @@ const safaris = [
     seasons: "Available throughout the year"
 
 },
-
-
-
-
-
-    
-];
