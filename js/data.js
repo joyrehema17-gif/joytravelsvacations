@@ -884,7 +884,7 @@ const safaris = [
 
     price: "Contact Us",
 
-    image: "images/tsavo-amboseli.jpg",
+    image: "images/tsavo-amboseli1.jpg",
 
     shortDescription:
     "Experience the beauty of Tsavo East, Tsavo West and Amboseli, with spectacular wildlife encounters and breathtaking views of Mount Kilimanjaro.",
