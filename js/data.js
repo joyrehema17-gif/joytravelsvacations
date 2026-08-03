@@ -873,7 +873,163 @@ const safaris = [
     availability:
     "Private or Group Safari"
 }  
+{
+    id: "tsavo-west-amboseli4",
 
+    title: "4 Days Tsavo East, Tsavo West & Amboseli Safari",
+
+    duration: "4 Days / 3 Nights",
+
+    location: "Tsavo East • Tsavo West • Amboseli",
+
+    price: "Contact Us",
+
+    image: "images/tsavo-amboseli.jpg",
+
+    shortDescription:
+    "Experience the beauty of Tsavo East, Tsavo West and Amboseli, with spectacular wildlife encounters and breathtaking views of Mount Kilimanjaro.",
+
+    introduction:
+    "Experience all the beauty of Tsavo on one unforgettable safari, combined with Amboseli and its spectacular views of Mount Kilimanjaro. This private safari takes you through three iconic Kenyan destinations, offering incredible wildlife encounters, dramatic landscapes and unforgettable experiences.",
+
+    itinerary: [
+
+        {
+            day: "Day 1 – Tsavo East",
+
+            description:
+            "Departure from your accommodation at around 6:15 AM. The red-earth road leading to Tsavo East National Park passes through Kenya's largest wilderness area. Stop at Crocodile Point to see crocodiles in the Galana River. Enter the park at around 10:00 AM and begin the game drive, continuing until lunchtime. Arrival at the lodge at around 1:00–1:30 PM for check-in, lunch, and relaxation. In the afternoon, enjoy a second game drive until sunset. Dinner and overnight stay at the lodge/camp."
+        },
+
+        {
+            day: "Day 2 – Tsavo East / Tsavo West",
+
+            description:
+            "6:00 AM: Breakfast and departure for the game drive towards Tsavo West. Arrival at the camp at around 12:30 PM. Check-in, buffet lunch, and relaxation. At 4:00 PM, depart for the afternoon game drive. Dinner and overnight stay at the lodge/camp."
+        },
+
+        {
+            day: "Day 3 – Tsavo West / Amboseli",
+
+            description:
+            "6:00 AM: Breakfast and departure for Amboseli. Enjoy a game drive before arriving at the lodge for lunch and relaxation. In the afternoon, depart for the game drive at around 3:45 PM. With a little luck, you will have the opportunity to admire the magnificent Mount Kilimanjaro. Dinner and overnight stay at the lodge/camp."
+        },
+
+        {
+            day: "Day 4 – Amboseli",
+
+            description:
+            "Breakfast at 6:00 AM, followed by departure for the final game drive. Enjoy the last opportunity to experience the wildlife and beautiful landscapes of Amboseli. Lunch stop during the journey. Expected return to Watamu in the late afternoon."
+        }
+
+    ],
+
+    highlights: [
+
+        "Explore Tsavo East National Park and its spectacular red-earth landscapes.",
+
+        "Visit Crocodile Point and observe crocodiles in the Galana River.",
+
+        "Enjoy morning and afternoon game drives in Tsavo East.",
+
+        "Discover the dramatic landscapes and wildlife of Tsavo West.",
+
+        "Experience Amboseli National Park and its spectacular views of Mount Kilimanjaro.",
+
+        "Enjoy a private safari experience with professional safari services.",
+
+        "Experience three iconic Kenyan wildlife destinations in one unforgettable safari."
+
+    ],
+
+    included: [
+
+        "Transfers in a 4x4 safari jeep with a pop-up panoramic roof.",
+
+        "Entrance fees to all parks.",
+
+        "All-inclusive accommodation (drinks excluded).",
+
+        "Mineral water during game drives.",
+
+        "Licensed Italian-speaking guide.",
+
+        "Professional safari driver.",
+
+        "Comprehensive safari insurance."
+
+    ],
+
+    excluded: [
+
+        "Breakfast on the day of departure.",
+
+        "Drinks during meals.",
+
+        "Tips and personal expenses.",
+
+        "Return flight from Mombasa/Nairobi."
+
+    ],
+
+    bring: [
+
+        "Sunscreen.",
+
+        "Hat.",
+
+        "Sunglasses.",
+
+        "Tropical insect repellent.",
+
+        "Comfortable shoes.",
+
+        "Swimming costume.",
+
+        "Power bank.",
+
+        "Essential medication.",
+
+        "Camera.",
+
+        "Binoculars."
+
+    ],
+
+    accommodation: [
+
+        "Maasai Mara: Sentrim Mara, AA Lodge, Mara Sweet Acacia.",
+
+        "Nakuru: Elementaita.",
+
+        "Amboseli: Kilima Camp, AA Lodge, Kibo Camp, Sentrim Amboseli.",
+
+        "Tsavo West: Ngulia Lodge.",
+
+        "Taita Hills: Sarova Salt Lick Treetop Lodges.",
+
+        "Tsavo East: Voi Wildlife Lodge, Manyatta Camp, Sentrim Tahri Camp."
+
+    ],
+
+    availability: "Private Safari",
+
+    parks: [
+
+        "Tsavo East",
+
+        "Tsavo West",
+
+        "Amboseli"
+
+    ],
+
+    importantNote:
+    "Safari itineraries may be subject to changes in the programme, timings, or accommodation facilities. You will be notified promptly in the event of any changes.",
+
+    seasons: "Available throughout the year"
+
+},
 
     
 ];
