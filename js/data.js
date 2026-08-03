@@ -1706,6 +1706,143 @@ const safaris = [
     seasons: "Available throughout the year"
 
 },
+{
+    id: "mara-classic3",
+
+    title: "3 Days Maasai Mara Classic Safari",
+
+    duration: "3 Days / 2 Nights",
+
+    location: "Maasai Mara National Reserve",
+
+    price: "Contact Us",
+
+    image: "images/mara-classic.jpg",
+
+    shortDescription:
+    "Experience the magic of Maasai Mara on an unforgettable safari through one of Africa's most spectacular wildlife reserves.",
+
+    introduction:
+    "Discover the world-famous Maasai Mara National Reserve on this exciting three-day safari. Home to the legendary Big Five and the spectacular Great Wildebeest Migration, Maasai Mara offers breathtaking scenery, exceptional wildlife viewing and unforgettable African safari experiences.",
+
+    itinerary: [
+
+        {
+            day: "Day 1 – Nairobi to Maasai Mara",
+
+            description:
+            "Depart from Nairobi in the morning and travel to the world-famous Maasai Mara National Reserve. Between July and September, you may witness the spectacular Great Wildebeest Migration from the Serengeti. Arrive at your lodge or camp for lunch and relaxation before enjoying your first exciting afternoon game drive in search of the legendary Big Five. Dinner and overnight stay at your selected accommodation."
+        },
+
+        {
+            day: "Day 2 – Full Day Maasai Mara Safari",
+
+            description:
+            "Breakfast at 6:00 AM followed by a full-day safari adventure. Enjoy a packed picnic lunch in the heart of the African savannah before continuing your afternoon game drive until sunset. Return to your lodge or camp for dinner and overnight stay."
+        },
+
+        {
+            day: "Day 3 – Maasai Mara to Nairobi",
+
+            description:
+            "Breakfast at 6:00 AM followed by your final early morning game drive. Afterwards depart for Nairobi, arriving around lunchtime. Depending on your travel plans, continue by domestic flight or train to Mombasa or Malindi, or transfer to the airport for your international departure. Departure times can be customized to suit your itinerary."
+        }
+
+    ],
+
+    highlights: [
+
+        "Explore the world-famous Maasai Mara National Reserve.",
+
+        "Search for the legendary Big Five.",
+
+        "Opportunity to witness the Great Wildebeest Migration (July–September).",
+
+        "Full-day safari with picnic lunch in the African savannah.",
+
+        "Professional game drives with experienced safari guides.",
+
+        "Beautiful African sunsets and spectacular landscapes."
+
+    ],
+
+    included: [
+
+        "Transport in a 4×4 safari jeep with a pop-up roof.",
+
+        "Maasai Mara National Reserve entrance fees.",
+
+        "Accommodation at your selected lodge or camp.",
+
+        "Bottled mineral water during game drives.",
+
+        "Licensed Italian-speaking safari guide.",
+
+        "Professional safari driver.",
+
+        "Comprehensive safari insurance."
+
+    ],
+
+    excluded: [
+
+        "Drinks during meals.",
+
+        "Breakfast on the departure day.",
+
+        "Tips and personal expenses."
+
+    ],
+
+    bring: [
+
+        "Sunscreen.",
+
+        "Hat.",
+
+        "Sunglasses.",
+
+        "Tropical insect repellent.",
+
+        "Comfortable walking shoes.",
+
+        "Power bank.",
+
+        "Camera.",
+
+        "Binoculars.",
+
+        "UK-style power adapter."
+
+    ],
+
+    accommodation: [
+
+        "Sentrim Mara Camp.",
+
+        "AA Lodge Mara.",
+
+        "Mara Sweet Acacia Lodge."
+
+    ],
+
+    availability: "Private Safari",
+
+    parks: [
+
+        "Maasai Mara National Reserve"
+
+    ],
+
+    importantNote:
+    "Safari itineraries, departure times and accommodation may occasionally change due to weather conditions, park regulations or operational requirements. Guests will be informed promptly of any necessary changes. Drones are strictly prohibited in Kenya.",
+
+    seasons: "Available throughout the year"
+
+},
+
+
+
     
     
 ];
