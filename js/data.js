@@ -1030,7 +1030,160 @@ const safaris = [
     seasons: "Available throughout the year"
 
 },
+{
+    id: "tsavo-taita3",
 
+    title: "3 Days Tsavo East & Taita Hills Safari",
+
+    duration: "3 Days / 2 Nights",
+
+    location: "Tsavo East • Taita Hills Wildlife Sanctuary",
+
+    price: "Contact Us",
+
+    image: "images/tsavo-taita.jpg",
+
+    shortDescription:
+    "Experience the spectacular landscapes and wildlife of Tsavo East, followed by the magic of a night safari in Taita Hills.",
+
+    introduction:
+    "Experience the beauty of Tsavo East and the magic of a night safari in Taita Hills. This private safari combines exciting game drives, spectacular wildlife and the unique opportunity to discover the nocturnal activities of wildlife in Taita Hills Wildlife Sanctuary.",
+
+    itinerary: [
+
+        {
+            day: "Day 1 – Tsavo East",
+
+            description:
+            "Departure from your accommodation at around 6:15 AM. The red-earth road leading to Tsavo East National Park passes through Kenya's largest forest. Stop at Crocodile Point to spot crocodiles along the Galana River. Enter the park at around 10:00 AM and begin your game drive until lunchtime. Check-in at the lodge around 1:00–1:30 PM, followed by a buffet lunch and some time to relax. In the afternoon, enjoy a second game drive until sunset. Dinner and overnight stay at the lodge/camp."
+        },
+
+        {
+            day: "Day 2 – Taita Hills",
+
+            description:
+            "Breakfast at 6:00 AM, followed by departure. Enjoy a game drive en route to Taita Hills Wildlife Sanctuary. Arrive at the lodge around 11:30 AM, check-in, and have lunch. Relax by the swimming pool or in your room. At 3:45 PM, depart for an afternoon game drive until sunset. Dinner and overnight stay. Optional: Night safari with a park ranger to observe the nocturnal activities of wildlife, available at an additional cost."
+        },
+
+        {
+            day: "Day 3 – Taita Hills",
+
+            description:
+            "Wake up at 6:00 AM and depart for a morning game drive until around 8:00 AM. Return to the lodge for breakfast. Enjoy your final game drive as you make your way towards the park exit. Have lunch along the way or return to Watamu/Mombasa for lunch."
+        }
+
+    ],
+
+    highlights: [
+
+        "Explore the spectacular wilderness of Tsavo East.",
+
+        "Visit Crocodile Point and spot crocodiles along the Galana River.",
+
+        "Enjoy morning and afternoon game drives in Tsavo East.",
+
+        "Discover Taita Hills Wildlife Sanctuary.",
+
+        "Experience an afternoon game drive until sunset.",
+
+        "Optional night safari with a park ranger to observe nocturnal wildlife.",
+
+        "Enjoy a final morning game drive in Taita Hills."
+
+    ],
+
+    included: [
+
+        "Mineral water during game drives.",
+
+        "Transfers in a 4x4 safari jeep.",
+
+        "Licensed Italian-speaking guide.",
+
+        "Professional safari driver.",
+
+        "Comprehensive safari insurance."
+
+    ],
+
+    excluded: [
+
+        "Breakfast on the day of departure.",
+
+        "Tips and personal expenses.",
+
+        "5-star accommodation.",
+
+        "Airport transfers.",
+
+        "Optional night safari fee."
+
+    ],
+
+    bring: [
+
+        "Sunscreen.",
+
+        "Hat.",
+
+        "Sunglasses.",
+
+        "Tropical insect repellent.",
+
+        "Comfortable shoes.",
+
+        "Swimwear.",
+
+        "Essential medications.",
+
+        "Power bank.",
+
+        "UK/English-style power adapter.",
+
+        "Camera.",
+
+        "Binoculars."
+
+    ],
+
+    accommodation: [
+
+        "Masai Mara: Sentrim Mara, AA Lodge, Mara Sweet Acacia.",
+
+        "Nakuru: Elementaita.",
+
+        "Amboseli: Kilima Camp, AA Lodge, Kibo Camp, Sentrim Amboseli.",
+
+        "Tsavo West: Ngulia Lodge.",
+
+        "Taita Hills: Sarova Salt Lick Taita Hills.",
+
+        "Tsavo East: Voi Wildlife Lodge, Manyatta Camp, Sentrim Tahri Camp."
+
+    ],
+
+    availability: "Private Safari",
+
+    parks: [
+
+        "Tsavo East",
+
+        "Taita Hills Wildlife Sanctuary"
+
+    ],
+
+    nightSafari: "Available at an additional cost",
+
+    importantNote:
+    "Safari itineraries, schedules, and accommodation may be subject to change. You will be informed promptly of any changes.",
+
+    seasons: "Available throughout the year"
+
+},
+
+
+
+    
     
 ];
 
