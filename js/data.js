@@ -1033,7 +1033,10 @@ const safaris = [
 
     seasons: "Available throughout the year"
 
+]
+
 },
+    
 
 
 
