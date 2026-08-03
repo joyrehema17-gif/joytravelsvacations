@@ -1180,7 +1180,161 @@ const safaris = [
     seasons: "Available throughout the year"
 
 },
+{
+    id: "tsavo-taita-amboseli4",
 
+    title: "4 Days Tsavo East, Taita Hills & Amboseli Safari",
+
+    duration: "4 Days / 3 Nights",
+
+    location: "Tsavo East • Taita Hills • Amboseli",
+
+    price: "Contact Us",
+
+    image: "images/tsavo-taita-amboseli.jpg",
+
+    shortDescription:
+    "Experience three different landscapes, spectacular wildlife, Mount Kilimanjaro, and the unique experience of a night safari.",
+
+    introduction:
+    "Experience the beauty and diversity of Kenya on an unforgettable journey through Tsavo East, Taita Hills and Amboseli. Discover three different landscapes, enjoy exciting game drives, experience the possibility of a night safari, and admire the magnificent Mount Kilimanjaro.",
+
+    itinerary: [
+
+        {
+            day: "Day 1 – Tsavo East",
+
+            description:
+            "Departure from your accommodation at around 6:15 AM. The red-earth road passes through Kenya's largest forest. Stop at Crocodile Point to spot crocodiles along the Galana River. Enter the park at around 10:00 AM and begin your game drive. Enjoy lunch and relaxation at the lodge. In the afternoon, enjoy a second game drive until sunset. Dinner and overnight stay at the lodge/camp."
+        },
+
+        {
+            day: "Day 2 – Taita Hills",
+
+            description:
+            "Breakfast at 6:00 AM, followed by departure for Taita Hills. Arrive around 11:30 AM, check-in, and enjoy a buffet lunch. In the afternoon, enjoy a game drive until sunset. An optional night safari with a park ranger is available at an additional cost. Dinner and overnight stay."
+        },
+
+        {
+            day: "Day 3 – Amboseli",
+
+            description:
+            "Breakfast at 6:00 AM, followed by departure for Amboseli. Enjoy a game drive and arrive at the lodge for lunch and relaxation. In the afternoon, enjoy a photographic safari with the possibility of seeing Mount Kilimanjaro. Dinner and overnight stay."
+        },
+
+        {
+            day: "Day 4 – Watamu",
+
+            description:
+            "Enjoy your final game drive at sunrise. There will also be an optional visit to a traditional Maasai village. Stop for lunch during the return journey. Arrive in Watamu in the late afternoon."
+        }
+
+    ],
+
+    highlights: [
+
+        "Experience three different landscapes across Tsavo East, Taita Hills and Amboseli.",
+
+        "Explore Tsavo East with exciting wildlife game drives.",
+
+        "Visit Crocodile Point and spot crocodiles along the Galana River.",
+
+        "Discover the beautiful Taita Hills Wildlife Sanctuary.",
+
+        "Enjoy an optional night safari with a park ranger.",
+
+        "Experience a photographic safari in Amboseli.",
+
+        "Enjoy spectacular views and the possibility of seeing Mount Kilimanjaro.",
+
+        "Optional visit to a traditional Maasai village.",
+
+        "Enjoy a final sunrise game drive before returning to Watamu."
+
+    ],
+
+    included: [
+
+        "Transfers in a 4x4 safari vehicle with a pop-up panoramic roof.",
+
+        "Park entrance fees for all parks.",
+
+        "All-inclusive accommodation.",
+
+        "Mineral water during game drives.",
+
+        "Licensed Italian-speaking guide.",
+
+        "Professional safari driver.",
+
+        "Comprehensive safari insurance."
+
+    ],
+
+    excluded: [
+
+        "Breakfast on the day of departure.",
+
+        "Drinks during meals.",
+
+        "Tips and personal expenses.",
+
+        "Night safari."
+
+    ],
+
+    bring: [
+
+        "Sunscreen.",
+
+        "Hat.",
+
+        "Tropical insect repellent.",
+
+        "Comfortable shoes.",
+
+        "Power bank.",
+
+        "Binoculars.",
+
+        "Camera.",
+
+        "UK/English-style power adapter."
+
+    ],
+
+    accommodation: [
+
+        "Masai Mara: Sentrim Mara, AA Lodge, Mara Sweet Acacia.",
+
+        "Amboseli: Kilima Camp, AA Lodge, Kibo Camp, Sentrim Amboseli.",
+
+        "Taita Hills: Sarova Salt Lick Taita Hills.",
+
+        "Tsavo East: Voi Wildlife Lodge, Manyatta Camp, Sentrim Tahri Camp."
+
+    ],
+
+    availability: "Private Safari",
+
+    parks: [
+
+        "Tsavo East",
+
+        "Taita Hills",
+
+        "Amboseli"
+
+    ],
+
+    nightSafari: "Available at an additional cost",
+
+    importantNote:
+    "Safari itineraries, schedules, and accommodation may be subject to change. You will be informed promptly of any changes.",
+
+    seasons: "Available throughout the year"
+
+},
 
 
     
