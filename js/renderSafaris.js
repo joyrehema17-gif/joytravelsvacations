@@ -79,31 +79,259 @@ safariContainer.innerHTML += `
     </div>
 </div>
 `;
-        /* -----------------------------
-           Popup
-        ----------------------------- */
-        modalContainer.innerHTML += `
-        <div id="${safari.id}" class="modal">
-            <div class="modal-content">
-                <span
-                    class="close"
-                    onclick="closeModal('${safari.id}')">
-                    &times;
-                </span>
-                <h2>${safari.title}</h2>
-                <p><strong>Duration:</strong> ${safari.duration}</p>
-                <p><strong>Price:</strong> ${safari.price}</p>
-                <hr>
-                ${itineraryHTML}
-                <br>
-                <button
-                    class="btn book-btn"
-                    data-safari="${safari.title}">
-                    Plan This Safari
-                </button>
-            </div>
-        </div>
-        `;
+/* -----------------------------
+   PREMIUM SAFARI MODAL
+----------------------------- */
+
+modalContainer.innerHTML += `
+
+<div id="${safari.id}" class="modal">
+
+<div class="modal-content">
+
+<span
+class="close"
+onclick="closeModal('${safari.id}')">
+
+&times;
+
+</span>
+
+
+<!-- IMAGE -->
+
+<div class="modal-image">
+
+<img
+src="${safari.image}"
+alt="${safari.title}">
+
+</div>
+
+
+<!-- HEADER -->
+
+<div class="modal-header">
+
+<span class="modal-badge">
+
+${safari.badge || ""}
+
+</span>
+
+<h2>
+
+${safari.title}
+
+</h2>
+
+<div class="modal-meta">
+
+<span>
+
+⭐ ${safari.rating || "5.0"}
+
+</span>
+
+<span>
+
+⏱ ${safari.duration}
+
+</span>
+
+<span>
+
+📍 ${safari.location}
+
+</span>
+
+</div>
+
+</div>
+
+
+<!-- INTRO -->
+
+<p class="modal-introduction">
+
+${safari.introduction || ""}
+
+</p>
+
+
+<hr>
+
+
+<!-- ITINERARY -->
+
+<div class="modal-itinerary">
+
+${itineraryHTML}
+
+</div>
+
+
+<hr>
+
+
+<!-- HIGHLIGHTS -->
+
+${safari.highlights ? `
+
+<div class="modal-section">
+
+<h3>⭐ Safari Highlights</h3>
+
+<div class="modal-tags">
+
+${safari.highlights.map(item=>`
+
+<span>${item}</span>
+
+`).join("")}
+
+</div>
+
+</div>
+
+` : ""}
+
+
+<!-- ACCOMMODATION -->
+
+${safari.accommodation ? `
+
+<div class="modal-section">
+
+<h3>🏨 Accommodation</h3>
+
+<ul>
+
+${safari.accommodation.map(item=>`
+
+<li>${item}</li>
+
+`).join("")}
+
+</ul>
+
+</div>
+
+` : ""}
+
+
+<!-- INCLUDED -->
+
+${safari.included ? `
+
+<div class="modal-section">
+
+<h3>✅ Included</h3>
+
+<ul>
+
+${safari.included.map(item=>`
+
+<li>${item}</li>
+
+`).join("")}
+
+</ul>
+
+</div>
+
+` : ""}
+
+
+<!-- EXCLUDED -->
+
+${safari.excluded ? `
+
+<div class="modal-section">
+
+<h3>❌ Not Included</h3>
+
+<ul>
+
+${safari.excluded.map(item=>`
+
+<li>${item}</li>
+
+`).join("")}
+
+</ul>
+
+</div>
+
+` : ""}
+
+
+<!-- WHAT TO BRING -->
+
+${safari.bring ? `
+
+<div class="modal-section">
+
+<h3>🎒 What To Bring</h3>
+
+<ul>
+
+${safari.bring.map(item=>`
+
+<li>${item}</li>
+
+`).join("")}
+
+</ul>
+
+</div>
+
+` : ""}
+
+
+<!-- PARKS -->
+
+${safari.parks ? `
+
+<div class="modal-section">
+
+<h3>🗺 Parks Visited</h3>
+
+<div class="modal-tags">
+
+${safari.parks.map(item=>`
+
+<span>${item}</span>
+
+`).join("")}
+
+</div>
+
+</div>
+
+` : ""}
+
+
+<!-- BOOK -->
+
+<div class="modal-footer">
+
+<button
+
+class="btn book-btn"
+
+data-safari="${safari.title}">
+
+📱 Book This Safari
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+`;
     });
 }
 
