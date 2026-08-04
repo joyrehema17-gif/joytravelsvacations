@@ -24,24 +24,38 @@
     margin-top:60px;
 }
 
-/* Card */
+/* ==========================================
+LUXURY SAFARI CARD
+========================================== */
 
 .safari-card{
     background:#fff;
-    border-radius:12px;
+    border-radius:22px;
     overflow:hidden;
-    box-shadow:var(--shadow);
-    transition:var(--transition);
+    box-shadow:0 12px 35px rgba(0,0,0,.10);
+    transition:
+        transform .45s ease,
+        box-shadow .45s ease;
+    position:relative;
 }
 
 .safari-card:hover{
-    transform:translateY(-8px);
+    transform:translateY(-12px);
+    box-shadow:0 28px 70px rgba(0,0,0,.18);
+
 }
 
 .safari-card img{
     width:100%;
     height:240px;
     object-fit:cover;
+    
+   display:block;
+   transition:transform .8s ease;
+   overflow:hidden;
+   position:relative;
+
+   
 }
 
 .card-content{
@@ -303,6 +317,7 @@ PREMIUM SAFARI CARDS
 }
 .safari-card:hover img{
     transform:scale(1.08);
+   
 }
 .badge{
     position:absolute;
