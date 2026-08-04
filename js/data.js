@@ -223,7 +223,32 @@ parks: [
     category: "Wildlife Safari",
 
     image: "images/amboseli1.jpg", // replace later with amboseli.jpg
+    
+badge: "📷 Photography",
 
+rating: "4.9",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏕 Safari Lodge",
+
+features: [
+
+"🐘 Elephant Herds",
+
+"🏔 Mount Kilimanjaro",
+
+"🚙 4×4 Jeep",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Amboseli National Park"
+
+],
     price: "$420 Per Person",
 
     shortDescription:
@@ -339,7 +364,32 @@ parks: [
     category: "Wildlife Safari",
 
     image: "images/nakuru.jpg",
+    
+badge: "🦏 Rhino Safari",
 
+rating: "4.9",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏨 Safari Lodge",
+
+features: [
+
+"🦩 Flamingos",
+
+"🦏 Black Rhinos",
+
+"🚙 4×4 Jeep",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Lake Nakuru National Park"
+
+],
     price: "$380 Per Person",
 
     shortDescription:
@@ -457,7 +507,31 @@ parks: [
     category: "Wildlife Safari",
 
     image: "images/tsavo.jpg",
+badge: "🐘 Red Elephants",
 
+rating: "4.9",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏕 Safari Lodge",
+
+features: [
+
+"🐘 Red Elephants",
+
+"🦁 Big Cats",
+
+"📷 Photography",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Tsavo East National Park"
+
+],
     price: "$520 Per Person",
 
     shortDescription:
@@ -585,7 +659,33 @@ parks: [
     category: "Wildlife Safari",
 
     image: "images/mara-nakuru.jpg",
+badge: "🔥 Most Popular",
 
+rating: "5.0",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏨 Luxury Lodge",
+
+features: [
+
+"🦁 Big Five",
+
+"🦏 Rhinos",
+
+"🦩 Flamingos",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Maasai Mara",
+
+"Lake Nakuru"
+
+],
     price: "$1,050 Per Person",
 
     shortDescription:
@@ -758,7 +858,33 @@ parks: [
     price: "Contact Us",
 
     image: "images/tsavo-amboseli.jpg",
+badge: "🏔 Kilimanjaro",
 
+rating: "4.9",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏕 Safari Camp",
+
+features: [
+
+"🏔 Kilimanjaro",
+
+"🐘 Elephants",
+
+"🚙 4×4 Jeep",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Tsavo East",
+
+"Amboseli"
+
+],
     shortDescription:
     "Experience the red landscapes and wildlife of Tsavo East, then discover Amboseli with spectacular views of Mount Kilimanjaro.",
 
@@ -910,7 +1036,35 @@ parks: [
     price: "Contact Us",
 
     image: "images/tsavo-amboseli1.jpg",
+badge: "🌋 Explorer",
 
+rating: "5.0",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏨 Safari Lodges",
+
+features: [
+
+"🌋 Volcanoes",
+
+"🏔 Kilimanjaro",
+
+"🦁 Big Five",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Tsavo East",
+
+"Tsavo West",
+
+"Amboseli"
+
+],
     shortDescription:
     "Experience the beauty of Tsavo East, Tsavo West and Amboseli, with spectacular wildlife encounters and breathtaking views of Mount Kilimanjaro.",
 
@@ -1067,7 +1221,33 @@ parks: [
     price: "Contact Us",
 
     image: "images/tsavo-taita.jpg",
+badge: "🌙 Night Safari",
 
+rating: "4.9",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏨 Safari Lodge",
+
+features: [
+
+"🌙 Night Safari",
+
+"🐘 Wildlife",
+
+"📷 Photography",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Tsavo East",
+
+"Taita Hills"
+
+],
     shortDescription:
     "Experience the spectacular landscapes and wildlife of Tsavo East, followed by the magic of a night safari in Taita Hills.",
 
@@ -1217,7 +1397,35 @@ parks: [
     price: "Contact Us",
 
     image: "images/tsavo-taita-amboseli.jpg",
+badge: "🌄 Three Landscapes",
 
+rating: "5.0",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏨 Safari Lodges",
+
+features: [
+
+"🏔 Kilimanjaro",
+
+"🌙 Night Safari",
+
+"🐘 Wildlife",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Tsavo East",
+
+"Taita Hills",
+
+"Amboseli"
+
+],
     shortDescription:
     "Experience three different landscapes, spectacular wildlife, Mount Kilimanjaro, and the unique experience of a night safari.",
 
@@ -1372,7 +1580,39 @@ parks: [
     price: "Contact Us",
 
     image: "images/kenya-grand7.jpg",
+badge: "👑 Signature Safari",
 
+rating: "5.0",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏨 Luxury Lodges",
+
+features: [
+
+"🦁 Big Five",
+
+"🏔 Kilimanjaro",
+
+"🦏 Rhinos",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Maasai Mara",
+
+"Lake Nakuru",
+
+"Amboseli",
+
+"Tsavo West",
+
+"Tsavo East"
+
+],
     shortDescription:
     "Experience Kenya's most iconic national parks on one unforgettable safari through Maasai Mara, Lake Nakuru, Amboseli, Tsavo West and Tsavo East.",
 
@@ -1548,7 +1788,41 @@ parks: [
     price: "Contact Us",
 
     image: "images/grand-kenya8.jpg",
+badge: "🌍 Grand Tour",
 
+rating: "5.0",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏨 Luxury Lodges",
+
+features: [
+
+"🦁 Big Five",
+
+"🦩 Flamingos",
+
+"🏔 Kilimanjaro",
+
+"🌙 Night Safari"
+
+],
+
+parks: [
+
+"Maasai Mara",
+
+"Lake Nakuru",
+
+"Amboseli",
+
+"Tsavo West",
+
+"Taita Hills",
+
+"Tsavo East"
+
+],
     shortDescription:
     "The ultimate safari through Kenya's most spectacular wildlife destinations, combining six iconic parks into one unforgettable adventure.",
 
@@ -1743,7 +2017,31 @@ parks: [
     price: "Contact Us",
 
     image: "images/mara-classic.jpg",
+badge: "⭐ Best Seller",
 
+rating: "5.0",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏕 Luxury Camp",
+
+features: [
+
+"🦁 Big Five",
+
+"🐘 Great Migration",
+
+"📷 Photography",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Maasai Mara National Reserve"
+
+],
     shortDescription:
     "Experience the magic of Maasai Mara on an unforgettable safari through one of Africa's most spectacular wildlife reserves.",
 
