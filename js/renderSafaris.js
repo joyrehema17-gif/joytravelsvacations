@@ -18,49 +18,67 @@ if (!safariContainer || typeof safaris === "undefined") {
                 <p>${day.description}</p>
             `;
         });
-        /* -----------------------------
-           Safari Card
-        ----------------------------- */
-        safariContainer.innerHTML += `
-        <div class="safari-card">
-            <div class="card-image">
-                <img src="${safari.image}" alt="${safari.title}">
-                <span class="badge">
-                    ⭐ Featured
-                </span>
-                <span class="duration">
-                    ${safari.duration}
-                </span>
-            </div>
-            <div class="card-content">
-                <h3 class="tour-name">
-                    ${safari.title}
-                </h3>
-                <p class="destination">
-                    📍 Kenya Safari Experience
-                </p>
-                <p class="description">
-                    ${safari.shortDescription}
-                </p>
-                <div class="price">
-                    <small>FROM</small>
-                    <h2>${safari.price}</h2>
-                </div>
-                <div class="card-buttons">
-                    <button
-                        class="btn"
-                        onclick="openModal('${safari.id}')">
-                        View Itinerary
-                    </button>
-                    <button
-                        class="btn book-btn"
-                        data-safari="${safari.title}">
-                        Plan Your Safari
-                    </button>
-                </div>
-            </div>
+ /* -----------------------------
+   Safari Card
+----------------------------- */
+safariContainer.innerHTML += `
+<div class="safari-card">
+    <div class="card-image">
+        <img src="${safari.image}" alt="${safari.title}">
+        ${safari.badge ? `
+        <span class="safari-badge">
+            ${safari.badge}
+        </span>
+        ` : ""}
+        <span class="duration">
+            ${safari.duration}
+        </span>
+    </div>
+    <div class="card-content">
+        <h3 class="tour-name">
+            ${safari.title}
+        </h3>
+        <div class="rating">
+            ⭐ ${safari.rating || "5.0"}
         </div>
-        `;
+        <p class="destination">
+            📍 ${safari.location}
+        </p>
+        <p class="description">
+            ${safari.shortDescription}
+        </p>
+        ${safari.features ? `
+        <div class="feature-icons">
+            ${safari.features.map(feature => `
+                <span>${feature}</span>
+            `).join("")}
+        </div>
+        ` : ""}
+        ${safari.parks ? `
+        <div class="parks">
+            <strong>Parks:</strong>
+            ${safari.parks.join(" • ")}
+        </div>
+        ` : ""}
+        <div class="price">
+            <small>FROM</small>
+            <h2>${safari.price}</h2>
+        </div>
+        <div class="card-buttons">
+            <button
+                class="btn"
+                onclick="openModal('${safari.id}')">
+                View Itinerary
+            </button>
+            <button
+                class="btn book-btn"
+                data-safari="${safari.title}">
+                Plan Your Safari
+            </button>
+        </div>
+    </div>
+</div>
+`;
         /* -----------------------------
            Popup
         ----------------------------- */
