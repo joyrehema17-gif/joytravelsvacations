@@ -553,3 +553,73 @@ FINAL CTA
     display:inline-block;
 
 }
+/* ==========================================
+PREMIUM CARD FEATURES
+========================================== */
+
+.safari-badge{
+
+    position:absolute;
+    top:15px;
+    left:15px;
+
+    background:#D4AF37;
+    color:#fff;
+
+    padding:8px 14px;
+
+    border-radius:30px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+    z-index:10;
+}
+
+.rating{
+
+    color:#D4AF37;
+
+    font-weight:700;
+
+    margin:12px 0;
+
+    font-size:15px;
+}
+
+.feature-icons{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin:20px 0;
+
+}
+
+.feature-icons span{
+
+    background:#f8f4ec;
+
+    padding:8px 12px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+}
+
+.parks{
+
+    margin:15px 0;
+
+    font-size:14px;
+
+    color:#555;
+
+    line-height:1.6;
+}
