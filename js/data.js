@@ -17,7 +17,32 @@ const safaris = [
     price: "US$650 Per Person",
 
     image: "images/mara.jpg",
+    
+badge: "💰 Budget Safari",
 
+rating: "4.8",
+
+vehicle: "🚙 4×4 Safari Land Cruiser",
+
+accommodationType: "🏕 Budget Tented Camp",
+
+features: [
+
+"🦁 Big Five",
+
+"🐘 Great Migration",
+
+"🚙 4×4 Jeep",
+
+"🍽 Full Board"
+
+],
+
+parks: [
+
+"Maasai Mara National Reserve"
+
+],
     // ==========================================
     // CARD DESCRIPTION
     // ==========================================
