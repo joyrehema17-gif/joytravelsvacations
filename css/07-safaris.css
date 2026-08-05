@@ -638,3 +638,36 @@ PREMIUM CARD FEATURES
 
     line-height:1.6;
 }
+/* ==========================================
+PREMIUM STATISTICS
+========================================== */
+
+.safari-stats .stat h3{
+
+    font-size:48px;
+
+    font-weight:700;
+
+    color:#D4AF37;
+
+    transition:.3s;
+
+}
+
+.safari-stats .stat:hover h3{
+
+    transform:scale(1.08);
+
+}
+
+.safari-stats .stat{
+
+    transition:.35s;
+
+}
+
+.safari-stats .stat:hover{
+
+    transform:translateY(-6px);
+
+}
