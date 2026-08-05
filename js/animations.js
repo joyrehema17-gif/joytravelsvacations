@@ -1,39 +1,44 @@
 // ==========================================
-// FADE ANIMATION
-// ==========================================
-
-const fadeElements = document.querySelectorAll(".fade-in");
-
-const observer = new IntersectionObserver((entries)=>{
-
-entries.forEach(entry=>{
-
-if(entry.isIntersecting){
-
-entry.target.classList.add("show");
-
-}
-
-});
-
-});
-
-fadeElements.forEach(el=>{
-
-observer.observe(el);
-
-});
-// ==========================================
-// PREMIUM COUNTER ANIMATION
+// ANIMATIONS
 // ==========================================
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    // ==========================================
+    // FADE IN
+    // ==========================================
+
+    const fadeElements = document.querySelectorAll(".fade-in");
+
+    const fadeObserver = new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("show");
+
+            }
+
+        });
+
+    });
+
+    fadeElements.forEach(el => {
+
+        fadeObserver.observe(el);
+
+    });
+
+
+
+    // ==========================================
+    // COUNTERS
+    // ==========================================
+
     const counters = document.querySelectorAll(".counter");
 
-    if (!counters.length) return;
-
-    const observer = new IntersectionObserver((entries) => {
+    const counterObserver = new IntersectionObserver((entries) => {
 
         entries.forEach(entry => {
 
@@ -41,31 +46,20 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const counter = entry.target;
 
-            const target = parseInt(counter.dataset.target);
+            const target = Number(counter.dataset.target);
 
             let current = 0;
 
-            const duration = 1800;
+            const increment = Math.ceil(target / 80);
 
-            const stepTime = 20;
-
-            const increment = Math.ceil(target / (duration / stepTime));
-
-            function updateCounter() {
+            function update() {
 
                 current += increment;
 
                 if (current >= target) {
 
-                    if (target === 100) {
-
-                        counter.textContent = "100%";
-
-                    } else {
-
-                        counter.textContent = target + "+";
-
-                    }
+                    counter.textContent =
+                        target === 100 ? "100%" : target + "+";
 
                     return;
 
@@ -73,13 +67,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 counter.textContent = current;
 
-                setTimeout(updateCounter, stepTime);
+                requestAnimationFrame(update);
 
             }
 
-            updateCounter();
+            update();
 
-            observer.unobserve(counter);
+            counterObserver.unobserve(counter);
 
         });
 
@@ -89,6 +83,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
-    counters.forEach(counter => observer.observe(counter));
+    counters.forEach(counter => {
+
+        counterObserver.observe(counter);
+
+    });
 
 });
